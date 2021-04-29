@@ -1,0 +1,317 @@
+swagger: '2.0'
+info:
+  description: This is the Macat Digital Library MVP.
+  version: 1.0.0
+  title: Macat MVP
+  # put the contact info for your development or API team
+  contact:
+    email: tim@timcowlishaw.co.uk
+
+# tags are used for organizing operations
+tags:
+  - name: open
+    description: "Operations which do not require authentication."
+  - name: closed
+    description: "Operations which require a valid user session\n(set by a previous request to POST /sessions)."
+  - name: paywalled
+    description: "Operations which require a valid user session AND a previous payment for the given resource."
+
+paths:
+  "/users":
+    post:
+      summary: "Registers a new user"
+      tags:
+        - open
+      parameters:
+        - name: user
+          in: body
+          schema:
+            type: object
+            required:
+              - email
+              - password
+              - passwordConfirmation
+            properties:
+              email:
+                type: string
+                example: "user@example.com"
+              password:
+                type: string
+                example: "TrustNo1"
+              passwordConfirmation:
+                type: string
+                example: "TrustNo1"
+      responses:
+        201:
+          description: "The user is successfully created, we return their id and role"
+          schema:
+            "$ref": "#/definitions/User"
+        422:
+          description: "The user details provided were not valid"
+          schema:
+            "$ref": "#/definitions/ValidationError"
+  "/sessions":
+    post:
+      summary: "Creates a new session for a registered user"
+      tags:
+        - open
+      parameters:
+        - name: user
+          in: body
+          schema:
+            type: object
+            required:
+              - email
+              - password
+            properties:
+              email:
+                type: string
+                example: "user@example.com"
+              password:
+                type: string
+                example: "TrustNo1"
+      responses:
+        200:
+          description: "The user is successfully retrieved, we return their id and role"
+          schema:
+            "$ref": "#/definitions/User"
+        401:
+          description: "The user details provided were not valid"
+          schema:
+            "$ref": "#/definitions/Error"
+  "/structure":
+    get:
+      tags:
+        - open
+      responses:
+        200:
+          description: "The page structure for the analysis is succesfully returned"
+          schema:
+            type: array
+            items:
+              "$ref": "#/definitions/SectionStructure"
+  "/purchases":
+    post:
+      tags:
+        - closed
+      parameters:
+        - name: purchase
+          in: body
+          schema:
+            "$ref": "#/definitions/Purchase"
+      responses:
+        200:
+          description: "The purchase is created"
+          schema:
+            "$ref": "#/definitions/Purchase"
+        401:
+          description: "No user is logged in"
+          schema:
+            "$ref": "#/definitions/Error"
+        422:
+          description: "The payment details provided are invalid"
+          schema:
+            "$ref": "#/definitions/ValidationError"
+  "/book/{publicationUrl}":
+    get:
+      tags:
+        - open
+      parameters:
+        - name: publicationUrl
+          in: path
+          type: string
+          required: true
+      responses:
+        200:
+          description: "The overview of this book is successfully returned"
+          schema:
+            "$ref": "#/definitions/Book"
+  "/{isbn}/overview":
+    get:
+      tags:
+        - closed
+      parameters:
+        - name: isbn
+          in: path
+          type: string
+          required: true
+      responses:
+        200:
+          description: "The overview of the book is successfully returned"
+          schema:
+            "$ref": "#/definitions/BookOverview"
+  "/{isbn}/{sectionNum}/{moduleNum}/{contentType}":
+    get:
+      tags:
+        - paywalled
+      parameters:
+        - name: isbn
+          in: path
+          type: string
+          required: true
+        - name: sectionNum
+          in: path
+          type: integer
+          required: true
+        - name: moduleNum
+          in: path
+          type: integer
+          required: true
+        - name: contentType
+          in: path
+          type: string
+          required: true
+      responses:
+        200:
+          description: "The content items for this section / module / type are returned"
+          schema:
+            type: array
+            items:
+              "$ref": "#/definitions/ContentItem"
+definitions:
+  User:
+   properties:
+    id:
+      type: string
+      example: "aaadcde9-d877-436a-b66b-19acd31d2574"
+    email:
+      type: string
+      example: "user@example.com"
+    role:
+      "$ref": "#/definitions/Role"
+  Role:
+    properties:
+      name:
+        type: string
+        enum: ['user', 'admin']
+  Purchase:
+    properties:
+      user_id:
+        type: string
+        example: "aaadcde9-d877-436a-b66b-19acd31d2574"
+      publication_id:
+        type: string
+        example: "aaadcde9-d877-436a-b66b-19acd31d2574"
+  ValidationFailure:
+    properties:
+      field:
+        type: string
+        example: "passwordConfirmation"
+      message:
+        type: string
+        example: "does not match given password"
+  Error:
+    properties:
+      status:
+        type: integer
+        example: 422
+      message:
+        type: string
+        example: "the parameters provided failed validation"
+  ValidationError:
+    allOf:
+      - "$ref": "#/definitions/Error"
+      - properties:
+          failures:
+            type: array
+            items:
+              "$ref": "#/definitions/ValidationFailure"
+  ModuleStructure:
+    type: object
+    properties:
+      identifier:
+        type: integer
+      title:
+        type: string
+        example: "Module 1: The Author And The Historical Context"
+      content:
+        type: array
+        items:
+          type: string
+    description: A module of the analysis, gives order and content types
+  SectionStructure:
+    type: object
+    properties:
+      title:
+        type: string
+        example: "Ways In To The Text"
+      modules:
+        type: array
+        items:
+          "$ref": "#/definitions/ModuleStructure"
+    description: The general structure of the analysis, gives order and content types
+  Book:
+    type: object
+    properties:
+      publicationUrl:
+        type: string
+        example: 	"gender-trouble-feminism-and-the-subversion-of-identity--analysis"
+      title:
+        type: string
+        example: "Gender Trouble"
+      ISBN:
+        type: string
+        example: "9781912127764"
+      synopsis:
+        type: string
+        example: "The synopsis of the book"
+      overview:
+        type: string
+        example: "The overview of the book"
+      id:
+        type: integer
+        example: 1
+  BookOverview:
+    type: object
+    allOf:
+      - "$ref": "#/definitions/Book"
+      - properties:
+          authors:
+            type: array
+            items:
+              "$ref": "#/definitions/Author"
+  Author:
+    type: object
+    properties:
+      orderNum:
+        type: integer
+        example: 0
+      isTopicAuthor:
+        type: boolean
+        example: true
+      authorId:
+        type: integer
+        example: 1
+      name:
+        type: string
+        example: "Judith Butler"
+      biography:
+        type: string
+        example: "American philosopher and gender theorist Judith Butler was born in Ohio in 1956..."
+      isAlive:
+        type: boolean
+        example: true
+  ContentItem:
+    type: object
+    properties:
+      id:
+        type: integer
+        example: 0
+      ISBN:
+        type: string
+        example: "9781912453085"
+      section:
+        type: integer
+        example: 0
+      module:
+        type: integer
+        example: 0
+      orderNum:
+        type: integer
+        example: 0
+      contentType:
+        type: string
+        example: "KeyPoints"
+      content:
+        type: string
+        example: "Michel Foucault (1926-1984) was a French philosopher and historian."
