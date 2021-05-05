@@ -11,7 +11,7 @@ describe("POST /users", () => {
       const res = await request(app).post("/users").send({
         email: "test@example.com",
         password: "password123",
-        password_confirmation: "password123"
+        passwordConfirmation: "password123"
       });
       expect(res.status).toEqual(201);
       expect(res).toSatisfyApiSpec();
@@ -24,12 +24,12 @@ describe("POST /users", () => {
       await request(app).post("/users").send({
         email: "test@example.com",
         password: "password123",
-        password_confirmation: "password123"
+        passwordConfirmation: "password123"
       });
       const res2 = await request(app).post("/users").send({
         email: "test@example.com",
         password: "password123",
-        password_confirmation: "password123"
+        passwordConfirmation: "password123"
       });
       expect(res2.status).toEqual(422);
       expect(res2).toSatisfyApiSpec();
@@ -41,7 +41,7 @@ describe("POST /users", () => {
       const res = await request(app).post("/users").send({
         email: "test@example.com",
         password: "password123",
-        password_confirmation: "contraseña123"
+        passwordConfirmation: "contraseña123"
       });
       expect(res.status).toEqual(422);
       expect(res).toSatisfyApiSpec();
