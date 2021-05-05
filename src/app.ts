@@ -1,13 +1,22 @@
 import express from "express";
+import passport from "passport";
+import session from "express-session";
+import bodyParser from "body-parser";
 import users from "./routes/users";
 import sessions from "./routes/sessions";
 import publications from "./routes/publications";
 import purchases from "./routes/purchases";
+import env from "./env";
 
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(session({ secret: env.SESSION_SECRET }));
+app.use(passport.initialize());
+app.use(passport.session());
 app.use("/users", users);
 app.use("/sessions", sessions);
 app.use("/publications", publications);

@@ -15,6 +15,7 @@ describe("POST /users", () => {
       });
       expect(res.status).toEqual(201);
       expect(res).toSatisfyApiSpec();
+      expect(res.body).not.toHaveProperty("passwordHash");
     });
   });
 
