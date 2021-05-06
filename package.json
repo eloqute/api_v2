@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "compile": "tsc  --project ./ --outDir dist/",
+    "compile": "tsc  --project ./",
+    "clean": "rm -rf dist/",
     "lint": "eslint . --ext .ts",
     "migrate": "dotenv -- bash -c 'npx sequelize db:migrate --url $DATABASE_URL'",
     "test": "jest",
