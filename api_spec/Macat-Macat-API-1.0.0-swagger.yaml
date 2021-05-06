@@ -192,7 +192,7 @@ definitions:
       publication_id:
         type: string
         example: "aaadcde9-d877-436a-b66b-19acd31d2574"
-  ValidationFailure:
+  ValidationIssue:
     properties:
       field:
         type: string
@@ -212,10 +212,10 @@ definitions:
     allOf:
       - "$ref": "#/definitions/Error"
       - properties:
-          failures:
+          issues:
             type: array
             items:
-              "$ref": "#/definitions/ValidationFailure"
+              "$ref": "#/definitions/ValidationIssue"
   ModuleStructure:
     type: object
     properties:
