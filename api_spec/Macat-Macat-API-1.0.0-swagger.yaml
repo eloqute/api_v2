@@ -198,6 +198,7 @@ paths:
 components:
   schemas:
     User:
+      additionalProperties: false
       properties:
         id:
           type: string
@@ -207,14 +208,21 @@ components:
           example: user@example.com
         role:
           $ref: "#/components/schemas/Role"
+      required:
+        - id
+        - email
     Role:
+      additionalProperties: false
       properties:
         name:
           type: string
           enum:
             - user
             - admin
+      required:
+        - name
     Purchase:
+      additionalProperties: false
       properties:
         user_id:
           type: string
@@ -222,7 +230,11 @@ components:
         publication_id:
           type: string
           example: aaadcde9-d877-436a-b66b-19acd31d2574
+      required:
+        - user_id
+        - publication_id
     ValidationIssue:
+      additionalProperties: false
       properties:
         field:
           type: string
@@ -230,6 +242,9 @@ components:
         message:
           type: string
           example: does not match given password
+      required:
+        - field
+        - message
     Error:
       properties:
         status:
@@ -238,6 +253,9 @@ components:
         message:
           type: string
           example: the parameters provided failed validation
+      required:
+        - status
+        - message
     ValidationError:
       allOf:
         - $ref: "#/components/schemas/Error"
@@ -246,7 +264,10 @@ components:
               type: array
               items:
                 $ref: "#/components/schemas/ValidationIssue"
+          required:
+            - issues
     ModuleStructure:
+      additionalProperties: false
       type: object
       properties:
         identifier:
@@ -258,8 +279,13 @@ components:
           type: array
           items:
             type: string
+      required:
+        - identifier
+        - title
+        - content
       description: A module of the analysis, gives order and content types
     SectionStructure:
+      additionalProperties: false
       type: object
       properties:
         title:
@@ -269,8 +295,12 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/ModuleStructure"
+      required:
+        - title
+        - modules
       description: The general structure of the analysis, gives order and content types
     Book:
+      additionalProperties: false
       type: object
       properties:
         publicationUrl:
@@ -291,7 +321,15 @@ components:
         id:
           type: integer
           example: 1
+      required:
+        - publicationUrl
+        - title
+        - ISBN
+        - synopsis
+        - overview
+        - id
     BookOverview:
+      additionalProperties: false
       type: object
       allOf:
         - $ref: "#/components/schemas/Book"
@@ -300,7 +338,10 @@ components:
               type: array
               items:
                 $ref: "#/components/schemas/Author"
+          required:
+            - authors
     Author:
+      additionalProperties: false
       type: object
       properties:
         orderNum:
@@ -322,7 +363,15 @@ components:
         isAlive:
           type: boolean
           example: true
+      required:
+        - orderNum
+        - isTopicAuthor
+        - authorId
+        - name
+        - biography
+        - isAlive
     ContentItem:
+      additionalProperties: false
       type: object
       properties:
         id:
@@ -346,3 +395,11 @@ components:
         content:
           type: string
           example: Michel Foucault (1926-1984) was a French philosopher and historian.
+      required:
+        - id
+        - ISBN
+        - section
+        - module
+        - orderNum
+        - contentType
+        - content

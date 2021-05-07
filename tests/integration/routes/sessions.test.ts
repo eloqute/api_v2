@@ -39,7 +39,7 @@ describe("POST /sessions", () => {
       );
       expect(res.status).toEqual(201);
       expect(res).toSatisfyApiSpec();
-      expect(res).toSatisfySchemaInApiSpec("User");
+      expect(res.body).toSatisfySchemaInApiSpec("User");
     });
   });
 
@@ -51,7 +51,7 @@ describe("POST /sessions", () => {
       });
       expect(res.status).toEqual(401);
       expect(res).toSatisfyApiSpec();
-      expect(res).toSatisfySchemaInApiSpec("ValidationError");
+      expect(res.body).toSatisfySchemaInApiSpec("ValidationError");
     });
   });
 
@@ -63,7 +63,7 @@ describe("POST /sessions", () => {
       });
       expect(res.status).toEqual(401);
       expect(res).toSatisfyApiSpec();
-      expect(res).toSatisfySchemaInApiSpec("ValidationError");
+      expect(res.body).toSatisfySchemaInApiSpec("ValidationError");
     });
   });
 });

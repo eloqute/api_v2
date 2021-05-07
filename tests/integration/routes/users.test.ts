@@ -24,8 +24,7 @@ describe("POST /users", () => {
       });
       expect(res.status).toEqual(201);
       expect(res).toSatisfyApiSpec();
-      expect(res).toSatisfySchemaInApiSpec("User");
-      expect(res.body).not.toHaveProperty("passwordHash");
+      expect(res.body).toSatisfySchemaInApiSpec("User");
     });
   });
 
@@ -43,7 +42,7 @@ describe("POST /users", () => {
       });
       expect(res2.status).toEqual(422);
       expect(res2).toSatisfyApiSpec();
-      expect(res2).toSatisfySchemaInApiSpec("ValidationError");
+      expect(res2.body).toSatisfySchemaInApiSpec("ValidationError");
     });
   });
 
@@ -56,7 +55,7 @@ describe("POST /users", () => {
       });
       expect(res.status).toEqual(422);
       expect(res).toSatisfyApiSpec();
-      expect(res).toSatisfySchemaInApiSpec("ValidationError");
+      expect(res.body).toSatisfySchemaInApiSpec("ValidationError");
     });
   });
 });

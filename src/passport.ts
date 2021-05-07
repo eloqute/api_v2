@@ -1,5 +1,6 @@
 import passport from "passport";
 import { Strategy } from "passport-local";
+import { Error } from "./validators/base";
 
 import db from "./db";
 import UserModel from "./models/user";
@@ -12,6 +13,10 @@ declare global {
   }
 }
 
+declare module "passport-local" {
+  interface IVerifyOptions extends Error {}
+}
+
 passport.use(new Strategy(
   {
     usernameField: "email",
@@ -20,11 +25,21 @@ passport.use(new Strategy(
   async (username, password, done) => {
     const user = await repo.findOne({ where: { email: username } });
     if (!user) {
-      return done(null, false, { message: "Incorrect username." });
+      const error = {
+        status: 401,
+        message: "Login failed",
+        issues: [{ field: "email", message: "not found" }]
+      };
+      return done(null, false, error);
     }
     const valid = await user.validPassword(password);
     if (!valid) {
-      return done(null, false, { message: "Incorrect password." });
+      const error = {
+        status: 401,
+        message: "Login failed",
+        issues: [{ field: "password", message: "incorrect" }]
+      };
+      return done(null, false, error);
     }
     return done(null, user);
   }
