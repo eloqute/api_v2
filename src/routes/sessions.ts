@@ -1,13 +1,22 @@
 import { Router } from "express";
 
-const router = Router();
+import passport from "../passport";
+import db from "../db";
+import User from "../models/user";
 
-router.post("/", async (_req, res) => res.status(200).send({
-  id: "aaadcde9-d877-436a-b66b-19acd31d2574",
-  email: "user@example.com",
-  role: {
-    name: "user"
-  }
-}));
+const router = Router();
+const repo = db.getRepository(User);
+
+router.post("/",
+  passport.authenticate("local"),
+  async (req, res) => {
+    const { email } = req.body;
+    const user = await repo.findOne({ where: { email } });
+    return res.status(201).send(user?.asResponse());
+  });
+
+router.get("/test", async (req, res) => {
+  res.status(200).send(req.user?.asResponse());
+});
 
 export default router;

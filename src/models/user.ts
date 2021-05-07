@@ -6,22 +6,26 @@ import {
 @Table({ timestamps: true })
 export default class User extends Model {
   @Column({ primaryKey: true, type: DataType.UUID, defaultValue: DataType.UUIDV4 })
-  id! : String
+  id! : string
 
   @Column
-  email! : String
+  email! : string
 
   @Column
-  passwordHash! : String
+  passwordHash! : string
 
   @Column(DataType.VIRTUAL)
-  password! : String
+  password! : string
 
   asResponse() {
     return {
       id: this.id,
       email: this.email
     };
+  }
+
+  async validPassword(password : string) {
+    return bcrypt.compare(password, this.passwordHash);
   }
 
   @BeforeSave
