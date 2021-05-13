@@ -7,7 +7,8 @@
     "compile": "tsc  --project ./",
     "clean": "rm -rf dist/",
     "lint": "eslint . --ext .ts",
-    "migrate": "dotenv -- bash -c 'npx sequelize db:migrate --url $DATABASE_URL'",
+    "migrate": "scripts/migrate",
+    "seed": "scripts/seed",
     "test": "jest",
     "build": "npm test && npm run lint && npm run compile",
     "start": "concurrently --kill-others \"npx ts-node-dev ./src/index.ts\" \"npx eslint-watch . -w --ext .ts\" \"npx jest --watch\""

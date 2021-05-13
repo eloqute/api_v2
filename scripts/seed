@@ -1,0 +1,4 @@
+#!/bin/bash
+set -a
+source .env.development
+npx sequelize db:seed:all --url $DATABASE_URL
