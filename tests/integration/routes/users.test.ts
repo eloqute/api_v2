@@ -2,18 +2,13 @@ import request from "supertest";
 import jestOpenAPI from "jest-openapi";
 import path from "path";
 import app from "../../../src/app";
-import db from "../../../src/db";
+import {setup, teardown} from "../../helpers/db";
 
 jestOpenAPI(path.join(__dirname, "../../../api_spec/Macat-Macat-API-1.0.0-swagger.yaml"));
 
 describe("POST /users", () => {
-  beforeAll(async () => {
-    await db.sync({ force: true });
-  });
-
-  afterAll(async () => {
-    await db.close();
-  });
+  beforeAll(async() => await setup());
+  afterAll(async() => await teardown());
 
   describe("when the email does not already exist and the passwords match", () => {
     it("creates and returns the user object", async () => {
@@ -53,7 +48,7 @@ describe("POST /users", () => {
         password: "password123",
         passwordConfirmation: "contraseña123"
       });
-      expect(res.status).toEqual(422);
+     expect(res.status).toEqual(422);
       expect(res).toSatisfyApiSpec();
       expect(res.body).toSatisfySchemaInApiSpec("ValidationError");
     });

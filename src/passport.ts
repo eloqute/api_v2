@@ -2,10 +2,8 @@ import passport from "passport";
 import { Strategy } from "passport-local";
 import { Error } from "./validators/base";
 
-import db from "./db";
+import "./db";
 import UserModel from "./models/user";
-
-const repo = db.getRepository(UserModel);
 
 declare global {
   namespace Express {
@@ -23,7 +21,7 @@ passport.use(new Strategy(
     passwordField: "password"
   },
   async (username, password, done) => {
-    const user = await repo.findOne({ where: { email: username } });
+    const user = await UserModel.findOne({ where: { email: username } });
     if (!user) {
       const error = {
         status: 401,
@@ -50,7 +48,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser(async (id : string, done) => {
-  const user = await repo.findOne({ where: { id } });
+  const user = await UserModel.findOne({ where: { id } });
   if (user) {
     done(null, user);
   } else {

@@ -3,14 +3,14 @@ import jestOpenAPI from "jest-openapi";
 import path from "path";
 
 import app from "../../../src/app";
-import db from "../../../src/db";
+import {setup, teardown} from "../../helpers/db";
 
 jestOpenAPI(path.join(__dirname, "../../../api_spec/Macat-Macat-API-1.0.0-swagger.yaml"));
 
 describe("POST /sessions", () => {
-  beforeAll(async () => {
-    await db.sync({ force: true });
-  });
+
+  beforeAll(async() => await setup());
+  afterAll(async() => await teardown());
 
   beforeEach(async () => {
     await request(app).post("/users").send({
@@ -20,9 +20,6 @@ describe("POST /sessions", () => {
     });
   });
 
-  afterAll(async () => {
-    await db.close();
-  });
 
   describe("When the email exists and the password is correct", () => {
     it("sets the session cookie and returns the user object", async () => {

@@ -5,7 +5,6 @@ import logger from "./logger";
 import env from "./env";
 
 const db = new Sequelize(env.DATABASE_URL, {
-  repositoryMode: true,
   models: [path.join(__dirname, "/models")],
   logging: logger.debug.bind(logger)
 });

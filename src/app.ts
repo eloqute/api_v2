@@ -6,6 +6,7 @@ import users from "./routes/users";
 import sessions from "./routes/sessions";
 import publications from "./routes/publications";
 import purchases from "./routes/purchases";
+import structure from "./routes/structure";
 import env from "./env";
 
 const app = express();
@@ -21,5 +22,6 @@ app.use("/users", users);
 app.use("/sessions", sessions);
 app.use("/publications", publications);
 app.use("/purchases", purchases);
+app.use("/structure", structure);
 
 export default app;
