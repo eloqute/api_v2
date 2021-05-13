@@ -18,3 +18,17 @@ This is the content API which backs the Macat iLibrary, and also deals with user
  - source code in in `src/`, builds go in `dist/`. DB migrations and seeds go in `migrations/` and `seeders/` respectively.
  - `src/index.js` is the main entry point, this loads the app frmo `app.js` and runs it. `app.js` basically sandwiches together routes and middleware from elsewhere.
  - each RESTful route has its own router in `src/routes`, these hand off to `models` and `validators` where needed, and ideally should be kept as thin as possible.
+ - We're currently running ESLint with a slightly tweaked AirBNB style guide to enforce consistent coding style. I go back and forth on the value of these things so maybe it might disappear at some point, although currently I think the value outweighs the pain. If any rules in particular get annoying, we can disable them.
+
+ ## Other useful commands:
+
+ - `npm run compile` - compile typescript to js in `dist/`
+ - `npm run clean` - nuke the built files in `dist/`
+ - `npm run lint` - run the linter
+ - `npm run migrate` - run the migrations
+ - `npm run seed` - run the seeds
+ - `npm run test` - run the tests
+ - `npm run build` - `test`, `lint` and `compile` in order, stopping on failure.
+ - `npm start` - run the develpment server, and watch for changes - running tests, linter, and compiler when they're detected.
+
+ Any questions, ask Tim!
