@@ -24,9 +24,11 @@ app.use(session({
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
-    db: db,
+    db,
     tableName: "Sessions",
-    extendDefaultFields: (defaults, sess) => ({data: defaults.data, expires: defaults.expires, userId: sess.userId })
+    extendDefaultFields: (defaults, sess) => (
+      { data: defaults.data, expires: defaults.expires, userId: sess.userId }
+    )
   })
 }));
 app.use(passport.initialize());
