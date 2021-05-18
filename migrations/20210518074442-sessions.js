@@ -10,6 +10,8 @@ module.exports = {
       userId: Sequelize.DataTypes.STRING,
       expires: Sequelize.DataTypes.DATE,
       data: Sequelize.DataTypes.TEXT,
+      createdAt: Sequelize.DataTypes.DATE,
+      updatedAt: Sequelize.DataTypes.DATE
     });
   },
 
