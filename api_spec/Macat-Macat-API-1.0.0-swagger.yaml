@@ -144,6 +144,12 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Book"
+        "404":
+          description: No book with this url exists
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
   "/{isbn}/overview":
     get:
       tags:
@@ -300,7 +306,7 @@ components:
       additionalProperties: false
       type: object
       properties:
-        publicationUrl:
+        publicationURL:
           type: string
           example: gender-trouble-feminism-and-the-subversion-of-identity--analysis
         title:
@@ -316,15 +322,15 @@ components:
           type: string
           example: The overview of the book
         id:
-          type: integer
-          example: 1
+          type: string
+          example: "c602f351-cea6-46d0-8ab6-813e77dc1728"
       required:
-        - publicationUrl
+        - id
+        - publicationURL
         - title
         - ISBN
         - synopsis
         - overview
-        - id
     BookOverview:
       additionalProperties: false
       type: object
