@@ -27,6 +27,6 @@ export default class ModuleStructure extends Model {
     return {
       title: this.title,
       content: this.contents.map((c) => c.asResponse())
-    }
+    };
   }
 }

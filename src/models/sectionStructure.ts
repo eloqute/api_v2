@@ -18,11 +18,10 @@ export default class SectionStructure extends Model {
   @HasMany(() => ModuleStructure)
   modules!: ModuleStructure[]
 
-
   asResponse() {
     return {
       title: this.title,
       modules: this.modules.map((m) => m.asResponse())
-    }
+    };
   }
 }
