@@ -12,6 +12,7 @@ module.exports = {
       createdAt: Sequelize.DataTypes.DATE,
       updatedAt: Sequelize.DataTypes.DATE
     });
+    await queryInterface.addIndex("Users", ["email"]);
   },
 
   down: async (queryInterface, Sequelize) => {

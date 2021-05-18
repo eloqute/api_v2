@@ -12,6 +12,7 @@ module.exports = {
       createdAt: Sequelize.DataTypes.DATE,
       updatedAt: Sequelize.DataTypes.DATE
     });
+    await queryInterface.addIndex("SectionStructures", ["position"]);
     await queryInterface.createTable("ModuleStructures", {
       id: {
         primaryKey: true,
@@ -26,6 +27,7 @@ module.exports = {
       createdAt: Sequelize.DataTypes.DATE,
       updatedAt: Sequelize.DataTypes.DATE
     });
+    await queryInterface.addIndex("ModuleStructures", ["sectionId", "position"]);
     await queryInterface.createTable("ContentStructures", {
       id: {
         primaryKey: true,
@@ -43,6 +45,7 @@ module.exports = {
       createdAt: Sequelize.DataTypes.DATE,
       updatedAt: Sequelize.DataTypes.DATE
     });
+    await queryInterface.addIndex("ContentStructures", ["moduleId", "position"]);
   },
 
   down: async (queryInterface, Sequelize) => {
