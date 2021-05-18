@@ -1,26 +1,12 @@
 import { Router } from "express";
-import "../db";
+import SectionStructureRepository from "../repositories/sectionStructure";
 import SectionStructure from "../models/sectionStructure";
-import ModuleStructure from "../models/moduleStructure";
-import ContentStructure from "../models/contentStructure";
 
 const router = Router();
 
 router.get("/", async (_req, res) => {
-  const sections = await SectionStructure.findAll({
-    order: [
-      ["position", "ASC"],
-      [{ model: ModuleStructure, as: "modules" }, "position", "ASC"],
-      [{ model: ModuleStructure, as: "modules" }, { model: ContentStructure, as: "contents" }, "position", "ASC"]
-    ],
-    include: [{
-      model: ModuleStructure,
-      include: [{
-        model: ContentStructure
-      }]
-    }]
-  });
-  return res.status(200).send(sections.map((s) => s.asResponse()));
+  const sections = await SectionStructureRepository.findAll();
+  return res.status(200).send(sections.map((s : SectionStructure) => s.asResponse()));
 });
 
 export default router;

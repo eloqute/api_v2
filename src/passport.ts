@@ -2,7 +2,7 @@ import passport from "passport";
 import { Strategy } from "passport-local";
 import { Error } from "./validators/base";
 
-import "./db";
+import UserRepository from "./repositories/user";
 import UserModel from "./models/user";
 
 declare global {
@@ -21,7 +21,7 @@ passport.use(new Strategy(
     passwordField: "password"
   },
   async (username, password, done) => {
-    const user = await UserModel.findOne({ where: { email: username } });
+    const user = await UserRepository.findByEmail(username);
     if (!user) {
       const error = {
         status: 401,
