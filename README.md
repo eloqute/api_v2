@@ -30,5 +30,6 @@ This is the content API which backs the Macat iLibrary, and also deals with user
  - `npm run test` - run the tests
  - `npm run build` - `test`, `lint` and `compile` in order, stopping on failure.
  - `npm start` - run the develpment server, and watch for changes - running tests, linter, and compiler when they're detected.
+ - `npx sequelize migration:generate --name NAME_FOR_YOUR_MIGRATION` to generate a new migration.
 
  Any questions, ask Tim!
