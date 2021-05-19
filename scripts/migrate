@@ -1,4 +1,4 @@
 #!/bin/bash
 set -a
 source .env.development
-npx sequelize db:migrate --url $DATABASE_URL
+npx sequelize db:migrate --url $DATABASE_URL --debug
