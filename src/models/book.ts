@@ -1,6 +1,9 @@
 import {
-  Table, Column, Model, DataType
+  Table, Column, Model, BelongsToMany, DataType, HasMany
 } from "sequelize-typescript";
+
+import Author from "./author";
+import BookAuthor from "./bookAuthor";
 
 @Table({ timestamps: true })
 export default class Book extends Model {
@@ -22,6 +25,12 @@ export default class Book extends Model {
   @Column({ type: DataType.TEXT })
   overview! : string
 
+  @BelongsToMany(() => Author, () => BookAuthor)
+  authors! : Author[]
+
+  @HasMany(() => BookAuthor)
+  bookAuthors! : BookAuthor[]
+
   asResponse() {
     return {
       id: this.id,
@@ -29,7 +38,8 @@ export default class Book extends Model {
       title: this.title,
       ISBN: this.ISBN,
       synopsis: this.synopsis,
-      overview: this.overview
+      overview: this.overview,
+      authors: this.bookAuthors.map((ba) => ba.asResponse())
     };
   }
 }

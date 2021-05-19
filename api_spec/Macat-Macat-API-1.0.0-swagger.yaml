@@ -127,7 +127,7 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/ValidationError"
-  "/book/{publicationUrl}":
+  "/book/byUrl/{publicationUrl}":
     get:
       tags:
         - open
@@ -138,19 +138,25 @@ paths:
           schema:
             type: string
       responses:
-        "200":
-          description: The overview of this book is successfully returned
+        "301":
+          description: We redirect to the overview for the given book
+          headers:
+            Location:
+              description: Canonical URL for the given book
+              schema:
+                type: string
+                format: uri
           content:
             "application/json":
               schema:
-                $ref: "#/components/schemas/Book"
+                "$ref": "#/components/schemas/Redirect"
         "404":
           description: No book with this url exists
           content:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
-  "/{isbn}/overview":
+  "/book/{isbn}/overview":
     get:
       tags:
         - closed
@@ -167,6 +173,12 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/BookOverview"
+        "404":
+          description: the book does not exist
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
   "/{isbn}/{sectionNum}/{moduleNum}/{contentType}":
     get:
       tags:
@@ -201,6 +213,19 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/ContentItem"
+
+        "401":
+          description: The user is not logged in
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: The content item does not exist
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
 components:
   schemas:
     User:
@@ -272,6 +297,17 @@ components:
                 $ref: "#/components/schemas/ValidationIssue"
           required:
             - issues
+    Redirect:
+      properties:
+        status:
+          type: integer
+          example: 301
+        location:
+          type: string
+          example: "http://example.com"
+      required:
+        - status
+        - location
     ModuleStructure:
       additionalProperties: false
       type: object
@@ -302,7 +338,7 @@ components:
         - title
         - modules
       description: The general structure of the analysis, gives order and content types
-    Book:
+    BookOverview:
       additionalProperties: false
       type: object
       properties:
@@ -324,38 +360,31 @@ components:
         id:
           type: string
           example: "c602f351-cea6-46d0-8ab6-813e77dc1728"
+        authors:
+          type: array
+          items:
+            $ref: "#/components/schemas/Author"
       required:
+        - authors
         - id
         - publicationURL
         - title
         - ISBN
         - synopsis
         - overview
-    BookOverview:
-      additionalProperties: false
-      type: object
-      allOf:
-        - $ref: "#/components/schemas/Book"
-        - properties:
-            authors:
-              type: array
-              items:
-                $ref: "#/components/schemas/Author"
-          required:
-            - authors
     Author:
       additionalProperties: false
       type: object
       properties:
-        orderNum:
+        position:
           type: integer
           example: 0
         isTopicAuthor:
           type: boolean
           example: true
-        authorId:
-          type: integer
-          example: 1
+        id:
+          type: string
+          example: "1edf74e7-bb04-4ed4-b1aa-9e9dd678ed47"
         name:
           type: string
           example: Judith Butler
@@ -367,9 +396,9 @@ components:
           type: boolean
           example: true
       required:
-        - orderNum
+        - position
         - isTopicAuthor
-        - authorId
+        - id
         - name
         - biography
         - isAlive
