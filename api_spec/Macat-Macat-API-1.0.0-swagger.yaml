@@ -179,7 +179,7 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
-  "/{isbn}/{sectionNum}/{moduleNum}/{contentType}":
+  "/book/{isbn}/content/{sectionNum}/{moduleNum}/{contentType}":
     get:
       tags:
         - paywalled
@@ -314,13 +314,13 @@ components:
       properties:
         title:
           type: string
+          nullable: true
           example: "Module 1: The Author And The Historical Context"
         content:
           type: array
           items:
             type: string
       required:
-        - title
         - content
       description: A module of the analysis, gives order and content types
     SectionStructure:
@@ -406,9 +406,6 @@ components:
       additionalProperties: false
       type: object
       properties:
-        id:
-          type: integer
-          example: 0
         ISBN:
           type: string
           example: "9781912453085"
@@ -418,7 +415,7 @@ components:
         module:
           type: integer
           example: 0
-        orderNum:
+        position:
           type: integer
           example: 0
         contentType:
@@ -428,10 +425,9 @@ components:
           type: string
           example: Michel Foucault (1926-1984) was a French philosopher and historian.
       required:
-        - id
         - ISBN
         - section
         - module
-        - orderNum
+        - position
         - contentType
         - content

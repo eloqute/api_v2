@@ -1,4 +1,5 @@
-import request from "supertest";
+import request, { SuperTest, Test } from "supertest";
+import session from "supertest-session";
 import jestOpenAPI from "jest-openapi";
 import path from "path";
 import app from "../../../src/app";
@@ -51,6 +52,55 @@ describe("/books resources", () => {
         expect(res.status).toEqual(404);
         expect(res).toSatisfyApiSpec();
         expect(res.body).toSatisfySchemaInApiSpec("Error");
+      });
+    });
+  });
+
+  describe("GET /book/{isbn}/content/{sectionNumber}/{moduleNumber}/{contentType}", () => {
+    describe("When no user is logged in", () => {
+      it("returns a 404 error", async () => {
+        const res = await request(app).get("/book/9781912127184/content/0/0/KeyPoints").send();
+        expect(res.status).toEqual(401);
+        expect(res).toSatisfyApiSpec();
+        expect(res.body).toSatisfySchemaInApiSpec("Error");
+      });
+    });
+
+    describe("When a user is logged in", () => {
+      let ses : SuperTest<Test> | null = null;
+
+      beforeEach(async () => {
+        ses = session(app);
+        await ses!.post("/users").send({
+          email: "test@example.com",
+          password: "password123",
+          passwordConfirmation: "password123"
+        });
+        await ses!.post("/sess").send({
+          email: "test@example.com",
+          password: "password123"
+        });
+      });
+
+      describe("When a book exists with the given ISBN", () => {
+        it("returns the contents of the given section", async () => {
+          const res = await ses!.get("/book/9781912127184/content/0/0/KeyPoints").send();
+          expect(res.status).toEqual(200);
+          expect(res).toSatisfyApiSpec();
+          expect(res.body.length).toBeGreaterThan(0);
+          res.body.forEach(
+            (item : object) => expect(item).toSatisfySchemaInApiSpec("ContentItem")
+          );
+        });
+      });
+
+      describe("When no book exists with the given ISBN", () => {
+        it("returns a 404 error", async () => {
+          const res = await ses!.get("/book/987543212356/content/0/0/KeyPoints").send();
+          expect(res.status).toEqual(404);
+          expect(res).toSatisfyApiSpec();
+          expect(res.body).toSatisfySchemaInApiSpec("Error");
+        });
       });
     });
   });

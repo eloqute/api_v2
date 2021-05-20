@@ -1,5 +1,5 @@
 import {
-  Table, Column, Model, HasMany, ForeignKey, DataType
+  Table, Column, Model, HasMany, ForeignKey, BelongsTo, DataType
 } from "sequelize-typescript";
 
 import ContentStructure from "./contentStructure";
@@ -13,6 +13,9 @@ export default class ModuleStructure extends Model {
   @ForeignKey(() => SectionStructure)
   @Column
   sectionId! : string
+
+  @BelongsTo(() => SectionStructure)
+  section! : SectionStructure
 
   @Column
   position! : number

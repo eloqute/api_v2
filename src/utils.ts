@@ -11,11 +11,27 @@ export async function asyncReduce<X, Y>(
   );
 }
 
-export async function guard404<A>(
-  resource : A | null, response : Response, callback : (_arg0 : A) => Response
+export async function guard<A>(
+  status: number, message : string,
+  resource : A | null, response : Response,
+  callback : (_arg0 : A) => Promise<Response>
 ) {
   if (resource) {
     return callback(resource);
   }
-  return response.status(404).send({ status: 404, message: "Not found." });
+  return response.status(status).send({ status, message });
+}
+
+export async function guard404<A>(
+  resource : A | null, response : Response,
+  callback : (_arg0 : A) => Promise<Response>
+) {
+  return guard(404, "Not found", resource, response, callback);
+}
+
+export async function guard401<A>(
+  resource : A | null, response : Response,
+  callback : (_arg0 : A) => Promise<Response>
+) {
+  return guard(401, "Not authenticated", resource, response, callback);
 }

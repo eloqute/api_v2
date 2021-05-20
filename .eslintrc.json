@@ -15,12 +15,12 @@
     "@typescript-eslint"
   ],
   "rules": {
-    "quotes": ["warn", "double"],
-    "import/extensions": ["warn", "never"],
-    "comma-dangle": ["warn", "never"],
+    "quotes": ["error", "double"],
+    "import/extensions": ["error", "never"],
+    "comma-dangle": ["error", "never"],
     "no-unused-vars": "off",
     "import/prefer-default-export": "off",
-    "consistent-return": ["warn",
+    "consistent-return": ["error",
       { "treatUndefinedAsUnspecified": false }
     ]
   },
