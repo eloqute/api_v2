@@ -27,74 +27,80 @@ module.exports = {
 
     await queryInterface.bulkInsert('ModuleStructures', [
       {
+        "id": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
+        "sectionId": "090f0342-8bb7-4cf7-8016-15465042fad7",
+        "position": 0,
+        "title": null
+      },
+      {
         "id": "ed969fa0-227e-4fc8-8faa-d9296f9f4424",
-        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
+        "sectionId": "b1fc7eeb-ae95-434f-b31b-f55cc4599309",
         "position": 0,
         "title": "Module 9: The First Responses"
       },
       {
         "id": "cc366941-cecd-48c9-98cc-6e76f88ec1a6",
-        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
+        "sectionId": "b1fc7eeb-ae95-434f-b31b-f55cc4599309",
         "position": 1,
         "title": "Module 10: The Evolving Debate"
       },
       {
         "id": "f264b958-db00-4cd6-a92e-f94cda66305a",
-        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
+        "sectionId": "b1fc7eeb-ae95-434f-b31b-f55cc4599309",
         "position": 2,
         "title": "Module 11: Impact And Influence Today"
       },
       {
         "id": "1186fe83-b330-4853-bd96-ac122e3da307",
-        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
+        "sectionId": "b1fc7eeb-ae95-434f-b31b-f55cc4599309",
         "position": 3,
         "title": "Module 12: Where Next?"
       },
       {
         "id": "2af9e3c7-265e-4245-abaf-d25127224dea",
-        "sectionId": "090f0342-8bb7-4cf7-8016-15465042fad7",
+        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
         "position": 0,
         "title": "Module 1: The Author And The Historical Context"
       },
       {
         "id": "80f9b81b-39c5-4335-92f2-f1d29f99b2f6",
-        "sectionId": "090f0342-8bb7-4cf7-8016-15465042fad7",
+        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
         "position": 1,
         "title": "Module 2: Academic Context"
       },
       {
         "id": "e1a91ecb-98e8-4702-84eb-ea03e7eea360",
-        "sectionId": "090f0342-8bb7-4cf7-8016-15465042fad7",
+        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
         "position": 2,
         "title": "Module 3: The Problem"
       },
       {
         "id": "e8be7994-e485-4b84-b1f3-ae2d012afd55",
-        "sectionId": "090f0342-8bb7-4cf7-8016-15465042fad7",
+        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
         "position": 3,
         "title": "Module 4: The Author's Contribution"
       },
       {
         "id": "6a65f2a7-a3fa-43ec-8001-e573af4c3f35",
-        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
+        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
         "position": 0,
         "title": "Module 5: Main Ideas"
       },
       {
         "id": "ac2e6f6a-764e-4134-a79d-5fa8c3c01a17",
-        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
+        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
         "position": 1,
         "title": "Module 6: Secondary Ideas"
       },
       {
         "id": "ad13f9f9-39fc-4d3d-b2c0-3bed1184bb3a",
-        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
+        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
         "position": 2,
         "title": "Module 7: Achievement"
       },
       {
         "id": "5de914ab-789d-4328-8b4a-b95f8ed0d58b",
-        "sectionId": "8badb27e-b362-4750-9d64-10bb679b687b",
+        "sectionId": "04538ac2-7f69-4afb-804d-6937e6bc302e",
         "position": 3,
         "title": "Module 8: Place In The Author's Work"
       },
@@ -589,7 +595,7 @@ module.exports = {
       },
       {
         "id": "a32a75f7-6193-4d51-bbc1-95399f35e131",
-        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
+        "moduleId": "cc366941-cecd-48c9-98cc-6e76f88ec1a6",
         "position": 0,
         "contentType": "PullQuote",
         "title": "Pull Quote",
@@ -598,7 +604,7 @@ module.exports = {
       },
       {
         "id": "fb9328b6-7a0b-421d-9e20-7b25c3fd669e",
-        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
+        "moduleId": "cc366941-cecd-48c9-98cc-6e76f88ec1a6",
         "position": 1,
         "contentType": "KeyPoints",
         "title": "Key Points",
@@ -607,7 +613,7 @@ module.exports = {
       },
       {
         "id": "7f32caec-dde7-4ed8-a45c-f95fc8f8eba8",
-        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
+        "moduleId": "cc366941-cecd-48c9-98cc-6e76f88ec1a6",
         "position": 2,
         "contentType": "UsesAndProblems",
         "title": "Uses And Problems",
@@ -616,7 +622,7 @@ module.exports = {
       },
       {
         "id": "2721e116-2d83-477c-aadc-889544289e10",
-        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
+        "moduleId": "cc366941-cecd-48c9-98cc-6e76f88ec1a6",
         "position": 3,
         "contentType": "SchoolsOfThought",
         "title": "Schools Of Thought",
@@ -625,7 +631,7 @@ module.exports = {
       },
       {
         "id": "16a5ea6f-535c-4722-9b5d-3867634f3d37",
-        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
+        "moduleId": "cc366941-cecd-48c9-98cc-6e76f88ec1a6",
         "position": 4,
         "contentType": "InCurrentScholarship",
         "title": "In Current Scholarship",
@@ -634,7 +640,7 @@ module.exports = {
       },
       {
         "id": "f4c07134-270f-4926-86b8-43a70013bd8e",
-        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
+        "moduleId": "cc366941-cecd-48c9-98cc-6e76f88ec1a6",
         "position": 5,
         "contentType": "Notes",
         "title": "Notes",
@@ -643,7 +649,7 @@ module.exports = {
       },
       {
         "id": "a9650827-eaa0-465d-844f-a390eb8b9f47",
-        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
         "position": 0,
         "contentType": "PullQuote",
         "title": "Pull Quote",
@@ -652,7 +658,7 @@ module.exports = {
       },
       {
         "id": "d3cdda43-e8a6-43cb-b006-e496b7d2dd6b",
-        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
         "position": 1,
         "contentType": "KeyPoints",
         "title": "Key Points",
@@ -661,7 +667,7 @@ module.exports = {
       },
       {
         "id": "de7fe0f5-5b96-409c-840a-cf879943b222",
-        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
         "position": 2,
         "contentType": "Position",
         "title": "Position",
@@ -670,7 +676,7 @@ module.exports = {
       },
       {
         "id": "dc7681eb-4092-4f4f-aa7c-2d66db5f1c9f",
-        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
         "position": 3,
         "contentType": "Interation",
         "title": "Interaction",
@@ -679,7 +685,7 @@ module.exports = {
       },
       {
         "id": "5652419f-f6b3-49db-abd3-ce409a6a5a87",
-        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
         "position": 4,
         "contentType": "TheContinuingDebate",
         "title": "The Continuing Debate",
@@ -688,13 +694,112 @@ module.exports = {
       },
       {
         "id": "9a5b4261-39a1-4ea2-bb01-ecf216ce658c",
-        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "moduleId": "f264b958-db00-4cd6-a92e-f94cda66305a",
         "position": 5,
         "contentType": "Notes",
         "title": "Notes",
         "outerTag": null,
         "innerTag": "p"
       },
+      {
+        "id": "c2e48771-6544-4d33-838f-85e29bbd9f2b",
+        "moduleId": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
+        "position": 2,
+        "contentType": "WhatDoesPublicationSay",
+        "title": "What Does <em>{{title}}</em> Say?",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "4a92606a-7870-4fce-b2cd-9a0b4edf34b6",
+        "moduleId": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
+        "position": 0,
+        "contentType": "KeyPoints",
+        "title": "Key Points",
+        "outerTag": "ul",
+        "innerTag": "li"
+      },
+      {
+        "id": "a162f786-4904-4a88-9af8-8e98191e82c3",
+        "moduleId": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
+        "position": 4,
+        "contentType": "Notes",
+        "title": "Notes",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "245aa898-20de-4329-afdb-126d9fee608b",
+        "moduleId": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
+        "position": 3,
+        "contentType": "WhyDoesPublicationMatter",
+        "title": "Why Does <em>The Sacred Wood</em> Matter?",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "04a1093e-6fc7-4026-b615-caceec8b0aa6",
+        "moduleId": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
+        "position": 1,
+        "contentType": "WhoWasAuthor",
+        "title": "Who was T. S. Eliot?",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "d9ff72ac-491f-4a3c-a70b-fea973b53a2a",
+        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "position": 0,
+        "contentType": "PullQuote",
+        "title": "Pull Quote",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "f0ce08ba-b76d-462c-aef2-088d89d44b9d",
+        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "position": 1,
+        "contentType": "KeyPoints",
+        "title": "Key Points",
+        "outerTag": "ul",
+        "innerTag": "li"
+      },
+      {
+        "id": "3789fe9d-e4e0-4a74-8423-765ca0848af6",
+        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "position": 2,
+        "contentType": "Potential",
+        "title": "Potential",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "128d5c1d-568a-44c7-85a7-d39730701664",
+        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "position": 3,
+        "contentType": "FutureDirections",
+        "title": "Future Directions",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "e7c27b70-a02e-4218-be5d-422d7927f1d7",
+        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "position": 4,
+        "contentType": "Summary",
+        "title": "Summary",
+        "outerTag": "",
+        "innerTag": "p"
+      },
+      {
+        "id": "7fae55cd-8cfe-4e7f-8546-40190bb68a5c",
+        "moduleId": "1186fe83-b330-4853-bd96-ac122e3da307",
+        "position": 5,
+        "contentType": "Notes",
+        "title": "Notes",
+        "outerTag": "",
+        "innerTag": "p"
+      }
     ] , {});
   },
 
