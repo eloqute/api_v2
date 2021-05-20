@@ -19,12 +19,13 @@ router.get("/:isbn/content/:sectionPosition/:modulePosition/:contentType", async
   const {
     isbn, sectionPosition, modulePosition, contentType
   } = req.params;
-  const maybeContent = await ContentRepository.findByISBNAndPath(
+  const maybeBook = await BookRepository.findByISBN(req.params.isbn);
+  const content = await ContentRepository.findByISBNAndPath(
     isbn, sectionPosition, modulePosition, contentType
   );
   return guard404(
-    maybeContent, res,
-    async (content) => res.status(200).send(
+    maybeBook, res,
+    async (_book) => res.status(200).send(
       content.map((ci : ContentItem) => ci.asResponse())
     )
   );

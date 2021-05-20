@@ -69,14 +69,14 @@ describe("/books resources", () => {
     describe("When a user is logged in", () => {
       let ses : SuperTest<Test> | null = null;
 
-      beforeEach(async () => {
+      beforeAll(async () => {
         ses = session(app);
         await ses!.post("/users").send({
           email: "test@example.com",
           password: "password123",
           passwordConfirmation: "password123"
         });
-        await ses!.post("/sess").send({
+        await ses!.post("/sessions").send({
           email: "test@example.com",
           password: "password123"
         });
@@ -96,7 +96,7 @@ describe("/books resources", () => {
 
       describe("When no book exists with the given ISBN", () => {
         it("returns a 404 error", async () => {
-          const res = await ses!.get("/book/987543212356/content/0/0/KeyPoints").send();
+          const res = await ses!.get("/book/999999999/content/0/0/KeyPoints").send();
           expect(res.status).toEqual(404);
           expect(res).toSatisfyApiSpec();
           expect(res.body).toSatisfySchemaInApiSpec("Error");

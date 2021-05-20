@@ -18,9 +18,10 @@ declare module "passport-local" {
 passport.use(new Strategy(
   {
     usernameField: "email",
-    passwordField: "password"
+    passwordField: "password",
+    passReqToCallback: true
   },
-  async (username, password, done) => {
+  async (req, username, password, done) => {
     const user = await UserRepository.findByEmail(username);
     if (!user) {
       const error = {
@@ -39,7 +40,7 @@ passport.use(new Strategy(
       };
       return done(null, false, error);
     }
-    return done(null, user);
+    return req.login(user, () => done(null, user));
   }
 ));
 

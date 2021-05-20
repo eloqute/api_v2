@@ -22,6 +22,9 @@
     "import/prefer-default-export": "off",
     "consistent-return": ["error",
       { "treatUndefinedAsUnspecified": false }
+    ],
+    "import/no-extraneous-dependencies": ["error",
+      {"devDependencies": ["tests/**/*", "src/types/**/*"]}
     ]
   },
   "settings": {
