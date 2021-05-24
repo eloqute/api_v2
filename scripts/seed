@@ -6,4 +6,4 @@ ENVFILE=".env.${ENV}"
 if test -f "$ENVFILE"; then
     source "$ENVFILE"
 fi
-npx sequelize db:seed:all --url $DATABASE_URL --debug
+npx sequelize db:seed:all --debug
