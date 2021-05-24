@@ -1,4 +1,9 @@
 #!/bin/bash
 set -a
-source .env.development
+
+ENV="${NODE_ENV:-development}"
+ENVFILE=".env.${ENV}"
+if test -f "$ENVFILE"; then
+    source "$ENVFILE"
+fi
 npx sequelize db:seed:all --url $DATABASE_URL --debug
