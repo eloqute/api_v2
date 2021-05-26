@@ -6,8 +6,6 @@ import SequelizeStoreConstructor from "connect-session-sequelize";
 import passport from "./passport";
 import users from "./routes/users";
 import sessions from "./routes/sessions";
-import publications from "./routes/publications";
-import purchases from "./routes/purchases";
 import structure from "./routes/structure";
 import book from "./routes/book";
 import env from "./env";
@@ -40,8 +38,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use("/users", users);
 app.use("/sessions", sessions);
-app.use("/publications", publications);
-app.use("/purchases", purchases);
 app.use("/structure", structure);
 app.use("/book", book);
 
