@@ -99,34 +99,6 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/SectionStructure"
-  /purchases:
-    post:
-      tags:
-        - closed
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: "#/components/schemas/Purchase"
-      responses:
-        "200":
-          description: The purchase is created
-          content:
-            "application/json":
-              schema:
-                $ref: "#/components/schemas/Purchase"
-        "401":
-          description: No user is logged in
-          content:
-            "application/json":
-              schema:
-                $ref: "#/components/schemas/Error"
-        "422":
-          description: The payment details provided are invalid
-          content:
-            "application/json":
-              schema:
-                $ref: "#/components/schemas/ValidationError"
   "/book/{publicationURL}/overview":
     get:
       tags:
@@ -223,18 +195,6 @@ components:
             - admin
       required:
         - name
-    Purchase:
-      additionalProperties: false
-      properties:
-        user_id:
-          type: string
-          example: aaadcde9-d877-436a-b66b-19acd31d2574
-        publication_id:
-          type: string
-          example: aaadcde9-d877-436a-b66b-19acd31d2574
-      required:
-        - user_id
-        - publication_id
     ValidationIssue:
       additionalProperties: false
       properties:
