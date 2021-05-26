@@ -7,21 +7,21 @@ import ContentItem from "../models/contentItem";
 
 const router = Router();
 
-router.get("/:isbn/overview", async (req, res) => {
-  const maybeBook = await BookRepository.findByISBN(req.params.isbn);
+router.get("/:publicationURL/overview", async (req, res) => {
+  const maybeBook = await BookRepository.findByPublicationURL(req.params.publicationURL);
   return guard404(
     maybeBook, res,
     async (book) => res.status(200).send(book.asResponse())
   );
 });
 
-router.get("/:isbn/content/:sectionPosition/:modulePosition/:contentType", async (req, res) => guard401(req.user, res, async (_user) => {
+router.get("/:publicationURL/content/:sectionPosition/:modulePosition/:contentType", async (req, res) => guard401(req.user, res, async (_user) => {
   const {
-    isbn, sectionPosition, modulePosition, contentType
+    publicationURL, sectionPosition, modulePosition, contentType
   } = req.params;
-  const maybeBook = await BookRepository.findByISBN(req.params.isbn);
-  const content = await ContentRepository.findByISBNAndPath(
-    isbn, sectionPosition, modulePosition, contentType
+  const maybeBook = await BookRepository.findByPublicationURL(publicationURL);
+  const content = await ContentRepository.findByPublicationURLAndPath(
+    publicationURL, sectionPosition, modulePosition, contentType
   );
   return guard404(
     maybeBook, res,
@@ -30,15 +30,5 @@ router.get("/:isbn/content/:sectionPosition/:modulePosition/:contentType", async
     )
   );
 }));
-
-router.get("/byUrl/:publicationURL", async (req, res) => {
-  const maybeBook = await BookRepository.findByPublicationURL(req.params.publicationURL);
-  return guard404(maybeBook, res, async (book) => {
-    const location = `/book/${book.ISBN}/overview`;
-    return res.status(301).header("Location", location).send(
-      { status: 301, location }
-    );
-  });
-});
 
 export default router;

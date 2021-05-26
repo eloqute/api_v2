@@ -4,9 +4,9 @@ import BookAuthor from "../models/bookAuthor";
 import Author from "../models/author";
 
 export default {
-  findByISBN: async (ISBN : string) => (
+  findByPublicationURL: async (publicationURL : string) => (
     Book.findOne({
-      where: { ISBN },
+      where: { publicationURL },
       include: [{
         model: BookAuthor,
         include: [{
@@ -17,9 +17,5 @@ export default {
         [{ model: BookAuthor, as: "bookAuthors" }, "position", "ASC"]
       ]
     })
-  ),
-
-  findByPublicationURL: async (publicationURL : string) => (
-    Book.findOne({ where: { publicationURL } })
   )
 };

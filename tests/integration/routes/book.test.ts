@@ -11,31 +11,10 @@ describe("/books resources", () => {
   beforeAll(setup);
   afterAll(teardown);
 
-  describe("GET /book/byUrl/{publicationURL}", () => {
-    describe("when a book exists with the given publication URL", () => {
-      it("redirects to the overview of the book", async () => {
-        const res = await request(app).get("/book/byUrl/phenomenology-of-spirit-analysis").send();
-        expect(res.status).toEqual(301);
-        expect(res).toSatisfyApiSpec();
-        expect(res.body).toSatisfySchemaInApiSpec("Redirect");
-        expect(res.body.location).toEqual("/book/9781912127184/overview");
-      });
-    });
-
-    describe("when a book does not exist with the given publication URL", () => {
-      it("returns a 404 error", async () => {
-        const res = await request(app).get("/book/byUrl/doesnt-exist").send();
-        expect(res.status).toEqual(404);
-        expect(res).toSatisfyApiSpec();
-        expect(res.body).toSatisfySchemaInApiSpec("Error");
-      });
-    });
-  });
-
-  describe("GET /book/{isbn}/overview", () => {
-    describe("when a book exists with the given ISBN", () => {
+  describe("GET /book/{publicationURL}/overview", () => {
+    describe("when a book exists with the given Publication URL", () => {
       it("returns the details of the book", async () => {
-        const res = await request(app).get("/book/9781912127184/overview").send();
+        const res = await request(app).get("/book/phenomenology-of-spirit-analysis/overview").send();
         expect(res.status).toEqual(200);
         expect(res).toSatisfyApiSpec();
         expect(res.body).toSatisfySchemaInApiSpec("BookOverview");
@@ -46,9 +25,9 @@ describe("/books resources", () => {
       });
     });
 
-    describe("when a book does not exist with the given ISBN", () => {
+    describe("when a book does not exist with the given Publication URL", () => {
       it("returns a 404 error", async () => {
-        const res = await request(app).get("/book/1234567890234/overview").send();
+        const res = await request(app).get("/book/doesnt-exist/overview").send();
         expect(res.status).toEqual(404);
         expect(res).toSatisfyApiSpec();
         expect(res.body).toSatisfySchemaInApiSpec("Error");
@@ -56,10 +35,10 @@ describe("/books resources", () => {
     });
   });
 
-  describe("GET /book/{isbn}/content/{sectionNumber}/{moduleNumber}/{contentType}", () => {
+  describe("GET /book/{publicationURL}/content/{sectionNumber}/{moduleNumber}/{contentType}", () => {
     describe("When no user is logged in", () => {
       it("returns a 404 error", async () => {
-        const res = await request(app).get("/book/9781912127184/content/0/0/KeyPoints").send();
+        const res = await request(app).get("/book/phenomenology-of-spirit-analysis/content/0/0/KeyPoints").send();
         expect(res.status).toEqual(401);
         expect(res).toSatisfyApiSpec();
         expect(res.body).toSatisfySchemaInApiSpec("Error");
@@ -82,9 +61,9 @@ describe("/books resources", () => {
         });
       });
 
-      describe("When a book exists with the given ISBN", () => {
+      describe("When a book exists with the given Publication URL", () => {
         it("returns the contents of the given section", async () => {
-          const res = await ses!.get("/book/9781912127184/content/0/0/KeyPoints").send();
+          const res = await ses!.get("/book/phenomenology-of-spirit-analysis/content/0/0/KeyPoints").send();
           expect(res.status).toEqual(200);
           expect(res).toSatisfyApiSpec();
           expect(res.body.length).toBeGreaterThan(0);
@@ -94,9 +73,9 @@ describe("/books resources", () => {
         });
       });
 
-      describe("When no book exists with the given ISBN", () => {
+      describe("When no book exists with the given Publiaction URL", () => {
         it("returns a 404 error", async () => {
-          const res = await ses!.get("/book/999999999/content/0/0/KeyPoints").send();
+          const res = await ses!.get("/book/doesnt-exist/content/0/0/KeyPoints").send();
           expect(res.status).toEqual(404);
           expect(res).toSatisfyApiSpec();
           expect(res.body).toSatisfySchemaInApiSpec("Error");

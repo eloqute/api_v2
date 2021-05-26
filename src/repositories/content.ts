@@ -6,14 +6,14 @@ import ModuleStructure from "../models/moduleStructure";
 import SectionStructure from "../models/sectionStructure";
 
 export default {
-  findByISBNAndPath: (
-    ISBN : string, sectionPosition : string,
+  findByPublicationURLAndPath: (
+    publicationURL : string, sectionPosition : string,
     modulePosition : string, contentType : string
   ) => ContentItem.findAll({
     include: [
       {
         model: Book,
-        where: { ISBN }
+        where: { publicationURL }
       },
       {
         model: ContentStructure,

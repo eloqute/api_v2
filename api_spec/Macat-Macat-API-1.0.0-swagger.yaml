@@ -127,41 +127,12 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/ValidationError"
-  "/book/byUrl/{publicationUrl}":
-    get:
-      tags:
-        - open
-      parameters:
-        - name: publicationUrl
-          in: path
-          required: true
-          schema:
-            type: string
-      responses:
-        "301":
-          description: We redirect to the overview for the given book
-          headers:
-            Location:
-              description: Canonical URL for the given book
-              schema:
-                type: string
-                format: uri
-          content:
-            "application/json":
-              schema:
-                "$ref": "#/components/schemas/Redirect"
-        "404":
-          description: No book with this url exists
-          content:
-            "application/json":
-              schema:
-                $ref: "#/components/schemas/Error"
-  "/book/{isbn}/overview":
+  "/book/{publicationURL}/overview":
     get:
       tags:
         - closed
       parameters:
-        - name: isbn
+        - name: publicationURL
           in: path
           required: true
           schema:
@@ -179,12 +150,12 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
-  "/book/{isbn}/content/{sectionNum}/{moduleNum}/{contentType}":
+  "/book/{publicationURL}/content/{sectionNum}/{moduleNum}/{contentType}":
     get:
       tags:
         - paywalled
       parameters:
-        - name: isbn
+        - name: publicationURL
           in: path
           required: true
           schema:
