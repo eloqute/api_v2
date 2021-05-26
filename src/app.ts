@@ -1,4 +1,5 @@
 import express from "express";
+import path from "path";
 import session from "express-session";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
@@ -40,5 +41,11 @@ app.use("/users", users);
 app.use("/sessions", sessions);
 app.use("/structure", structure);
 app.use("/book", book);
-
+app.use(
+  "/docs",
+  express.static(
+    path.join(__dirname, "..", "dist", "docs"),
+    { fallthrough: false }
+  )
+);
 export default app;
