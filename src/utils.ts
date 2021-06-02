@@ -1,4 +1,10 @@
-import { Response } from "express";
+import { Request, Router } from "express";
+
+import authorize from "./middleware/authorize";
+import loadResource, { FinderType } from "./middleware/loadResource";
+import authenticate from "./middleware/authenticate";
+
+import Policy from "./policies/base";
 
 export async function asyncReduce<X, Y>(
   xs : X[],
@@ -11,27 +17,12 @@ export async function asyncReduce<X, Y>(
   );
 }
 
-export async function guard<A>(
-  status: number, message : string,
-  resource : A | null, response : Response,
-  callback : (_arg0 : A) => Promise<Response>
-) {
-  if (resource) {
-    return callback(resource);
-  }
-  return response.status(status).send({ status, message });
+export function loadAndAuthorizeResource<A>(router : Router, policy : Policy<A>, finder : FinderType<A>) {
+  router.use(authenticate(policy));
+  router.use(loadResource(finder));
+  router.use(authorize(policy));
 }
 
-export async function guard404<A>(
-  resource : A | null, response : Response,
-  callback : (_arg0 : A) => Promise<Response>
-) {
-  return guard(404, "Not found", resource, response, callback);
-}
-
-export async function guard401<A>(
-  resource : A | null, response : Response,
-  callback : (_arg0 : A) => Promise<Response>
-) {
-  return guard(401, "Not authenticated", resource, response, callback);
+export interface ResourcefulRequest<A> extends Request {
+  resource? : A
 }
