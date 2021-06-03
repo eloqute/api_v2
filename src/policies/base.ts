@@ -1,6 +1,8 @@
-import { Express } from "express";
+import User from "../models/user";
 
-export default interface Policy<A> {
+interface Policy<A> {
   publiclyAccessible : boolean;
-  hasPermission(user? : Express.User, resource? : A ) : boolean;
+  hasPermission(user? : User, resource? : A) : boolean;
 }
+
+export default Policy;

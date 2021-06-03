@@ -1,10 +1,4 @@
-import { Request, Router } from "express";
-
-import authorize from "./middleware/authorize";
-import loadResource, { FinderType } from "./middleware/loadResource";
-import authenticate from "./middleware/authenticate";
-
-import Policy from "./policies/base";
+import { Request } from "express";
 
 export async function asyncReduce<X, Y>(
   xs : X[],
@@ -17,12 +11,8 @@ export async function asyncReduce<X, Y>(
   );
 }
 
-export function loadAndAuthorizeResource<A>(router : Router, policy : Policy<A>, finder : FinderType<A>) {
-  router.use(authenticate(policy));
-  router.use(loadResource(finder));
-  router.use(authorize(policy));
-}
-
 export interface ResourcefulRequest<A> extends Request {
   resource? : A
 }
+
+export type NextFunction<V> = (error?: Error | null) => V;

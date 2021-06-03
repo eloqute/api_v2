@@ -3,8 +3,8 @@ import {
   Table, Column, Model, BeforeSave, DataType
 } from "sequelize-typescript";
 
-@Table({ timestamps: true })
-export default class User extends Model {
+@Table({ timestamps: true, tableName: "Users" })
+class UserModel extends Model {
   @Column({ primaryKey: true, type: DataType.UUID, defaultValue: DataType.UUIDV4 })
   id! : string
 
@@ -29,7 +29,7 @@ export default class User extends Model {
   }
 
   @BeforeSave
-  static async setPassword(instance : User) {
+  static async setPassword(instance : UserModel) {
     const user = instance;
     if (user.password) {
       const salt = await bcrypt.genSalt();
@@ -38,3 +38,11 @@ export default class User extends Model {
     }
   }
 }
+
+declare global {
+  namespace Express {
+    interface User extends UserModel {}
+  }
+}
+
+export default UserModel;

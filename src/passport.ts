@@ -3,13 +3,7 @@ import { Strategy } from "passport-local";
 import { Error } from "./validators/base";
 
 import UserRepository from "./repositories/user";
-import UserModel from "./models/user";
-
-declare global {
-  namespace Express {
-    interface User extends UserModel {}
-  }
-}
+import User from "./models/user";
 
 declare module "passport-local" {
   interface IVerifyOptions extends Error {}
@@ -49,7 +43,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser(async (id : string, done) => {
-  const user = await UserModel.findOne({ where: { id } });
+  const user = await User.findOne({ where: { id } });
   if (user) {
     done(null, user);
   } else {
