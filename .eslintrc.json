@@ -12,13 +12,15 @@
     "sourceType": "module"
   },
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint", "import"
   ],
   "rules": {
     "quotes": ["error", "double"],
     "import/extensions": ["error", "never"],
     "comma-dangle": ["error", "never"],
     "no-unused-vars": "off",
+    "import/no-unresolved": "error",
+    "import/no-cycle": "off",
     "import/prefer-default-export": "off",
     "consistent-return": ["error",
       { "treatUndefinedAsUnspecified": false }
@@ -28,12 +30,12 @@
     ]
   },
   "settings": {
+     "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
     "import/resolver": {
-      "node": {
-        "extensions": [
-          ".js",
-          ".ts"
-        ]
+      "typescript": {
+        "alwaysTryTypes": true
       }
     }
   }
