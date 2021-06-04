@@ -11,6 +11,20 @@ export async function asyncReduce<X, Y>(
   );
 }
 
+export async function asyncMap<X, Y>(
+  xs : X[],
+  f : ((x : X) => Promise<Y>)
+) : Promise<Array<Y>> {
+  return asyncReduce(
+    xs,
+    async (ys : Y[], x : X) => {
+      const y = await f(x);
+      return [...ys, y];
+    },
+    [] as Y[]
+  );
+}
+
 export interface ResourcefulRequest<A> extends Request {
   resource? : A
 }

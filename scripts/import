@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+
+const booksDb = process.argv[2];
+const contentDb = process.argv[3];
+const productionDb = process.argv[4];
+
+if(!booksDb || !contentDb || !productionDb) {
+  console.log("USAGE: script/import $BOOKS_DB_URL $CONTENT_DB_URL $DATABASE_URL");
+  process.exit(1);
+} else {
+  console.log(`Books DB:     ${booksDb}`);
+  console.log(`Content DB:   ${contentDb}`);
+  console.log(`ProductionDB: ${productionDb}`)
+  console.log(`\nStarting import...`);
+  import("../dist/importers/library.js").then(function(Importer) {
+    const callback = () => { process.stdout.write(".") }
+    new Importer.default.default(booksDb, contentDb, productionDb).run(callback).then(function(books) {
+      console.log(`\nFinished! ${books.length} books imported successfully.`);
+      process.exit(0);
+    }).catch(function(err) {
+      console.log(`\nError running importer: ${err}.`);
+      console.log(err.stack);
+      process.exit(1);
+    });
+  }).catch(function(err){
+    console.log(`\nError running importer: ${err}.`);
+    console.log(err.stack);
+    process.exit(1);
+  });
+}
