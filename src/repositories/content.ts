@@ -6,28 +6,25 @@ import ModuleStructure from "../models/moduleStructure";
 import SectionStructure from "../models/sectionStructure";
 
 export default {
-  findByPublicationURLAndPath: (
-    publicationURL : string, sectionPosition : string,
-    modulePosition : string, contentType : string
+  findByBookAndContentStructure: (
+    book : Book, contentStructure : ContentStructure
   ) => ContentItem.findAll({
     include: [
-      {
-        model: Book,
-        where: { publicationURL }
-      },
+      Book,
       {
         model: ContentStructure,
-        include: [{
-          model: ModuleStructure,
-          where: { position: modulePosition },
-          include: [{
-            model: SectionStructure,
-            where: { position: sectionPosition }
-          }]
-        }],
-        where: { contentType }
+        include: [
+          {
+            model: ModuleStructure,
+            include: [SectionStructure]
+          }
+        ]
       }
     ],
+    where: {
+      bookId: book.id,
+      contentStructureId: contentStructure.id
+    },
     order: ["position"]
   })
 };
