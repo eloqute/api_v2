@@ -1,0 +1,98 @@
+[
+  {
+    "authorId": "3a73ca7b-4a58-591d-9458-0042d0e1860a",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "position": 0,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "efca0511-7ac9-5329-ad05-0167e36d0ead",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "position": 1,
+    "isTopicAuthor": false
+  },
+  {
+    "authorId": "3d3b330c-4da1-52bb-912d-1c6380270be2",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "position": 0,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "f707d6c3-cbec-50f8-b246-097d354068bb",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "position": 1,
+    "isTopicAuthor": false
+  },
+  {
+    "authorId": "5b5a16e8-842a-5ae0-a343-c526c13103de",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "position": 0,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "c1f1d269-21bf-57ec-8de8-9f57ac00df69",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "position": 1,
+    "isTopicAuthor": false
+  },
+  {
+    "authorId": "c3d16f46-e633-5823-abfb-5a5f9c611550",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "position": 0,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "090a5b53-0b30-5508-8329-2db949f2f0ca",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "position": 1,
+    "isTopicAuthor": false
+  },
+  {
+    "authorId": "e0b3fc70-8da4-589c-92cd-d5824067353f",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "position": 0,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "85125494-f143-5240-b0ba-df0d1367321f",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "position": 1,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "31614fc0-d3de-5719-8244-857f28658aa1",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "position": 2,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "f9ea2a08-23b9-5aa0-80bc-d835904c0bf2",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "position": 3,
+    "isTopicAuthor": false
+  },
+  {
+    "authorId": "bca64275-fe55-5161-85a0-dd396bce0222",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "position": 0,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "3dc39e7d-379b-5ce0-b5e7-d5488c328792",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "position": 1,
+    "isTopicAuthor": false
+  },
+  {
+    "authorId": "4a4fc79b-c0bf-5075-8b63-b71a24ce7330",
+    "bookId": "99b8cb43-2ab0-5093-8155-60c47998a6d7",
+    "position": 0,
+    "isTopicAuthor": true
+  },
+  {
+    "authorId": "05403997-f808-5b97-9973-7a363e65d2ca",
+    "bookId": "99b8cb43-2ab0-5093-8155-60c47998a6d7",
+    "position": 1,
+    "isTopicAuthor": false
+  }
+]

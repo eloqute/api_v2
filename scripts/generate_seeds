@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const productionDb = process.argv[2];
+
+import("../dist/generateSeeds.js").then(function(generator) {
+  generator.default.default(productionDb).then(() => {
+    console.log("FINISH");
+    process.exit(0);
+  }).catch(function(err){
+    console.log(err.stack);
+    process.exit(1);
+  });
+}).catch(function(err){
+  console.log(err.stack);
+  process.exit(1);
+});
