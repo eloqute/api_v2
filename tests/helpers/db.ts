@@ -27,6 +27,7 @@ async function sequelizeCommand(cmd : string) {
 export async function setup() {
   await db.drop({ logging: logger.debug.bind(logger) });
   await db.query("DROP TABLE IF EXISTS \"SequelizeMeta\"");
+  await db.query("DROP TABLE IF EXISTS \"SequelizeData\"");
   await sequelizeCommand("db:migrate");
   return sequelizeCommand("db:seed:all");
 }
