@@ -4,13 +4,12 @@ This is the content API which backs the Macat iLibrary, and also deals with user
 
 ## To get started with development
 
- - Make sure you've got node installed (I'm developing against 14.17.0 LTS at the time of writing), as well as a relational database compatible with [Sequelize](https://sequelize.org/) - sqlite will do fine in development.
+ - Make sure you've got node installed (I'm developing against 14.17.0 LTS at the time of writing), as well as Postgresql.
  - Check out this repo.
  - Run `npm install`
- - copy `.env.example` to `.env.development` and `.env.test` and fill in the values to taste (make sure you use a different database in each or your development database will be wiped every time you run the tests)
+ - copy `.env.example` to `.env.development` and `.env.test` and fill in the values to taste (make sure you use a different database in each or your development database will be wiped every time you run the tests.)
  - Run `npm run migrate` and `npm run seed` to prepare your database
  - Run `nmp run start` to start the server, as well as to watch for changes in the source code, recompile, test and lint.
-
 
  ## General guidelines for development
 
@@ -33,8 +32,13 @@ This is the content API which backs the Macat iLibrary, and also deals with user
  - `npx sequelize migration:generate --name NAME_FOR_YOUR_MIGRATION` to generate a new migration.
  - `npx sequelize seeder:generate --name NAME_FOR_YOUR_MIGRATION` to generate a new seed.
  - `scripts/import $BOOKS_DB_URL $CONTENT_DB_URL $DATABASE_URL` to import book content from a legacy API db dump
- - `scripts/generate_seeds $DATABASE_URL` to regenerate the dev/test seeds from a populated database
+ - `scripts/generate_seeds $DATABASE_URL` to regenerate the dev/test seeds from a populated database (you shoudn't need to do this unless we have to reimport the content in the future).
 
+## To deploy:
 
+- `git push heroku main`
+- you might need to `heroku run npm run migrate` and/or `heroku run npm run seed` if you've added migrations or seeds.
+
+To populate the production db from a legay DB dump you need to use `heroku config` to get the production $DATABASE_URL, then run `SSL_MODE=true scripts/import $BOOKS_DB_URL $CONTENT_DB_URL $PRODUCTION_DB_URL` *on your local machine* passing this database url. This way, we don't need to upload the sqlite files somewhere online for heroku to get at them. Note that you need to set the `SSL_MODE` environment variable!
 
  Any questions, ask Tim!

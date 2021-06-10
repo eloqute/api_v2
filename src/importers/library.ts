@@ -40,10 +40,14 @@ class LibraryImporter {
 
   productionDB : Sequelize;
 
-  constructor(booksDbUrl : string, contentDbUrl : string, productionDbUrl : string) {
+  constructor(
+    booksDbUrl : string, contentDbUrl : string,
+    productionDbUrl : string, sslMode = false
+  ) {
     this.booksDB = new Sequelize(booksDbUrl, { logging: false });
     this.contentDB = new Sequelize(contentDbUrl, { logging: false });
-    this.productionDB = new Sequelize(productionDbUrl, { logging: false });
+    const dialectOptions = sslMode ? { ssl: { require: true, rejectUnauthorized: false } } : { };
+    this.productionDB = new Sequelize(productionDbUrl, { dialectOptions, logging: false });
   }
 
   async run(callback : ((id : string, book : BookResult) => void) | undefined) {
