@@ -13,22 +13,24 @@ async function sequelizeCommand(cmd : string) {
     const result = await exec(command);
     logLines(logger.debug, result.stdout);
     logLines(logger.debug, result.stderr);
+    return result;
   } catch (error) {
     logger.info("Error IGNORED running sequelize command: ");
     logger.info(command);
     logger.info("Error message logged to debug log.");
     logLines(logger.debug, error.stdout);
     logLines(logger.debug, error.stderr);
+    return Promise.resolve(null);
   }
 }
 
 export async function setup() {
   await db.drop({ logging: logger.debug.bind(logger) });
-  await db.query("DROP TABLE IF EXISTS SequelizeMeta");
+  await db.query("DROP TABLE IF EXISTS \"SequelizeMeta\"");
   await sequelizeCommand("db:migrate");
-  await sequelizeCommand("db:seed:all");
+  return sequelizeCommand("db:seed:all");
 }
 
 export async function teardown() {
-  await db.close();
+  return db.close();
 }
