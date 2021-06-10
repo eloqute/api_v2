@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 
 const productionDb = process.argv[2];
+if(!productionDb) {
+  console.log("USAGE: scripts/generate_seeds $DATABASE_URL");
+  process.exit(1);
+}
 
 import("../dist/generateSeeds.js").then(function(generator) {
   generator.default.default(productionDb).then(() => {

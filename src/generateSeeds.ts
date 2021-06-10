@@ -16,7 +16,7 @@ const generate = async (dbUrl : string) => {
     INNER JOIN "Books"
     ON "Books".id = "BookAuthors"."bookId" WHERE "ISBN" in (:isbns)
   `, { type: QueryTypes.SELECT, replacements: { isbns: ISBN_WHITE_LIST } });
-  await fs.writeFileSync("seeders/data/booksAuthors.json", JSON.stringify(bookAuthors, null, 2));
+  await fs.writeFileSync("seeders/data/bookAuthors.json", JSON.stringify(bookAuthors, null, 2));
 
   const authors = await db.query(`
     SELECT "Authors".id, "Authors".name, "Authors".biography, "Authors"."isAlive" from "BookAuthors"

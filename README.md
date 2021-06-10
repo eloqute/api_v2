@@ -31,5 +31,10 @@ This is the content API which backs the Macat iLibrary, and also deals with user
  - `npm run build` - `test`, `lint` and `compile` in order, stopping on failure.
  - `npm start` - run the develpment server, and watch for changes - running tests, linter, and compiler when they're detected.
  - `npx sequelize migration:generate --name NAME_FOR_YOUR_MIGRATION` to generate a new migration.
+ - `npx sequelize seeder:generate --name NAME_FOR_YOUR_MIGRATION` to generate a new seed.
+ - `scripts/import $BOOKS_DB_URL $CONTENT_DB_URL $DATABASE_URL` to import book content from a legacy API db dump
+ - `scripts/generate_seeds $DATABASE_URL` to regenerate the dev/test seeds from a populated database
+
+
 
  Any questions, ask Tim!
