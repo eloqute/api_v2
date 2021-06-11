@@ -55,7 +55,7 @@ describe("/books resources", () => {
           password: "password123",
           passwordConfirmation: "password123"
         });
-        await ses!.post("/sessions").send({
+        await ses!.post("/session").send({
           email: "test@example.com",
           password: "password123"
         });
