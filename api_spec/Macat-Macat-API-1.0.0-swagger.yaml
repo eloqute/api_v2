@@ -53,7 +53,7 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/ValidationError"
-  /login:
+  /session:
     post:
       summary: Creates a new session for a registered user
       tags:
@@ -80,9 +80,9 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/User"
-          headers: 
+          headers:
             Set-Cookie:
-              schema: 
+              schema:
                 type: string
                 example: connect.sid=s:ZAnz-hwGsu6uukVQZCAFudBuxr4upAWN.HGObjQYKz9gOpV8oyYYdukG6cPaGQVH531wi/oXR6ro
         "401":
@@ -91,30 +91,52 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
-  /session:
-      get:
-        summary: Creates a new session for a registered user
-        tags:
-          - open
-        parameters :
-          - name: connect.sid
-            in: cookie
-            required: true
-            schema:
-              type: string
-        responses:
-          "201":
-            description: The user is successfully retrieved, we return their id and role
-            content:
-              "application/json":
-                schema:
-                  $ref: "#/components/schemas/User"
-          "401":
-            description: The user details provided were not valid
-            content:
-              "application/json":
-                schema:
-                  $ref: "#/components/schemas/Error"
+    get:
+      summary: Displays the current session if it exists
+      tags:
+        - open
+      parameters :
+        - name: connect.sid
+          in: cookie
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: The user is successfully retrieved, we return their id and role
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/User"
+        "404":
+          description: No session exists for the current user
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+    delete:
+      summary: Ends the current session if it exists
+      tags:
+        - open
+      parameters :
+        - name: connect.sid
+          in: cookie
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: The session is succesfully ended
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Message"
+        "404":
+          description: No session exists for the current user
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
   /structure:
     get:
       tags:
@@ -236,7 +258,7 @@ components:
       required:
         - field
         - message
-    Error:
+    Message:
       properties:
         status:
           type: integer
@@ -247,6 +269,9 @@ components:
       required:
         - status
         - message
+    Error:
+      allOf:
+        - $ref: "#/components/schemas/Message"
     ValidationError:
       allOf:
         - $ref: "#/components/schemas/Error"
