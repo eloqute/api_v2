@@ -173,6 +173,68 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
+  "/book/{publicationURL}/glossary":
+    get:
+      tags:
+        - closed
+      parameters:
+        - name: publicationURL
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: The books glossary is succesfully returned
+          content:
+            "application/json":
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/GlossaryItem"
+        "401":
+          description: The user is not logged in
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: the book does not exist
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+  "/book/{publicationURL}/bibliography":
+    get:
+      tags:
+        - closed
+      parameters:
+        - name: publicationURL
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: The book's bibliography is succesfully returned
+          content:
+            "application/json":
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/BibliographyItem"
+        "401":
+          description: The user is not logged in
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: the book does not exist
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
   "/book/{publicationURL}/content/{sectionNum}/{moduleNum}/{contentType}":
     get:
       tags:
@@ -486,4 +548,46 @@ components:
         - module
         - position
         - textIdentifier
+        - content
+    GlossaryItem:
+      additionalProperties: false
+      type: object
+      properties:
+        position:
+          type: integer
+          example: 0
+        type:
+          type: string
+          example: "Term"
+        textIdentifier:
+          type: string
+          example: "Agency"
+        label:
+          type: string
+          example: "Agency:"
+        synopsis:
+          type: string
+          example: "philosophical term for the capacity to act with free will."
+      required:
+        - position
+        - type
+        - textIdentifier
+        - label
+        - synopsis
+    BibliographyItem:
+      additionalProperties: false
+      type: object
+      properties:
+        position:
+          type: integer
+          example: 0
+        publication:
+          type: string
+          example: "The Politics of Immigration in Multi-Level States"
+        content:
+          type: string
+          example: "Hepburn, Eve, and Ricard Zapata-Barrero, eds. <i>The Politics of Immigration in Multi-Level States</i>. London: Palgrave, 2014."
+      required:
+        - position
+        - publication
         - content
