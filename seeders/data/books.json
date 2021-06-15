@@ -1,13 +1,5 @@
 [
   {
-    "id": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
-    "publicationURL": "phenomenology-of-spirit-analysis",
-    "title": "The Phenomenology of Spirit",
-    "ISBN": "9781912127184",
-    "synopsis": "<p>In his 1807 work <i>Phenomenology of Spirit</i>, G. W. F. Hegel introduced the world to his philosophical system. His most influential work&mdash;and the culmination of the German Idealist movement begun in the late eighteenth century as a response to the works of Immanuel Kant&mdash;the book remains one of the undisputed classics of Western thought.</p>\n\n<p>The first major work of Western philosophy to introduce the idea that the truths of philosophy are inseparable not only from the history of philosophy itself, but also from the histories and politics of the societies in which they arise, <i>Phenomenology</i> continues to inspire prominent thinkers in its field. Yet its impact transcends the narrow field of professional philosophy. Its developmental account of self-consciousness and social relations, along with its themes of mutual recognition and the struggle between master and slave, have influenced academic disciplines ranging from psychoanalysis to sociology. Through its direct impact on Karl Marx and his intellectual successors, it has also become a key text for political movements throughout the nineteenth and twentieth centuries.</p>\n",
-    "overview": "Philosophy cannot rely on reason alone—it must account for consciousness, too. Perception, knowledge, ethics, and society are examined in this extraordinarily influential text in the canon of Western thought."
-  },
-  {
     "id": "04f2069c-a72c-545d-9834-7b8fc56c6141",
     "publicationURL": "metaphysics-analysis",
     "title": "Metaphysics",
@@ -16,20 +8,28 @@
     "overview": "In one of the most influential texts in all Western philosophy, Aristotle discusses the very nature of “being” itself."
   },
   {
-    "id": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
-    "publicationURL": "nations-and-nationalism-analysis",
-    "title": "Nations and Nationalism",
-    "ISBN": "9781912127306",
-    "synopsis": "<p>In his 1983 book <em>Nations and Nationalism</em> British Czech intellectual Ernest Gellner puts forward a theory of nationalism, explaining that the concept of nation is not, in fact, an ancient notion as we might first imagine. Rather, it is a modern idea born out of the seismic social and cultural shifts that industrialization brought to the Western world. Industrial society needed an educated workforce sharing the same culture and the same language&mdash;something much less important in the agricultural age. Gellner shows how the concept of nationalism&mdash;a political concept in which state and cultural boundaries match&mdash;follows from this new idea of nation. Gellner was well aware that &ldquo;the idea of a man without a nation seems to impose a &hellip; strain on the modern imagination.&rdquo; But having witnessed firsthand the catastrophic effects of excessive nationalism&mdash;Gellner was a Jew who escaped from Czechoslovakia in 1939 after Hitler invaded&mdash;he was only too aware of the dangers of believing nationalism was something all human beings should embrace.</p>\n",
-    "overview": "There is nothing ancient about the nation-state, argues Gellner. Nations, and in turn nationalism, are a product of the cultural and social adjustments required when human societies shift from an agricultural to an industrial economy."
-  },
-  {
     "id": "55641d6f-c066-5d86-963f-17e7453f3279",
     "publicationURL": "the-sacred-wood-analysis",
     "title": "The Sacred Wood: Essays on Poetry and Criticism",
     "ISBN": "9781912127412",
     "synopsis": "<p>Famous as an accomplished poet, T. S. Eliot was also the author of some highly important literary criticism. First published in 1920, <i>The Sacred Wood</i> collects 13 of Eliot&rsquo;s early critical essays. He intended them to be a statement of his principles for literary achievement. These concepts&mdash;and the works that Eliot wrote after setting out his principles&mdash;inspired many major poets of the twentieth century. Some wanted to imitate him, while many others looked to disagree with him. But few since can be said to have fully escaped Eliot&rsquo;s influence.</p>\n\n<p>In these essays, Eliot proposes rules for how a poet should relate to a poem and to the poetic tradition. His twin concepts of &ldquo;impersonality&rdquo; and &ldquo;tradition&rdquo; have had a lasting impact. <i>The Sacred Wood&rsquo;s </i>arguments fueled conversations in the literary world for several decades, and established Eliot&rsquo;s reputation as a fine literary critic. Indeed, many consider him to be one of the greatest of the twentieth century. <i>The Sacred Wood</i> shows why.</p>\n",
     "overview": "“How should a poet relate to a poem? And what is tradition?” Critical essays from a major poet, and a statement of guiding principles for literary achievement."
+  },
+  {
+    "id": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "publicationURL": "phenomenology-of-spirit-analysis",
+    "title": "The Phenomenology of Spirit",
+    "ISBN": "9781912127184",
+    "synopsis": "<p>In his 1807 work <i>Phenomenology of Spirit</i>, G. W. F. Hegel introduced the world to his philosophical system. His most influential work&mdash;and the culmination of the German Idealist movement begun in the late eighteenth century as a response to the works of Immanuel Kant&mdash;the book remains one of the undisputed classics of Western thought.</p>\n\n<p>The first major work of Western philosophy to introduce the idea that the truths of philosophy are inseparable not only from the history of philosophy itself, but also from the histories and politics of the societies in which they arise, <i>Phenomenology</i> continues to inspire prominent thinkers in its field. Yet its impact transcends the narrow field of professional philosophy. Its developmental account of self-consciousness and social relations, along with its themes of mutual recognition and the struggle between master and slave, have influenced academic disciplines ranging from psychoanalysis to sociology. Through its direct impact on Karl Marx and his intellectual successors, it has also become a key text for political movements throughout the nineteenth and twentieth centuries.</p>\n",
+    "overview": "Philosophy cannot rely on reason alone—it must account for consciousness, too. Perception, knowledge, ethics, and society are examined in this extraordinarily influential text in the canon of Western thought."
+  },
+  {
+    "id": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "publicationURL": "nations-and-nationalism-analysis",
+    "title": "Nations and Nationalism",
+    "ISBN": "9781912127306",
+    "synopsis": "<p>In his 1983 book <em>Nations and Nationalism</em> British Czech intellectual Ernest Gellner puts forward a theory of nationalism, explaining that the concept of nation is not, in fact, an ancient notion as we might first imagine. Rather, it is a modern idea born out of the seismic social and cultural shifts that industrialization brought to the Western world. Industrial society needed an educated workforce sharing the same culture and the same language&mdash;something much less important in the agricultural age. Gellner shows how the concept of nationalism&mdash;a political concept in which state and cultural boundaries match&mdash;follows from this new idea of nation. Gellner was well aware that &ldquo;the idea of a man without a nation seems to impose a &hellip; strain on the modern imagination.&rdquo; But having witnessed firsthand the catastrophic effects of excessive nationalism&mdash;Gellner was a Jew who escaped from Czechoslovakia in 1939 after Hitler invaded&mdash;he was only too aware of the dangers of believing nationalism was something all human beings should embrace.</p>\n",
+    "overview": "There is nothing ancient about the nation-state, argues Gellner. Nations, and in turn nationalism, are a product of the cultural and social adjustments required when human societies shift from an agricultural to an industrial economy."
   },
   {
     "id": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
