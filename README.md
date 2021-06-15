@@ -16,7 +16,12 @@ This is the content API which backs the Macat iLibrary, and also deals with user
  - An OpenAPI spec for the project lives in `api_spec/`, this is the canonical version. Any new feature requests should start with a change to this (in a PR). This is used to generate acceptance tests which live in `test/acceptance`
  - source code in in `src/`, builds go in `dist/`. DB migrations and seeds go in `migrations/` and `seeders/` respectively.
  - `src/index.js` is the main entry point, this loads the app frmo `app.js` and runs it. `app.js` basically sandwiches together routes and middleware from elsewhere.
- - each RESTful route has its own router in `src/routes`, these hand off to `models` and `validators` where needed, and ideally should be kept as thin as possible.
+ - each RESTful route has its own router in `src/routes`, these hand off to other objects to do the majority of their work, and should be kept as thin as possible. The other types of objects you will encounter are listed below -  a quick skim of the existing routes (`user` and `book` in particular should give you an idea of how they're used).
+   - `models` which encapsulate an entity and its relationships it's representation as a response in the API, and it's Sequelize ORM representation.
+   - `repositories` which encapsulate queries for semantically meaningful collections of models
+   - `validators` which perform validation on user input and provide useful error messages if needed
+   - `middleware` which sits in the express request chain and performs some action before yielding to the `route`. The most useful of these is `loadAndAuthorizeResource` which is responsible for loading the requested resource and assuring that the currently logged in user (if there is one) is authorized to access it, according to the provided `policy`.
+
  - We're currently running ESLint with a slightly tweaked AirBNB style guide to enforce consistent coding style. I go back and forth on the value of these things so maybe it might disappear at some point, although currently I think the value outweighs the pain. If any rules in particular get annoying, we can disable them.
 
  ## Other useful commands:
@@ -39,6 +44,6 @@ This is the content API which backs the Macat iLibrary, and also deals with user
 - `git push heroku main`
 - you might need to `heroku run npm run migrate` and/or `heroku run npm run seed` if you've added migrations or seeds.
 
-To populate the production db from a legay DB dump you need to use `heroku config` to get the production $DATABASE_URL, then run `SSL_MODE=true scripts/import $BOOKS_DB_URL $CONTENT_DB_URL $PRODUCTION_DB_URL` *on your local machine* passing this database url. This way, we don't need to upload the sqlite files somewhere online for heroku to get at them. Note that you need to set the `SSL_MODE` environment variable!
+To populate the production db from a legay DB dump you need to use `heroku config` to get the production $DATABASE_URL, then run `export SSL_MODE=true; scripts/import $BOOKS_DB_URL $CONTENT_DB_URL $PRODUCTION_DB_URL` *on your local machine* passing this database url. This way, we don't need to upload the sqlite files somewhere online for heroku to get at them. Note that you need to set the `SSL_MODE` environment variable!
 
  Any questions, ask Tim!
