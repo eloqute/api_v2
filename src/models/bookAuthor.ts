@@ -9,11 +9,11 @@ import Author from "./author";
 export default class BookAuthor extends Model {
   @ForeignKey(() => Book)
   @Column
-  bookId!: number
+  bookId!: string
 
   @ForeignKey(() => Author)
   @Column
-  authorId! : number
+  authorId! : string
 
   @BelongsTo(() => Author)
   author! : Author

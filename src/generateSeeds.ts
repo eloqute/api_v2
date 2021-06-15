@@ -42,8 +42,15 @@ const generate = async (dbUrl : string) => {
     ORDER BY id ASC
   `, { type: QueryTypes.SELECT, replacements: { isbns: ISBN_WHITE_LIST } });
   fs.writeFileSync("seeders/data/contentItems.json", JSON.stringify(contentItems, null, 2));
+
+  const notes = await db.query(`
+    SELECT "Notes".id, "Notes".position, "Notes".content,
+       "Notes"."textIdentifier", "Notes"."bookId", "Notes"."moduleId" from "Notes"
+    INNER JOIN "Books"
+    ON "Notes"."bookId" = "Books".id WHERE "ISBN" in (:isbns)
+    ORDER BY id ASC
   `, { type: QueryTypes.SELECT, replacements: { isbns: ISBN_WHITE_LIST } });
-  return fs.writeFileSync("seeders/data/contentItems.json", JSON.stringify(contentItems, null, 2));
+  fs.writeFileSync("seeders/data/notes.json", JSON.stringify(notes, null, 2));
 };
 
 export default generate;

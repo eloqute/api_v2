@@ -220,6 +220,48 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
+  "/book/{publicationURL}/content/{sectionNum}/{moduleNum}/Notes":
+    get:
+      tags:
+        - paywalled
+      parameters:
+        - name: publicationURL
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: sectionNum
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: moduleNum
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: The content items for this section / module / type are returned
+          content:
+            "application/json":
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Note"
+
+        "401":
+          description: The user is not logged in
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: The content item does not exist
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
 components:
   schemas:
     User:
@@ -415,4 +457,33 @@ components:
         - module
         - position
         - contentType
+        - content
+    Note:
+      additionalProperties: false
+      type: object
+      properties:
+        ISBN:
+          type: string
+          example: "9781912453085"
+        section:
+          type: integer
+          example: 0
+        module:
+          type: integer
+          example: 0
+        position:
+          type: integer
+          example: 0
+        textIdentifier:
+          type: string
+          example: "m-en-1"
+        content:
+          type: string
+          example: Michel Foucault (1926-1984) was a French philosopher and historian.
+      required:
+        - ISBN
+        - section
+        - module
+        - position
+        - textIdentifier
         - content

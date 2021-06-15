@@ -33,6 +33,13 @@ type ContentItemResult = {
   content : string
 }
 
+type NoteResult = {
+  moduleIndex : number,
+  position : number,
+  textIdentifier : string,
+  content : string,
+}
+
 class LibraryImporter {
   booksDB : Sequelize;
 
@@ -87,6 +94,7 @@ class LibraryImporter {
     });
     await this.importBookAuthors(id, book);
     await this.importBookContent(id, book);
+    await this.importBookNotes(id, book);
     return id;
   }
 
@@ -204,6 +212,55 @@ class LibraryImporter {
     `, {
       replacements: {
         id, position, content, bookId, contentStructureId
+      },
+      type: QueryTypes.UPSERT
+    });
+  }
+
+  async importBookNotes(id : string, book : BookResult) {
+    const { ISBN } = book;
+    const notes = await this.contentDB.query(`
+      SELECT module as moduleIndex, orderNum as position,
+        "TextIdentifier" as "textIdentifier", "Content" as content
+      FROM "Notes"
+      WHERE ISBN = :ISBN
+    `, {
+      replacements: { ISBN }, type: QueryTypes.SELECT
+    });
+    await asyncMap(notes, (note) => this.importNote(id, note as NoteResult));
+  }
+
+  async importNote(bookId : string, note : NoteResult) {
+    const {
+      moduleIndex, position, textIdentifier, content
+    } = note;
+    const modulePosition = Math.max(0, (moduleIndex - 1) % 4);
+    const sectionPosition = Math.floor((moduleIndex - 1) / 4) + 1;
+    const moduleStructure = await this.productionDB.query(`
+      SELECT "ModuleStructures".id
+      FROM "ModuleStructures"
+      INNER JOIN "SectionStructures"
+        ON "ModuleStructures"."sectionId" = "SectionStructures".id
+      WHERE "ModuleStructures".position = :modulePosition
+        AND "SectionStructures".position = :sectionPosition
+      LIMIT 1
+    `, {
+      replacements: { sectionPosition, modulePosition },
+      type: QueryTypes.SELECT
+    }) as Array<{id : string}>;
+    const moduleId = moduleStructure[0].id;
+    const id = uuidFromString(`${bookId}-${sectionPosition}-${modulePosition}-${position}`);
+    await this.productionDB.query(`
+      INSERT INTO "Notes" (id, position, content, "textIdentifier", "bookId", "moduleId")
+      VALUES (:id, :position, :content, :textIdentifier, :bookId, :moduleId)
+      ON CONFLICT (id)
+      DO UPDATE
+      SET position = :position, content = :content, "textIdentifier" = :textIdentifier,
+      "bookId" = :bookId, "moduleId" = :moduleId
+      WHERE "Notes".id = :id
+    `, {
+      replacements: {
+        id, position, content, bookId, textIdentifier, moduleId
       },
       type: QueryTypes.UPSERT
     });

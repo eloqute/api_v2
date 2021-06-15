@@ -4,7 +4,7 @@ import ModuleStructure from "../models/moduleStructure";
 import SectionStructure from "../models/sectionStructure";
 
 export default {
-  findByPath: (
+  findContentStructure: (
     sectionPosition : string,
     modulePosition : string,
     contentType : string
@@ -18,5 +18,16 @@ export default {
       }]
     }],
     where: { contentType }
+  }),
+
+  findModuleStructure: (
+    sectionPosition : string,
+    position : string
+  ) => ModuleStructure.findOne({
+    include: [{
+      model: SectionStructure,
+      where: { position: sectionPosition }
+    }],
+    where: { position }
   })
 };

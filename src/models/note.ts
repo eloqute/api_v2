@@ -3,10 +3,10 @@ import {
 } from "sequelize-typescript";
 
 import Book from "./book";
-import ContentStructure from "./contentStructure";
+import ModuleStructure from "./moduleStructure";
 
 @Table({ timestamps: true })
-export default class ContentItem extends Model {
+export default class Note extends Model {
   @Column({ primaryKey: true, type: DataType.UUID, defaultValue: DataType.UUIDV4 })
   id! : string
 
@@ -14,18 +14,21 @@ export default class ContentItem extends Model {
   @Column
   bookId!: string
 
-  @ForeignKey(() => ContentStructure)
+  @ForeignKey(() => ModuleStructure)
   @Column
-  contentStructureId! : string
+  moduleId! : string
 
   @BelongsTo(() => Book)
   book! : Book
 
-  @BelongsTo(() => ContentStructure)
-  contentStructure! : ContentStructure
+  @BelongsTo(() => ModuleStructure)
+  module! : ModuleStructure
 
   @Column
   position! : number
+
+  @Column
+  textIdentifier! : string
 
   @Column({ type: DataType.TEXT })
   content! : string
@@ -33,10 +36,10 @@ export default class ContentItem extends Model {
   asResponse() {
     return {
       ISBN: this.book.ISBN,
-      section: this.contentStructure.module.section.position,
-      module: this.contentStructure.module.position,
+      section: this.module.section.position,
+      module: this.module.position,
       position: this.position,
-      contentType: this.contentStructure.contentType,
+      textIdentifier: this.textIdentifier,
       content: this.content
     };
   }
