@@ -40,6 +40,22 @@ type NoteResult = {
   content : string,
 }
 
+type GlossaryItemResult = {
+  ISBN : string,
+  position : number,
+  type : string,
+  textIdentifier : string,
+  label : string,
+  synopsis : string
+}
+
+type BibliographyItemResult = {
+  ISBN : string,
+  position : number,
+  publication : string,
+  content : string
+}
+
 class LibraryImporter {
   booksDB : Sequelize;
 
@@ -95,6 +111,8 @@ class LibraryImporter {
     await this.importBookAuthors(id, book);
     await this.importBookContent(id, book);
     await this.importBookNotes(id, book);
+    await this.importBookGlossary(id, book);
+    await this.importBookBibliography(id, book);
     return id;
   }
 
@@ -261,6 +279,81 @@ class LibraryImporter {
     `, {
       replacements: {
         id, position, content, bookId, textIdentifier, moduleId
+      },
+      type: QueryTypes.UPSERT
+    });
+  }
+
+  async importBookBibliography(id : string, book : BookResult) {
+    const { ISBN } = book;
+    const bibliographyItems = await this.contentDB.query(`
+      SELECT "orderNum" as position, publication as publication,
+        content as content
+      FROM "Bibliography"
+      WHERE ISBN = :ISBN
+    `, {
+      replacements: { ISBN }, type: QueryTypes.SELECT
+    });
+    await asyncMap(
+      bibliographyItems,
+      (bi) => this.importBibliographyItem(id, bi as BibliographyItemResult)
+    );
+  }
+
+  async importBibliographyItem(bookId : string, bibliographyItem : BibliographyItemResult) {
+    const {
+      position, publication, content
+    } = bibliographyItem;
+    const id = uuidFromString(`${bookId}-bibliography-${position}`);
+    await this.productionDB.query(`
+      INSERT INTO "BibliographyItems" (id, "bookId", position, publication, content)
+      VALUES (:id, :bookId, :position, :publication, :content)
+      ON CONFLICT(id)
+      DO UPDATE
+      SET position = :position, publication = :publication,
+        content = :content
+      WHERE "BibliographyItems".id = :id
+    `, {
+      replacements: {
+        id, bookId, position, publication, content
+      },
+      type: QueryTypes.UPSERT
+    });
+  }
+
+  async importBookGlossary(id : string, book : BookResult) {
+    const { ISBN } = book;
+    const glossaryItems = await this.contentDB.query(`
+      SELECT "orderNum" as position, type as type,
+        "textIdentifier" as "textIdentifier",
+        label as label, synopsis as synopsis
+      FROM "Glossary"
+      WHERE ISBN = :ISBN
+    `, {
+      replacements: { ISBN }, type: QueryTypes.SELECT
+    });
+    await asyncMap(glossaryItems, (gi) => this.importGlossaryItem(id, gi as GlossaryItemResult));
+  }
+
+  async importGlossaryItem(bookId : string, glossaryItem : GlossaryItemResult) {
+    const {
+      position, type, textIdentifier, label, synopsis
+    } = glossaryItem;
+    const id = uuidFromString(`${bookId}-glossary-${position}`);
+    await this.productionDB.query(`
+      INSERT INTO "GlossaryItems" (id, "bookId", position, type,
+        "textIdentifier", label, synopsis)
+      VALUES (:id, :bookId, :position, :type,
+        :textIdentifier, :label, :synopsis)
+      ON CONFLICT(id)
+      DO UPDATE
+      SET position = :position, type = :type,
+        "textIdentifier" = :textIdentifier,
+        label = :label, synopsis = :synopsis
+      WHERE "GlossaryItems".id = :id
+    `, {
+      replacements: {
+        id, bookId, position, type, textIdentifier, label, synopsis
       },
       type: QueryTypes.UPSERT
     });

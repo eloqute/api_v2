@@ -1,0 +1,3260 @@
+[
+  {
+    "id": "000e8e61-559c-58d8-8bf5-8a56f2afb51e",
+    "position": 10,
+    "type": "Person",
+    "textIdentifier": "EmileDurkheim",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Emile Durkheim",
+    "synopsis": " <b>(1858–1917)</b> is generally considered the founder of the French sociological tradition. He is best known for his works on religion, suicide, and the division of labor."
+  },
+  {
+    "id": "00b54519-9176-5687-80be-187eb750b868",
+    "position": 52,
+    "type": "Person",
+    "textIdentifier": "JanRüger",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Jan Rüger",
+    "synopsis": " is reader in modern history at Birkbeck and an authority on the industrial competition between Britain and Germany in the nineteenth century.<b></b>"
+  },
+  {
+    "id": "00e5f574-ec14-5806-bdf0-4280ecc8c327",
+    "position": 20,
+    "type": "Person",
+    "textIdentifier": "EugeneGenovese",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Eugene Genovese",
+    "synopsis": " (1930–2012) was the foremost Marxist historian of slavery in the American south, using Marxist methods to understand slave rebellion and resistance. He later moved away from left-wing politics."
+  },
+  {
+    "id": "00ec081c-82a2-5d24-afd5-3838410499f3",
+    "position": 43,
+    "type": "Term",
+    "textIdentifier": "TheoryofForms",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Theory of Forms:",
+    "synopsis": " a theory that states that for every class of properties there is a universal form—an eternal, incorporeal entity that exists outside the actual world—which is both a perfect instance of that property and a cause of the existence of that property. For instance, human beings share the common property of being human in virtue of “partaking” in the Form of a Human Being. "
+  },
+  {
+    "id": "022ef0c8-3ee4-509c-a87c-3d23e25ee7de",
+    "position": 4,
+    "type": "Person",
+    "textIdentifier": "AsefBayat",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Asef Bayat",
+    "synopsis": " is a sociologist who teaches at the University of Illinois at Urbana-Champaign. He specializes in the study of social movements, urban life, and Islam in the Middle East."
+  },
+  {
+    "id": "0268989c-5de6-5e67-b6c2-faef0978d10d",
+    "position": 0,
+    "type": "Person",
+    "textIdentifier": "JohnAdams",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "John Adams",
+    "synopsis": " (1735–1826) was the second president of the United States. He played a central role in the American Revolution, persuading Congress to declare independence from Great Britain and helping to write the Declaration of Independence."
+  },
+  {
+    "id": "02c31ffa-b47f-5878-906f-b5a914fa76b4",
+    "position": 21,
+    "type": "Person",
+    "textIdentifier": "PhilipMassinger",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Philip Massinger",
+    "synopsis": " (1583–1640) was an English dramatist, who worked shortly after Shakespeare and thus is often viewed in light of Shakespeare’s influence and legacy. His work is noted for its political insight and the memorable characters found in such plays as <em>A New Way to Pay Old Debts</em> (1625), <em>The City Madam</em> (1621–3), and <em>The Roman Actor</em> (1626)."
+  },
+  {
+    "id": "0309dd9a-09c3-5034-b4ce-787b90859109",
+    "position": 26,
+    "type": "Person",
+    "textIdentifier": "CatherineHall",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Catherine Hall",
+    "synopsis": " (b. 1946) is professor of history at University of London and a pioneer of feminist history and the history of the British Empire."
+  },
+  {
+    "id": "03af6c8e-c811-55fe-b1d9-48c9f3d06858",
+    "position": 37,
+    "type": "Person",
+    "textIdentifier": "TerryPinkard",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Terry Pinkard (b. 1953) ",
+    "synopsis": "is a professor at Georgetown University. He has produced four books on Hegel’s work to date. "
+  },
+  {
+    "id": "03d48580-bf4b-5921-a2d6-656cb469acea",
+    "position": 4,
+    "type": "Person",
+    "textIdentifier": "TonyBlair",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Tony Blair ",
+    "synopsis": "(b. 1953) is a former leader of the Labour Party (1994–2007) and British Prime Minister (1997–2007). An architect of “New Labour,” he steered the party away from its socialist past."
+  },
+  {
+    "id": "0453b0a5-3914-58d3-8f9f-fe0a8603a40b",
+    "position": 31,
+    "type": "Person",
+    "textIdentifier": "KarlMarx",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Karl Marx (1818–83)",
+    "synopsis": " was a German economist and philosopher, and the preeminent theorist of communism; his major work is <i>Das Kapital</i> (1867–94). The young Marx was a “young Hegelian” thinker."
+  },
+  {
+    "id": "049156bc-4617-5a0b-8b63-531a372770ce",
+    "position": 11,
+    "type": "Person",
+    "textIdentifier": "DavidBostock",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "David Bostock (b. 1936) ",
+    "synopsis": "is an emeritus professor of philosophy at the University of Oxford. He has published many works on ancient philosophy, especially Plato and Aristotle. "
+  },
+  {
+    "id": "054dab56-170f-530b-b153-9750ee11dcd7",
+    "position": 64,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Postulates of pure practical reason:</strong> the idea of postulates of pure practical reason features most prominently in Immanuel Kant’s 1788 text <em>Critique of Practical Reason</em>. Practical postulates are theoretically improvable yet practically necessary presuppositions of moral action. Kant claims there are three postulates: freedom of the will, immortality of the soul, and the existence of God."
+  },
+  {
+    "id": "05e77868-fa4b-5a2e-b781-296c29b5a0ca",
+    "position": 18,
+    "type": "Person",
+    "textIdentifier": "RussellKirk",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Russell Kirk",
+    "synopsis": " (1918–1994) was an American political, social, and literary critic, as well as a historian and theorist known for his contributions to the founding of twentieth–century intellectual conservatism."
+  },
+  {
+    "id": "069b20f0-d74f-5280-8b0d-8cb9aad61e89",
+    "position": 47,
+    "type": "Person",
+    "textIdentifier": "SirMichaelMoisseyPostan",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Sir Michael Moissey Postan",
+    "synopsis": " (1899–1981) was a prominent British economic historian who researched medieval economic history.<b></b>"
+  },
+  {
+    "id": "06caa2b1-bd0d-5c92-8c15-a0afa5639596",
+    "position": 19,
+    "type": "Person",
+    "textIdentifier": "JohannGottfriedHerder",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Johann Gottfried Herder",
+    "synopsis": " <b>(1744–1803)</b> was a German philosopher perhaps best known for his writings on the origins of human language and German nationalism."
+  },
+  {
+    "id": "0835dd85-45ef-58c9-87c2-7d5b2e11e954",
+    "position": 34,
+    "type": "Person",
+    "textIdentifier": "ColinJones",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Colin Jones",
+    "synopsis": " (b. 1947) is professor of history at Queen Mary College at the University of London and is a much-published cultural historian of France."
+  },
+  {
+    "id": "09adf781-aa04-54f6-a3d0-7a6c70353e2a",
+    "position": 21,
+    "type": "Person",
+    "textIdentifier": "AdolfHitler",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Adolf Hitler",
+    "synopsis": " <b>(1889–1945)</b> was the leader of the Nazi party in Germany. Elected chancellor of Germany in 1933, he became a dictator and styled himself the Führer from 1934 until his suicide in 1945. Under Hitler’s leadership, the German military invaded several neighboring countries, starting World War II. His policies also resulted in the systematic genocide of nearly 6 million Jews, homosexuals, ethnic minorities, and other citizens considered “undesirable.”"
+  },
+  {
+    "id": "0abcfcb0-050e-52cc-b518-f12cd59805c1",
+    "position": 33,
+    "type": "Person",
+    "textIdentifier": "MichaelMann",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Michael Mann",
+    "synopsis": " <b>(</b><b>b. </b><b>1942)</b> is a British sociologist teaching at the University of California at Los Angeles. His work focuses on state power and bureaucratization in the twentieth century."
+  },
+  {
+    "id": "0ac957b6-83c7-5b08-956b-831bae7592ec",
+    "position": 16,
+    "type": "Person",
+    "textIdentifier": "WilliamDoyle",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "William Doyle",
+    "synopsis": " (b. 1942) is professor of history at Bristol and a leading revisionist interpreter of the French Revolution. He has published classic survey works and recent studies on the European aristocracy."
+  },
+  {
+    "id": "0b044a07-65be-55b1-9a50-febaad627cc9",
+    "position": 29,
+    "type": "Person",
+    "textIdentifier": "JohnLocke",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "John Locke (1632–1704)",
+    "synopsis": " was an English philosopher who made seminal contributions to empiricist philosophy and political theory. His most celebrated works are <i>An Essay Concerning Human Understanding </i>(1689) and <i>Two Treatises of Government</i> (1690). "
+  },
+  {
+    "id": "0b3a2eb6-ec8f-5536-ab01-358599d3a89d",
+    "position": 2,
+    "type": "Person",
+    "textIdentifier": "TalalAsad",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Talal Asad",
+    "synopsis": " <b>(b. 1932)</b> is an anthropologist who teaches at the City University of New York. He is best known for his work on the anthropology of Western secularism and the concept of religion."
+  },
+  {
+    "id": "0cdb651e-26db-53bb-b120-0966ac73f04e",
+    "position": 45,
+    "type": "Person",
+    "textIdentifier": "ThomasPiketty",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Thomas Piketty",
+    "synopsis": " (b. 1971) is professor of economics at EHESS in Paris. He has achieved worldwide recognition for his work <i>Capital </i>(2013), based on years of research related to inequality and wealth distribution."
+  },
+  {
+    "id": "0d26cabd-5455-52ad-b9ff-3bc5b6baa0d9",
+    "position": 16,
+    "type": "Person",
+    "textIdentifier": "CharlesLouisdeSecondatBarondeMontesquieu",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Charles-Louis de Secondat, Baron de Montesquieu (1689–1755)",
+    "synopsis": " was a French Enlightenment lawyer and author of <i>The Spirit of the Laws</i>, which argued that laws must naturally evolve from societies and reflect the customs and values of those societies. His ideas on the separation of powers partly shaped the view of Publius in <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "0d271c53-9fd4-5556-bba5-b3bb0d4b9467",
+    "position": 60,
+    "type": "Term",
+    "textIdentifier": "Qualitative",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Qualitative: ",
+    "synopsis": "methods of research based on the analysis of the subject’s particular qualities."
+  },
+  {
+    "id": "0ecef8bc-6cca-577b-9c39-b16a38f3174d",
+    "position": 36,
+    "type": "Person",
+    "textIdentifier": "WilliamWordsworth",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "William Wordsworth",
+    "synopsis": " (1770–1850) was one of the major poets of the Romantic movement in literature. With Samuel Taylor Coleridge, he helped to launch and define the Romantic movement in English poetry. Wordsworth is best known for <em>Lyrical Ballads</em> (1798, with Coleridge) and his long poem <em>The Prelude</em>."
+  },
+  {
+    "id": "0f12215a-ef0d-5574-bbeb-12b71c9eaa27",
+    "position": 12,
+    "type": "Person",
+    "textIdentifier": "DanteAlighieri",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Dante Alighieri",
+    "synopsis": " (1265–1321) was a medieval Italian poet, commonly known as Dante. He is best known for his <em>Commedia </em>or <em>Divine Comedy</em>, a long poem giving a first-person account of a pilgrim’s journey through hell, purgatory, and paradise."
+  },
+  {
+    "id": "0f55a9d9-5dbb-5eaa-a9e1-cdecf36737e3",
+    "position": 54,
+    "type": "Person",
+    "textIdentifier": "BenedictusdeSpinoza",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Benedictus de Spinoza (1632–77)",
+    "synopsis": " was a Jewish Dutch philosopher in the rationalist tradition. His main works are <i>Tractatus Theologico-Politicus</i> (1673) and <i>Ethics </i>(1677). Spinoza’s name was synonymous with atheism and fatalism in Europe. "
+  },
+  {
+    "id": "0f8f0f8c-a8d0-5de7-82e4-3b393b35af07",
+    "position": 11,
+    "type": "Person",
+    "textIdentifier": "GeorgeDouglasHCole",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "George Douglas H. Cole",
+    "synopsis": " (1889–1959) was a British historian, economist, jurist and political theorist at Oxford University. He researched socialism and co-operative movements."
+  },
+  {
+    "id": "1019e46e-9d23-5f4a-9519-18e96a4d42a9",
+    "position": 14,
+    "type": "Person",
+    "textIdentifier": "HansFriedrichFulda",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Hans Friedrich Fulda ",
+    "synopsis": "is a professor of philosophy at Heidelberg University. His publications include work on Kant, Hegel, and metaphysics. "
+  },
+  {
+    "id": "11b071a7-2556-5ddf-88d1-c2cc3c918488",
+    "position": 25,
+    "type": "Person",
+    "textIdentifier": "EmmaGriffin",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Emma Griffin",
+    "synopsis": " is a history professor at the University of East Anglia specializing in working class life during the Industrial Revolution."
+  },
+  {
+    "id": "1288e908-5773-593b-914e-c8954b77454b",
+    "position": 58,
+    "type": "Person",
+    "textIdentifier": "GarethStedmanJones",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Gareth Stedman Jones",
+    "synopsis": " (b. 1942) is professor of the history of ideas at Queen Mary University of London. He made crucial contributions to the history of the British working classes and the politics of the New Left before turning to intellectual history and the study of political economy."
+  },
+  {
+    "id": "12a45dca-0d0e-50d3-bef8-4a434a1b0648",
+    "position": 1,
+    "type": "Person",
+    "textIdentifier": "RaymondAron",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Raymond Aron",
+    "synopsis": " <b>(1905–83)</b> was a French sociologist and Cold War champion of liberalism perhaps best known for his 2001 book, <i>The Opium of the Intellectuals</i>, which argued that Marxism is not a scientific philosophy but a secularized religion."
+  },
+  {
+    "id": "12ba555b-1a0e-5097-a93a-4544c2e29f06",
+    "position": 4,
+    "type": "Person",
+    "textIdentifier": "W.H.Auden",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "W. H. Auden",
+    "synopsis": " (1907–1973) was an English poet, playwright, critic, and librettist. An émigré to the United States in the late 1930s, Auden’s early work evidences a strong political and social context. Auden exerted a vast influence on twentieth-century poetry in English and won the Pulitzer Prize in 1948."
+  },
+  {
+    "id": "130c3181-ba00-51ed-be78-454db2213fcb",
+    "position": 39,
+    "type": "Person",
+    "textIdentifier": "Plato",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Plato (427–347 b.c.e)",
+    "synopsis": " was an ancient Greek philosopher. With Socrates and Aristotle, Plato was one of the three great founding thinkers in the Western philosophical tradition."
+  },
+  {
+    "id": "13e95371-a8d9-5e73-b0d2-90b0d8952113",
+    "position": 27,
+    "type": "Person",
+    "textIdentifier": "JacquesLacan",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Jacques Lacan (1901–81)",
+    "synopsis": " was a French psychoanalyst. His theories combined influences from such varied fields as Freudian psychoanalysis, poststructuralist linguistics, and mathematics. "
+  },
+  {
+    "id": "14c987cf-a94f-51b5-bd8e-7a247cb5d9b3",
+    "position": 67,
+    "type": "Term",
+    "textIdentifier": "Sociology",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Sociology:",
+    "synopsis": " the academic discipline focused on studying collective social behaviors usually using not only quantitative methods, but also qualitative research techniques. Sociologists focus on a broad range of subjects including culture, religion, social class, institutions, gender, law, and sexuality. "
+  },
+  {
+    "id": "14dcf206-d966-5a95-aa39-ac0c6d5bfd61",
+    "position": 51,
+    "type": "Person",
+    "textIdentifier": "KarlWilhelmFriedrichSchlegel",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Karl Wilhelm Friedrich Schlegel (1772–1829)",
+    "synopsis": " was a German poet and critic. He was, with his brother August, a prominent figure of German Romanticism. Hegel was from early on a stern critic of Schlegel’s advocacy of Romantic irony."
+  },
+  {
+    "id": "14ea48ea-92e1-5d3e-a9f1-deb5bc8a895a",
+    "position": 28,
+    "type": "Person",
+    "textIdentifier": "Plato",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Plato",
+    "synopsis": " <b>(429–347 b.c.e.)</b> was a Greek philosopher who is one of the most important figures in the history of philosophy. His best-known works are the dialogues <i>Republic</i>, <i>Timaeus</i>, and <i>Apology</i>."
+  },
+  {
+    "id": "15227e6c-1f78-55e0-8fa1-b96c343985bb",
+    "position": 2,
+    "type": "Person",
+    "textIdentifier": "ConradAiken",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Conrad Aiken",
+    "synopsis": " (1889–1973) was an American poet known for a flowing, Romantic style and psychological themes, as well as for his indifference toward literary fashion. He won the prestigious Pulitzer Prize in 1930."
+  },
+  {
+    "id": "1571ccaa-f4e3-5215-8a7f-1143adb5e826",
+    "position": 4,
+    "type": "Person",
+    "textIdentifier": "PamelaCorley",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Pamela Corley ",
+    "synopsis": "is an associate professor of political science at Southern Methodist University. She has highlighted the great legal value of <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "1718ed52-7775-54b1-b2f1-a6701c6e06e0",
+    "position": 31,
+    "type": "Term",
+    "textIdentifier": "Politicaleconomy",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Political economy:",
+    "synopsis": " the study of how governments and their economies are linked and how they can best be regulated to support stability and growth. In <i>The Federalist Papers</i>, Publius argued that a stronger central government would bring about greater economic stability."
+  },
+  {
+    "id": "182735c6-86ee-59fd-bcbb-545fd04a3622",
+    "position": 26,
+    "type": "Person",
+    "textIdentifier": "AlexandreKojève",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Alexandre Kojève (1902–68)",
+    "synopsis": " was a Russian-born French philosopher who is best remembered for his work on Hegel, delivered via a series of lectures. In recent years, his work has been reevaluated by scholars such as Francis Fukuyama. "
+  },
+  {
+    "id": "18558ee4-dab2-51de-ac2c-97c1a37d500f",
+    "position": 32,
+    "type": "Person",
+    "textIdentifier": "BronisławMalinowski",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Bronisław Malinowski",
+    "synopsis": " <b>(1884–1942)</b> was a Polish-born British anthropologist who argued that anthropologists should participate in their studies. This is known as the technique of the participant observer."
+  },
+  {
+    "id": "18a54d7b-cc0a-5542-b98a-1897b422f818",
+    "position": 35,
+    "type": "Person",
+    "textIdentifier": "VirginiaWoolf",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Virginia Woolf",
+    "synopsis": " (1882–1941) was an English novelist, publisher, and critic, whose experimentation with the form of the novel had a major impact on the modernist movement in literature. Woolf is generally regarded as the most significant member of the Bloomsbury Group and is best known for her novels <em>Mrs. Dalloway</em> (1925) and <em>To the Lighthouse</em> (1927)."
+  },
+  {
+    "id": "19217d83-9306-520f-a718-acc8d14dad52",
+    "position": 18,
+    "type": "Person",
+    "textIdentifier": "Plutarch",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Plutarch",
+    "synopsis": " <b>(c.e. 45–120)</b> was a Greek philosopher, biographer, and essayist whose work <i>Parallel Lives</i> included biographies of famous leaders from both Greece and Rome and was widely read for its descriptions of political and social virtue in action. The ancient Roman figure of <i>Publius</i> appears in his work."
+  },
+  {
+    "id": "19296948-fffc-5096-aa9c-d6f6c35c6358",
+    "position": 5,
+    "type": "Person",
+    "textIdentifier": "JohnBreuilly",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "John Breuilly (b. 1946)",
+    "synopsis": " is professor of nationalism at the London School of Economics and has written extensively on the subject of nationalism and ethnicity. "
+  },
+  {
+    "id": "198ddfdb-bdfe-5199-8079-082c66f15cbf",
+    "position": 63,
+    "type": "Person",
+    "textIdentifier": "DrorWahrman",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Dror Wahrman",
+    "synopsis": " is professor of British history at the University of Indiana and the Hebrew University in Jerusalem, famed for his works on middle-class identity and on selfhood in the eighteenth century."
+  },
+  {
+    "id": "1b6f73b4-19e3-5231-8635-f6f84f51d114",
+    "position": 32,
+    "type": "Term",
+    "textIdentifier": "Protestantism",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Protestantism:",
+    "synopsis": " a form of Christian faith developed out of the Protestant Reformation of the sixteenth century that had fundamental differences from the Catholic Church."
+  },
+  {
+    "id": "1c031802-cb59-5393-bd73-a0e11e84d048",
+    "position": 34,
+    "type": "Person",
+    "textIdentifier": "Christopher",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Christopher",
+    "synopsis": " <b>Shields </b>is a professor of philosophy at the University of Notre Dame. He is an expert on ancient philosophy and has written extensively on Aristotle. "
+  },
+  {
+    "id": "1c1bade2-baee-50f2-9650-a3b14067010c",
+    "position": 32,
+    "type": "Person",
+    "textIdentifier": "John",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "John",
+    "synopsis": " <b>McDowell (b. 1942) </b>is a South African professor of philosophy who currently works at the University of Pittsburgh. He has written extensively in the fields of epistemology and metaphysics. "
+  },
+  {
+    "id": "1c557a8b-713e-526a-8a56-81b95b0e76fa",
+    "position": 24,
+    "type": "Person",
+    "textIdentifier": "WilliamJames",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "William James (1842–1910)",
+    "synopsis": " was an American philosopher and psychologist and one of the founders of pragmatist philosophy. His works include <i>The Principles of Psychology</i> (1890), <i>The Varieties of Religious Experience</i> (1902), and <i>Essays in Radical Empiricism </i>(1912)."
+  },
+  {
+    "id": "1dbe2e35-1bdd-5aa8-9f6c-e434de86aee7",
+    "position": 50,
+    "type": "Person",
+    "textIdentifier": "JeanJacquesRousseau",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Jean-Jacques Rousseau",
+    "synopsis": " (1712–78) was a Swiss philosopher, novelist and composer famed for his critique of commercial society and his political theory of the social contract.<b></b>"
+  },
+  {
+    "id": "1dc6c835-386f-5294-8b55-f8a239a73f1e",
+    "position": 53,
+    "type": "Term",
+    "textIdentifier": "Politicalscience",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Political science: ",
+    "synopsis": "the social-science academic discipline most concerned with the study of political activities, government, and political behavior. Political scientists may use quantitative or qualitative methods in their attempts to understand the underlying factors that affect how politics works. "
+  },
+  {
+    "id": "1df8475f-076a-5a13-a408-e9d8158eb6f6",
+    "position": 58,
+    "type": "Term",
+    "textIdentifier": "Primordial",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Primordial: ",
+    "synopsis": "a term used to denote something as existing from the very beginning, as essential or original."
+  },
+  {
+    "id": "20325a00-ac84-5122-a081-2d78b27eb7fb",
+    "position": 73,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Revolutionary War (1775–83):</strong> (also known as the American War of Independence), a conflict between Britain and the 13 colonies of America that eventually drew in France, Spain, and the Netherlands."
+  },
+  {
+    "id": "20c03e53-e195-594f-b546-582d302ef9bc",
+    "position": 20,
+    "type": "Person",
+    "textIdentifier": "AntoninScalia",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Antonin Scalia",
+    "synopsis": " <b>(b. 1936)</b> is a US Supreme Court justice who was appointed by President Ronald Reagan in 1986. He is known as a conservative who holds to a constitutional approach called originalism, or strict constructionism, which argues that judges should interpret the Constitution as written and according to its most explicit meaning, and that they should avoid reading implied powers into it."
+  },
+  {
+    "id": "20c2069f-e766-5efd-aec9-ef4944a28320",
+    "position": 10,
+    "type": "Person",
+    "textIdentifier": "Jonathan",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Jonathan",
+    "synopsis": " <b>Beere </b>is a professor of ancient philosophy and history of science at the Humboldt-Universität zu Berlin. He specializes in ancient philosophy and has published a number of works on Aristotle’s <i>Metaphysics</i>. "
+  },
+  {
+    "id": "228fd48c-1c70-55b8-aa51-ca6139844d70",
+    "position": 84,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Young Hegelianism</strong>: (also known as “left” Hegelianism), this is a philosophical school of thought that developed in the decades immediately following Hegel’s death in 1831. Whereas the “right” Hegelians emphasized the religious aspects of Hegel’s thought and were politically conservative, the “left” Hegelians were progressive and often revolutionary in temperament and rejected Hegel’s idealism in favor of “realism” or materialism."
+  },
+  {
+    "id": "2341ff17-dea5-5c75-9b16-0d84d2c9a9ee",
+    "position": 18,
+    "type": "Person",
+    "textIdentifier": "Lloyd",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Lloyd",
+    "synopsis": " <b>Gerson </b>is a professor of philosophy at the University of Toronto. He is a noted expert who has published on many different topics in ancient philosophy."
+  },
+  {
+    "id": "239656ce-ef32-591b-9a3f-eb2614380dd4",
+    "position": 77,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Social contract theory:</strong> the idea that governments are formed when a social group agrees to be ruled by a ruler or ruling class so that their lives and certain fundamental rights can be protected. This implies that governments that do not provide these functions are illegitimate."
+  },
+  {
+    "id": "24a1266f-e1a5-50a5-a5fc-fb9368dd0f50",
+    "position": 31,
+    "type": "Person",
+    "textIdentifier": "ChristopherHill",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Christopher Hill",
+    "synopsis": " (1912–2003) was a British Marxist historian based at Oxford University. He pioneered social history approaches to the study of popular culture and belief in the seventeenth century.<b></b>"
+  },
+  {
+    "id": "25946dc0-13d9-5abe-89ca-f9774dcdc34c",
+    "position": 74,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Russian Revolution: </strong>two revolutions, in March and October 1917, that swept away the autocratic rule of Tsar Nicholas II and introduced communist government, leading eventually to the establishment of the Soviet Union."
+  },
+  {
+    "id": "25a2deb0-eb5b-5866-980d-a7883f1bfeac",
+    "position": 55,
+    "type": "Person",
+    "textIdentifier": "RonnieScott",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Ronnie Scott",
+    "synopsis": " (1927–96) was a British jazz musician and club proprietor.<b></b>"
+  },
+  {
+    "id": "25aff168-9b2e-5e0b-b75f-bd16ed7629ad",
+    "position": 61,
+    "type": "Person",
+    "textIdentifier": "EPThompson",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "E. P. Thompson ",
+    "synopsis": "(1924–93) was the foremost British social historian of the latter half of the twentieth century. A passionate Marxist, he wrote the seminal <i>The Making of the English Working Classes</i> (1963). Unlike Hobsbawm he left the Communist Party after the Hungarian uprising of 1956."
+  },
+  {
+    "id": "2678083b-c1d5-5c45-9155-1fd49881f373",
+    "position": 61,
+    "type": "Term",
+    "textIdentifier": "Quantative",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Quantative:",
+    "synopsis": " methods of research based on the measurement of data such as statistics."
+  },
+  {
+    "id": "268a5833-54af-5097-80de-7222b5ca46f8",
+    "position": 62,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Positivism:</strong> a philosophy that believes information derived from the senses and given a logical and mathematical treatment is the exclusive source of all knowledge."
+  },
+  {
+    "id": "27149f69-35b0-52b2-a162-26c122063597",
+    "position": 16,
+    "type": "Person",
+    "textIdentifier": "DavidJones",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "David Jones",
+    "synopsis": " (1895–1974) was a Welsh poet, painter, and engraver, increasingly regarded as an innovative poet who refined the techniques of literary modernism."
+  },
+  {
+    "id": "288605ac-a069-5206-856b-aa574a964db4",
+    "position": 7,
+    "type": "Person",
+    "textIdentifier": "HaroldBloom",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Harold Bloom",
+    "synopsis": " (born 1930) is an American literary scholar, critic, and editor, and one of the most famous literary thinkers of his generation. He is best known for his work on Shakespeare and his defense of the traditional literary canon in <em>The Western Canon</em> (1994), as well as for such critical studies as <em>The Anxiety of Influence</em> (1973) and <em>The Anatomy of Influence</em> (2011)."
+  },
+  {
+    "id": "2987608b-89e1-5d20-b7d9-fb963effb919",
+    "position": 8,
+    "type": "Person",
+    "textIdentifier": "RenéDescartes",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "René Descartes (1596–1650)",
+    "synopsis": " was a French mathematician and philosopher. Due to such works as the <i>Discourse on Method </i>(1637) and <i>Meditations on First Philosophy</i> (1641), he is commonly known as the father of modern philosophy."
+  },
+  {
+    "id": "299ccb2d-2745-5799-80e8-ccff4e900905",
+    "position": 5,
+    "type": "Person",
+    "textIdentifier": "Andronicus",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Andronicus",
+    "synopsis": " <b>of Rhodes</b> was a Peripatetic philosopher who is best known for editing and publishing Aristotle’s works in the first century b.c.e. Very little is known about Andronicus himself and only fragments of his own works survive. "
+  },
+  {
+    "id": "29c564d5-ebfb-5d96-b6fe-95e143a6ef2a",
+    "position": 52,
+    "type": "Term",
+    "textIdentifier": "Politicalrealism",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Political realism:",
+    "synopsis": " a theory that national self-interest drives foreign policy. When diplomacy fails, national self-interest could result in conflict between two nations."
+  },
+  {
+    "id": "29e32821-12b7-53cf-bcd3-676cfafd78fa",
+    "position": 64,
+    "type": "Person",
+    "textIdentifier": "BeatricePotterWebb",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Beatrice Potter Webb",
+    "synopsis": " (1858<i>–</i>1943) was an English social reformer who co-founded the London School of Economics and Political Science, and the Fabian Society She wrote widely on the history of trade unionism and women’s issues."
+  },
+  {
+    "id": "2a0c94d2-b566-525c-af5b-f2ce247b9013",
+    "position": 29,
+    "type": "Person",
+    "textIdentifier": "BernardLewis",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Bernard Lewis",
+    "synopsis": " <b>(b. 1916)</b> is a British American historian of Islam, best known for his 2002 book, <i>What Went Wrong?</i>: <i>Western Impact and Middle Eastern Response</i>, which provides a number of speculative answers as to why the Muslim world fell behind advances made by European societies during the modern period."
+  },
+  {
+    "id": "2a49b300-be02-5aaa-b50a-f11e683e938a",
+    "position": 17,
+    "type": "Person",
+    "textIdentifier": "DavidNixon",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "David Nixon ",
+    "synopsis": "is an associate professor of political science at Georgia State University. He has highlighted the great legal value of <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "2aeeafaa-5008-5bb0-bb52-aa02af7d20ee",
+    "position": 42,
+    "type": "Person",
+    "textIdentifier": "AnthonyDSmith",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Anthony D. Smith",
+    "synopsis": " <b>(b. 1933)</b> is a British ethnographer and sociologist, currently a professor emeritus at the London School of Economics. Smith’s work on nationalism argued that nations have pre-modern origins."
+  },
+  {
+    "id": "2c6abf68-1b20-51d1-bb0b-550eb0b4e93c",
+    "position": 15,
+    "type": "Person",
+    "textIdentifier": "MauriceDobb",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Maurice Dobb",
+    "synopsis": " (1900–76) was an economist based at Cambridge University who was crucial in spreading Marxist ideas among his students. His important works include <i>Studies in the Development of Capitalism</i> (1946)."
+  },
+  {
+    "id": "2d80ec2c-99d3-5393-9ea1-0caf5544db83",
+    "position": 75,
+    "type": "Term",
+    "textIdentifier": "WorldWarII",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "World War II:",
+    "synopsis": " a European conflict between Germany and its neighbors that began in 1939 and eventually resulted in the eruption of tensions around the world. The United States entered the conflict in 1941. The war ended with the defeat of Germany and her allies and the dropping of atomic weapons on Hiroshima and Nagasaki in Japan. Close to 60 million people—about two-thirds of them civilians—died before the war was brought to an end."
+  },
+  {
+    "id": "2db00860-7c8c-57ba-99f0-0c47cfc5ee6d",
+    "position": 41,
+    "type": "Term",
+    "textIdentifier": "Strictconstructionism",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Strict constructionism:",
+    "synopsis": " a requirement for judges to make judgments based only on what is written in a legal text, in this case the Constitution."
+  },
+  {
+    "id": "2ded8b25-e460-55ee-8660-09663637ff86",
+    "position": 39,
+    "type": "Person",
+    "textIdentifier": "KarlMarx",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Karl Marx ",
+    "synopsis": "(1818–83) was a German economist, historian, philosopher, and social theorist whose conception of history and economic writings provided the ideological basis for communism."
+  },
+  {
+    "id": "2ebfba6f-1057-5ccf-b53e-d12854d308d8",
+    "position": 16,
+    "type": "Person",
+    "textIdentifier": "HSHarris",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "H. S. Harris (1926–2007)",
+    "synopsis": " was a British professor of philosophy. An acknowledged authority on the works of Hegel, he taught at York University until his retirement in 1996. "
+  },
+  {
+    "id": "31e1fc3f-caf7-5cc6-9dd1-3332dfa49a0b",
+    "position": 57,
+    "type": "Person",
+    "textIdentifier": "JosephStalin",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Joseph Stalin",
+    "synopsis": " (1878–1953) led the Soviet Union from 1924 to 1953 and was responsible for the deaths of millions through political purges and coercive economic policies."
+  },
+  {
+    "id": "31fe6ab8-dfb5-5e5e-9853-781982a9046a",
+    "position": 49,
+    "type": "Person",
+    "textIdentifier": "FriedrichWilhelmJosephSchelling",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Friedrich Wilhelm Joseph Schelling (1775–1854)",
+    "synopsis": " was a German Idealist philosopher. A roommate of Hegel’s in the Tübingen seminary, the two collaborated on a common philosophical project. The publication of <i>Phenomenology</i>, with its stinging critiques of Schelling, signaled that each would follow his own separate path. "
+  },
+  {
+    "id": "32855886-7abf-53c7-8391-1a08000454dd",
+    "position": 7,
+    "type": "Person",
+    "textIdentifier": "GeoffreyBruun",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Geoffrey Bruun",
+    "synopsis": " (1898–1988) was a professor of French, European, and American History at New York University."
+  },
+  {
+    "id": "32bd7013-0b34-50ac-b433-4ee096e9bbfd",
+    "position": 55,
+    "type": "Person",
+    "textIdentifier": "GottlobStorr",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Gottlob Storr (1746–1805)",
+    "synopsis": " was a leading Tübingen theologian. He was an advocate of what is known as Biblical Supernaturalism. "
+  },
+  {
+    "id": "3448d03c-90a5-5f21-b0d1-bb7568f7b6b6",
+    "position": 41,
+    "type": "Person",
+    "textIdentifier": "ArnoJMayer",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Arno J. Mayer",
+    "synopsis": " (b. 1926) is a professor at Princeton University. He has published widely on nineteenth-century Europe, the Holocaust and revolutionary violence."
+  },
+  {
+    "id": "34a44634-7da7-54dc-b0bd-cc5c362910d4",
+    "position": 40,
+    "type": "Term",
+    "textIdentifier": "Stoics",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Stoics:",
+    "synopsis": " an ancient philosophical school. The Stoics are especially famous for their radical ethical views, although they also presented a number of important metaphysical and epistemological arguments."
+  },
+  {
+    "id": "3578353b-ac75-59db-8b75-8ac10b570939",
+    "position": 0,
+    "type": "Person",
+    "textIdentifier": "BenedictAnderson",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Benedict Anderson",
+    "synopsis": " <b>(b. 1936</b>) is a contemporary British scholar best known for his 1983 book, <i>Imagined Communities: Reflections on the Origin and Spread of Nationalism</i>, in which he systematically describes the emergence of nationalism in the world during the past three centuries."
+  },
+  {
+    "id": "359f0c16-bf52-5912-997a-fbb2594b672d",
+    "position": 25,
+    "type": "Term",
+    "textIdentifier": "Liberalinternationalism",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Liberal internationalism:",
+    "synopsis": " a foreign-policy concept that suggests that liberal states should involve themselves in the affairs of other sovereign states to pursue their liberal goals."
+  },
+  {
+    "id": "35eda30a-ff15-5061-bf6a-0d3b6e59d53f",
+    "position": 63,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Post-Kantian: </strong>not to be confused with the term neo-Kantian, which refers to thinkers later in the nineteenth century, post-Kantian refers to those ideas formulated by philosophers who followed in the immediate wake of Kant and tried to modify or adapt his ideas. Included in this group are Hegel, J. G. Fichte and F. W. J. Schelling."
+  },
+  {
+    "id": "372dbd70-e009-5d49-8950-16df3a9168b1",
+    "position": 60,
+    "type": "Person",
+    "textIdentifier": "DorothyThompson",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Dorothy Thompson",
+    "synopsis": " (1923–2011) was a British Marxist historian who researched Chartism, gender history and Irish history.<b></b>"
+  },
+  {
+    "id": "373c9a12-9dbe-5d24-8d91-8f9bf2d099c5",
+    "position": 32,
+    "type": "Person",
+    "textIdentifier": "BoydHilton",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Boyd Hilton",
+    "synopsis": " (b. 1944) is professor of British history at Cambridge University. He is the widely acclaimed author of works on the links between evangelical religion and political economy."
+  },
+  {
+    "id": "37b9f206-8c14-5485-b5bb-c1b57605c60d",
+    "position": 40,
+    "type": "Person",
+    "textIdentifier": "KarlRenner",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Karl Renner",
+    "synopsis": " <b>(1870–1950)</b> was an Austrian politician and first chancellor of the Austrian Republic after World War I. His academic work focused on law and property. He worked with Otto Bauer on ideas of legal protection of minority groups."
+  },
+  {
+    "id": "385120e8-c3e5-5418-936f-b6c4524c0286",
+    "position": 57,
+    "type": "Person",
+    "textIdentifier": "CharlesTaylor",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Charles Taylor (b. 1931)",
+    "synopsis": " is a Canadian philosopher and professor emeritus at McGill University. His work includes a focus on the history of philosophy and the philosophy of social science. "
+  },
+  {
+    "id": "387a6e63-8425-5612-9b26-dfd149430628",
+    "position": 36,
+    "type": "Person",
+    "textIdentifier": "TonyJudt",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Tony Judt",
+    "synopsis": " (1948–2010) was a British historian, essayist and intellectual who specialized in twentieth-century European history.<b></b>"
+  },
+  {
+    "id": "38945d8a-b658-5cdf-b702-859ec81b5c0a",
+    "position": 14,
+    "type": "Person",
+    "textIdentifier": "MikhailGorbachev",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Mikhail Gorbachev",
+    "synopsis": " <b>(b. 1931)</b> was the last general secretary of the Soviet Union, appointed in 1985. His economic and political reforms helped to end the Cold War, but they also resulted in the collapse of the Soviet bloc."
+  },
+  {
+    "id": "396cdac3-ba5a-5120-868c-5418100c6e7f",
+    "position": 26,
+    "type": "Person",
+    "textIdentifier": "HansKohn",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Hans Kohn",
+    "synopsis": " <b>(1891–1971)</b> was an American philosopher and historian. He is known for his work on nationalism in Eastern Europe."
+  },
+  {
+    "id": "39e90ce1-d849-5c2d-8fd6-686b23d440b5",
+    "position": 6,
+    "type": "Person",
+    "textIdentifier": "PatrickHenry",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Patrick Henry (1736–99)",
+    "synopsis": " was an American attorney and politician from Virginia; he was one of the leaders of the Anti-Federalists."
+  },
+  {
+    "id": "3c273061-ec70-5091-b5c9-51f328c3079c",
+    "position": 39,
+    "type": "Term",
+    "textIdentifier": "Roman",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Roman:",
+    "synopsis": " relating to the ancient Roman civilization that began on the Italian peninsula as early as the eighth century b.c.e. and lasted until the fifth century c.e. At the height of its power and influence in the first and second centuries c.e. it expanded to become an empire covering 6.5 million square kilometers (or 2.5 million square miles). "
+  },
+  {
+    "id": "3da64627-dd13-5b54-8b4e-da5d0108511b",
+    "position": 17,
+    "type": "Person",
+    "textIdentifier": "VáclavHavel",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Václav Havel",
+    "synopsis": " <b>(1936–2011)</b> was a writer and political dissident of Czech origin. After the overthrow of Czechoslovakia’s communist government, Havel became the country’s president. When Czechoslovakia split into two countries—the Czech Republic and Slovakia—Havel became the first president of the new Czech Republic, a post he held for 10 years from 1993 to 2003."
+  },
+  {
+    "id": "3df735cf-ddf9-589a-92b7-c6653fbf93ac",
+    "position": 25,
+    "type": "Person",
+    "textIdentifier": "Anthony",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Anthony",
+    "synopsis": " <b>Kenny (b. 1931) </b>is an emeritus professor of philosophy at the University of Oxford. He is a noted expert on ancient philosophy and Aristotle. "
+  },
+  {
+    "id": "3e33b2e7-635b-500e-ab5c-832d34c18fa6",
+    "position": 12,
+    "type": "Person",
+    "textIdentifier": "BaruchBrody",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Baruch Brody (b. 1943)",
+    "synopsis": " is a professor of philosophy at Rice University in Texas. He is best known for his work in ethics, especially biomedical ethics. "
+  },
+  {
+    "id": "3e6a1314-2395-5c23-83d5-79f9d85a7964",
+    "position": 42,
+    "type": "Term",
+    "textIdentifier": "SupremeCourt",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Supreme Court:",
+    "synopsis": " the highest court in the United States; its rulings can be overturned only by itself. Importantly, it serves the role of deciding whether or not new laws are consistent with the US Constitution; that is, “constitutional.”"
+  },
+  {
+    "id": "3e755747-c159-5516-a555-9e654e03d85d",
+    "position": 30,
+    "type": "Person",
+    "textIdentifier": "DavidLudden",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "David Ludden",
+    "synopsis": " <b>(b. 1948)</b> is professor of history at New York University. He has written extensively on agricultural communities on the Indian subcontinent."
+  },
+  {
+    "id": "3f0bf9c0-0141-5e9d-9c8e-fa12184c0926",
+    "position": 0,
+    "type": "Person",
+    "textIdentifier": "DouglassAdair",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Douglass Adair (1912–68) ",
+    "synopsis": "was a renowned American historian who deciphered the authorship of each of <i>The Federalist Papers</i>. His findings have since been affirmed with further evidence."
+  },
+  {
+    "id": "3f3c01f6-b351-5a98-a34b-7c807201e154",
+    "position": 12,
+    "type": "Person",
+    "textIdentifier": "MichelFoucault",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Michel Foucault",
+    "synopsis": " <b>(1926–84)</b> was a French philosopher and social theorist. He is best known for his works on the relationship between power, institutions, and knowledge."
+  },
+  {
+    "id": "3ff017d8-37db-5520-ba16-0417bc139f84",
+    "position": 29,
+    "type": "Person",
+    "textIdentifier": "GeorgWilhelmFriedrichHegel",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Georg Wilhelm Friedrich Hegel",
+    "synopsis": " (1770–1831) was a German idealist philosopher who exerted an enormous influence on Karl Marx, and claimed that human history was the progressive unfolding of spirit or consciousness."
+  },
+  {
+    "id": "40aa7512-439b-57cf-ad4c-ddc658f2e07e",
+    "position": 70,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Rawlsian: </strong>ideas that broadly follow the work of John Rawls."
+  },
+  {
+    "id": "42c4f6f5-8244-52d1-9862-e881e7beee91",
+    "position": 37,
+    "type": "Person",
+    "textIdentifier": "GeorgesLefebvre",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Georges Lefebvre",
+    "synopsis": " (1874–1959) was the leading historian of the French Revolution who created the outlines of the Marxist interpretation of 1789 and was famed for his remarkable archival work on the peasantry. He was the author of <i>The Coming of the French Revolution</i> (1939)."
+  },
+  {
+    "id": "44553e91-e71b-597a-88a1-5f904c4d97ec",
+    "position": 53,
+    "type": "Person",
+    "textIdentifier": "Socrates",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Socrates (",
+    "synopsis": "<b>470/469–399</b><b> b.c.e.</b><b>)</b> was an ancient Greek philosopher and one of the founding fathers of Western Philosophy. His work is mostly known thanks to its discussion by Plato, since little of his original work survived. "
+  },
+  {
+    "id": "4581f167-a25f-5038-9a3a-b13ebf3be1b2",
+    "position": 25,
+    "type": "Person",
+    "textIdentifier": "I.A.Richards",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "I. A. Richards",
+    "synopsis": " (1893–1979) was a British poet and scholar. Richards is best known for helping to found the New Criticism movement through his teaching and pedagogical work at the University of Cambridge and Harvard University."
+  },
+  {
+    "id": "458cfcd5-2348-55f1-935e-2ca9d3ef8756",
+    "position": 0,
+    "type": "Person",
+    "textIdentifier": "JohnAckrill",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "John Ackrill",
+    "synopsis": " <b>(1921–2007)</b> was a British classicist and philosopher. He produced several important studies on Aristotle’s philosophy."
+  },
+  {
+    "id": "4648fccc-718c-594b-892f-03e2d0f927dc",
+    "position": 44,
+    "type": "Person",
+    "textIdentifier": "NicholasStargardt",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Nicholas Stargardt",
+    "synopsis": " <b>(b. 1962)</b> is an Australia-born historian and fellow at Oxford University’s Magdalen College. His research focuses on modern European history."
+  },
+  {
+    "id": "468262f8-6afc-54c8-a29b-e11ee7ef1803",
+    "position": 34,
+    "type": "Person",
+    "textIdentifier": "GeorgeEdwardMoore",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "George Edward Moore (1873–1958)",
+    "synopsis": " was an English philosopher who advocated “common sense” in philosophical method and common-sense realism."
+  },
+  {
+    "id": "47758e82-9e3c-5dd3-93d2-776561cadc7b",
+    "position": 56,
+    "type": "Term",
+    "textIdentifier": "Postcolonialtheory",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Postcolonial theory:",
+    "synopsis": " the study of Western colonialism and imperialism's cultural and political legacy. It is not defined as part of a particular academic field but it typically involves such disciplines as literature and anthropology."
+  },
+  {
+    "id": "47984948-934d-5c46-9dc8-2842bae2bc14",
+    "position": 17,
+    "type": "Person",
+    "textIdentifier": "MartinHeidegger",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Martin Heidegger (1889–1976)",
+    "synopsis": " was a German philosopher. He wrote in the tradition of phenomenology, but can be said to have founded a school of philosophy in his own right, being one of the most influential philosophers of the twentieth century. "
+  },
+  {
+    "id": "483b8d61-f25a-5099-aa41-54d7b9f7a5c4",
+    "position": 46,
+    "type": "Term",
+    "textIdentifier": "Unmovedmover",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Unmoved mover:",
+    "synopsis": " according to Aristotle this mover is the first cause of all change in the universe. It causes motion, but is not itself moved by any previous action. Aristotle considers whether there are many unmoved movers or just one, but his conclusion remains unclear."
+  },
+  {
+    "id": "49d38380-d119-521b-a7da-1178504f8a45",
+    "position": 2,
+    "type": "Person",
+    "textIdentifier": "RaymondAron",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Raymond Aron (1905–83)",
+    "synopsis": " was a French philosopher and sociologist. His 1955 work <i>The Opium of the Intellectuals</i> criticized the tolerance of the French intellectual classes for oppressive Marxist regimes. Other works include <i>Main Currents in Sociological Thought</i> (1965) and <i>History and the Dialectic of Violence</i> (1975)."
+  },
+  {
+    "id": "49d49767-a835-52cf-930f-5979cf1f9bee",
+    "position": 56,
+    "type": "Person",
+    "textIdentifier": "PeterStrawson",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Peter Strawson (1919–2006)",
+    "synopsis": " was an English philosopher who taught at Oxford University for most of his career. He is known for his work in metaphysics. "
+  },
+  {
+    "id": "4a6a2a73-c89b-5aac-9ed3-bf3b5fd7df13",
+    "position": 27,
+    "type": "Person",
+    "textIdentifier": "JeanMarieLePen",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Jean-Marie Le Pen",
+    "synopsis": " <b>(b. 1928)</b> is a French conservative and nationalist politician. In 1972 he helped to found the French party, Front National (also known as the National Front). The party’s platform calls for legislation to curtail immigration and France’s return to its old currency, the franc, instead of the euro."
+  },
+  {
+    "id": "4b4b9ed9-7d51-5a0d-969b-d56f8198b0ca",
+    "position": 23,
+    "type": "Person",
+    "textIdentifier": "LouisMenand",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Louis Menand",
+    "synopsis": " (born 1952) is a Pulitzer Prize-winning American literary critic and professor of English at Harvard University."
+  },
+  {
+    "id": "4b5ec605-6c0f-5a9a-b204-35089f0f7826",
+    "position": 35,
+    "type": "Person",
+    "textIdentifier": "Socrates",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Socrates (470/469",
+    "synopsis": "<b>–</b><b>399 </b><b>b.c.e.</b><b>)</b> was a Greek philosopher, and one of the most important figures in the Western philosophical tradition. He is known for his rigorous philosophical questioning methods and interest in ethical questions. Socrates left no written works, so all we know of him comes from the writing of his pupils, most notably Plato. "
+  },
+  {
+    "id": "4bd92b74-b54f-5fcf-9ffc-e056852476f3",
+    "position": 8,
+    "type": "Person",
+    "textIdentifier": "RobertHoward",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Robert Howard",
+    "synopsis": " is professor of political science at Georgia State University. He has highlighted the continuing legal value of <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "4bdd5b5d-2434-5114-9283-9c3209bea227",
+    "position": 42,
+    "type": "Person",
+    "textIdentifier": "JohnRawls",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "John Rawls (1921–2002)",
+    "synopsis": " was an American political philosopher. His work <i>A Theory of Justice</i> (1971) is one of the most important texts in the whole field of political philosophy. "
+  },
+  {
+    "id": "4cc21c4a-e319-517e-86c2-19f18ae7bda0",
+    "position": 72,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Reductionism:</strong> in the philosophy of the mind, the attempt to reduce mental states to nonmental states, such as brain states, functional states, or behavioral states."
+  },
+  {
+    "id": "4cd075eb-1499-597e-b1e2-72ca04008090",
+    "position": 11,
+    "type": "Person",
+    "textIdentifier": "HartCrane",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Hart Crane",
+    "synopsis": " (1899–1932) was an American poet known for a strand of American Romanticism that drew from the optimism of the American transcendentalists, such as Walt Whitman (1819–1892). Crane is regarded as a pivotal poet who captured the spirituality of American experience."
+  },
+  {
+    "id": "4ed36652-95ef-5d99-bf5c-9b333a4daa7a",
+    "position": 22,
+    "type": "Person",
+    "textIdentifier": "GeorgeWashington",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "George Washington",
+    "synopsis": " <b>(1732–99)</b> was a key military leader of the American Revolutionaries in the US War of Independence and the first president of the United States. He established many precedents, such as serving only two terms and using the title “Mr. President,” during his presidency. His ideas helped define the views of Publius in <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "5296f0cb-1723-5284-bfa7-3f4ae89b01dd",
+    "position": 38,
+    "type": "Person",
+    "textIdentifier": "RogerPetersen",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Roger Petersen",
+    "synopsis": " is a political scientist who teaches at the Massachusetts Institute of Technology. His research centers on comparative politics with an emphasis on conflict and violence."
+  },
+  {
+    "id": "534a23ce-1350-5dc3-9892-46d6d7cc795b",
+    "position": 28,
+    "type": "Person",
+    "textIdentifier": "MichaelLessnoff",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Michael Lessnoff (b. 1940)",
+    "synopsis": " is a research fellow in political science at the University of Glasgow. His research focuses on the emergence of modernity."
+  },
+  {
+    "id": "538f11a7-1634-5832-9639-067fa1dfe712",
+    "position": 8,
+    "type": "Person",
+    "textIdentifier": "FrancisHerbertBradley",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Francis Herbert Bradley",
+    "synopsis": " (1846–1924) was a British philosopher and the most prominent of the British Idealists, who responded to continental thinkers such as Georg Hegel (1770–1831) rather than to more popular British philosophers such as David Hume (1711–1776). Bradley’s view of reality was interrelated and holistic, holding that things take meaning from their place within the single whole of reality."
+  },
+  {
+    "id": "545573c4-4f29-5500-b8ad-cd7e673c2add",
+    "position": 9,
+    "type": "Person",
+    "textIdentifier": "RonaldBush",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Ronald Bush",
+    "synopsis": " (born 1946) is a scholar of modernist literature, best known for his studies of James Joyce, Ezra Pound, and T. S. Eliot. He is currently Drue Heinz Professor of American Literature at Oxford University and Emeritus Research Fellow at St. John’s College, Oxford."
+  },
+  {
+    "id": "545e1c8b-758e-5785-817d-fbb2ca52021f",
+    "position": 38,
+    "type": "Person",
+    "textIdentifier": "RobertPippin",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Robert Pippin (b. 1948)",
+    "synopsis": " is an American philosopher who specializes in Hegel. He holds the post of PhD Honoris Causa at Uppsala University in Sweden. "
+  },
+  {
+    "id": "55ada258-d418-51b1-8065-00dffdf0e582",
+    "position": 17,
+    "type": "Person",
+    "textIdentifier": "FriedrichEngels",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Friedrich Engels",
+    "synopsis": " (1820–83) was an influential German philosopher, social scientist, and political theorist who worked closely with Karl Marx."
+  },
+  {
+    "id": "55c1e9bf-aa5e-5a29-b8d6-ca43dc0a61b5",
+    "position": 41,
+    "type": "Person",
+    "textIdentifier": "MichaelQuante",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Michael Quante (b. 1962) ",
+    "synopsis": "is a German philosopher and <i>Hochschuldozent</i> (senior lecturer) in the Philosophisches Seminar des Westfalischen Wilhelms-Universität, Münster. He is an acknowledged expert on the works of Hegel. "
+  },
+  {
+    "id": "56a0a86c-01c1-5dfc-b1e1-dcdbe510c513",
+    "position": 20,
+    "type": "Person",
+    "textIdentifier": "FrancineHirsch",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Francine Hirsch (b. 1967)",
+    "synopsis": " is professor of history at the University of Wisconsin-Madison. She specializes in Russian and Soviet history."
+  },
+  {
+    "id": "57984d2e-60b9-5bcc-831b-007b0dcb26d1",
+    "position": 5,
+    "type": "Person",
+    "textIdentifier": "TCWBlanning",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "T. C. W. Blanning",
+    "synopsis": " (b. 1942) is professor of European history at Cambridge University. He has published widely on the French revolutionary wars, the cultural politics of the eighteenth century and the history of music."
+  },
+  {
+    "id": "585d90ba-19db-5d6c-af24-bf41cb379425",
+    "position": 35,
+    "type": "Term",
+    "textIdentifier": "Rhetorical",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Rhetorical: ",
+    "synopsis": "having to do with the art of speaking or writing, especially with the objective of persuading others to accept something."
+  },
+  {
+    "id": "58604347-8307-5c03-b6c7-725a3a62df94",
+    "position": 40,
+    "type": "Person",
+    "textIdentifier": "SarahMaza",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Sarah Maza",
+    "synopsis": " (b. 1953) is professor of history at Northwestern University and has published widely on legal culture in France from the eighteenth to the twentieth centuries."
+  },
+  {
+    "id": "5968ef73-a273-5bef-8d3d-974861f83d0c",
+    "position": 51,
+    "type": "Person",
+    "textIdentifier": "GeorgeRudé",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "George Rudé",
+    "synopsis": " (1910–93) was a British Marxist historian who did pioneering work on crowds and politics in the French Revolution and in Britain in the age of reform.<b></b>"
+  },
+  {
+    "id": "59f7753b-b9ec-57b4-9438-abbe9e70282b",
+    "position": 15,
+    "type": "Person",
+    "textIdentifier": "GeorgeMason",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "George Mason (1725–92)",
+    "synopsis": " was an American politician and delegate from Virginia to the US Constitutional Convention. He was one of the leaders of the Anti-Federalists."
+  },
+  {
+    "id": "5aaa28b1-8bdb-50b4-b54f-bfe05d2b0767",
+    "position": 10,
+    "type": "Person",
+    "textIdentifier": "ThomasJefferson",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Thomas Jefferson (1743–1826)",
+    "synopsis": " was the author of the Declaration of Independence and the third president of the United States. He was responsible not only for shaping the political institutions of the United States, but also for expanding its geographical size. He argued that <i>The Federalist Papers</i> were the greatest document ever written on American government."
+  },
+  {
+    "id": "5ab9ab8a-c452-5707-b9e1-4f7576bb644b",
+    "position": 13,
+    "type": "Person",
+    "textIdentifier": "DonaldLutz",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Donald Lutz",
+    "synopsis": " is a professor at the University of Houston and works in the area where political theory and American politics intersect."
+  },
+  {
+    "id": "5ba1abe0-d2fa-5486-bd8a-612953ed8f6b",
+    "position": 27,
+    "type": "Person",
+    "textIdentifier": "Parmenides",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Parmenides (late sixth or early fifth century b.c.e.) ",
+    "synopsis": "was a pre-Socratic philosopher, the founder of the Eleatic school of philosophy. He is known for the controversial theory of reality found in his fragmentary poem “On Nature.” "
+  },
+  {
+    "id": "5c32abee-995a-5afd-8b66-5ae1d81693d2",
+    "position": 49,
+    "type": "Person",
+    "textIdentifier": "TaraZahra",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Tara Zahra",
+    "synopsis": " is professor of history at the University of Chicago. Her research centers on family, nation, and ethnicity in Europe during the twentieth century."
+  },
+  {
+    "id": "5d50cb48-ad88-5a8b-83d4-6ec688c282fe",
+    "position": 44,
+    "type": "Term",
+    "textIdentifier": "Tyrannyofthemajority",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Tyranny of the majority:",
+    "synopsis": " the fear, prevalent in republican discourse since antiquity, that popular democracies can devolve into oppressive political systems akin to authoritarian regimes."
+  },
+  {
+    "id": "5d9ae2ef-c5ee-5930-aa32-d6e53aaa93d9",
+    "position": 1,
+    "type": "Person",
+    "textIdentifier": "DavidArmitage",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "David Armitage",
+    "synopsis": " (b. 1965) is a British historian based at Harvard University who has worked on the history of imperialism and constitution making. In the 2014 History Manifesto he urged his fellow historians to return to “big questions.”<b></b>"
+  },
+  {
+    "id": "5db7b6a2-fc19-51ae-b668-b8fc063f3f37",
+    "position": 35,
+    "type": "Person",
+    "textIdentifier": "AnnieJourdan",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Annie Jourdan",
+    "synopsis": " is associate professor of European studies at the University of Amsterdam, and has published on monuments and political culture during the French Revolution and Napoleonic Wars. She champions the use of comparative perspectives when studying the period."
+  },
+  {
+    "id": "60aeb1de-577f-550c-ae41-e4f567f3a6e0",
+    "position": 25,
+    "type": "Person",
+    "textIdentifier": "AnatolyKhazanov",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Anatoly Khazanov",
+    "synopsis": " <b>(b. 1937)</b> is the Ernest Gellner Professor of Anthropology at the University of Wisconsin-Madison. His work focuses on nomadic pastoralists, nationalism and ethnicity, and collective memory."
+  },
+  {
+    "id": "618670ee-e02a-5510-9476-cd0793c53e1e",
+    "position": 33,
+    "type": "Person",
+    "textIdentifier": "WilliamCarlosWilliams",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "William Carlos Williams",
+    "synopsis": " (1883–1963) was an American poet known for experimental, vivid, often domestic poetry and for his conventional employment as a doctor."
+  },
+  {
+    "id": "61a8d0f3-23df-5bb1-b6d0-143137039665",
+    "position": 5,
+    "type": "Person",
+    "textIdentifier": "DavidHeld",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "David Held (b. 1951)",
+    "synopsis": " is a professor of politics and international relations at Durham University in the United Kingdom, who argues for stronger international institutions and protections for human rights. He has argued that <i>The Federalist Papers</i> are a significant historical document with an enduring legacy."
+  },
+  {
+    "id": "622b967d-5045-5e2b-842a-377dc6df797b",
+    "position": 66,
+    "type": "Term",
+    "textIdentifier": "Socialism",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Socialism: ",
+    "synopsis": "an economic and social system in which the free market is regulated for the sake of social justice and economic equality."
+  },
+  {
+    "id": "644249c4-3ae3-5b5f-b910-885f406cdc05",
+    "position": 83,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Triadic structure:</strong> the three-part structure that forms part of the Hegelian dialectic, although it is important to note Hegel himself did not use this term. Its three parts are: thesis—a thought that has proved to be unsatisfactory; antithesis—a negation of the original idea that also proves to be unsatisfactory; and synthesis—a new thought, which is again negated and will continue to be negated as long as the idea proves unsatisfactory."
+  },
+  {
+    "id": "66c9e1cd-aa38-5133-8677-9557e02da58f",
+    "position": 19,
+    "type": "Person",
+    "textIdentifier": "ThomasHobbes",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Thomas Hobbes (1588–1679)",
+    "synopsis": " was an English philosopher. His <i>Leviathan</i> of 1651 is a seminal text of modern political thought. Hobbes argued that individuals must exit the warlike “state of nature” and enter into a social contract whereby they submit to an absolute sovereign."
+  },
+  {
+    "id": "66cb5265-6c7d-5db1-a4ba-583f8c38e88c",
+    "position": 27,
+    "type": "Term",
+    "textIdentifier": "Majorityrule",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Majority rule:",
+    "synopsis": " the principle that whatever a majority of citizens decide with regard to a political issue should become law. This is typically achieved through voting."
+  },
+  {
+    "id": "6842f8e1-b015-5c43-8616-b9daebd0314f",
+    "position": 6,
+    "type": "Person",
+    "textIdentifier": "NapoleonBonaparte",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Napoleon Bonaparte (1769–1821)",
+    "synopsis": " was a French military and political leader who originated from Corsica. His meteoric rise to power changed the face of Europe forever and instigated a period of almost continuous warfare between 1803 and 1815 that involved every major European power. "
+  },
+  {
+    "id": "6899d902-6e0f-5a52-8a7e-47f31bc3b6da",
+    "position": 21,
+    "type": "Person",
+    "textIdentifier": "Heraclitus",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Heraclitus",
+    "synopsis": " <b>(535</b><b>–</b><b>475 b.c.e.)</b> was one of the best-known pre-Socratics. He argued that the world is governed by logos<i>,</i> a kind of rationality which he likened to fire."
+  },
+  {
+    "id": "6a0269d2-0439-5f5f-91be-cbe897a48250",
+    "position": 38,
+    "type": "Term",
+    "textIdentifier": "Renaissance",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Renaissance: ",
+    "synopsis": "meaning “rebirth,” the period of history from the fourteenth to the seventeenth century c.e., marked by a revival of art and literature in Europe."
+  },
+  {
+    "id": "6a56fe88-aeea-5f9a-b907-d28c8acb9b50",
+    "position": 18,
+    "type": "Person",
+    "textIdentifier": "ErnstFischer",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Ernst Fischer",
+    "synopsis": " (1899–1972) was a key figure in the Austrian Communist Party who published on cultural topics including <i>The Necessity of Art</i> (1959)."
+  },
+  {
+    "id": "6b709980-0676-56fc-9f9b-a81aea479456",
+    "position": 53,
+    "type": "Person",
+    "textIdentifier": "RaphaelSamuel",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Raphael Samuel",
+    "synopsis": " (1934–96) was a British Marxist historian who researched working-class and labor history. He wrote a number of well-respected books on British identity, people’s history and communism."
+  },
+  {
+    "id": "6bd53559-0588-5cf9-98cc-ab616f0118d4",
+    "position": 24,
+    "type": "Person",
+    "textIdentifier": "DavidGraeber",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "David Graeber",
+    "synopsis": " (b. 1961) is an American anthropologist and political activist based at the London School of Economics. He has produced critical work on the history of debt and lent support to the Occupy Wall Street movement."
+  },
+  {
+    "id": "6c483b44-7466-5efa-a4b8-12c0e0a55dbf",
+    "position": 31,
+    "type": "Person",
+    "textIdentifier": "GertrudeStein",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Gertrude Stein",
+    "synopsis": " (1874–1946) was an American poet, playwright, and novelist. She became an integral member of the circle of Anglo-American writers living and working in Paris during the first decades of the twentieth century, including F. Scott Fitzgerald and Ernest Hemingway. She is best known for her poetic experimentation with the linear and narrative conventions of nineteenth-century poetry."
+  },
+  {
+    "id": "6c873838-ca70-5a22-a80f-36aa41d91c56",
+    "position": 2,
+    "type": "Person",
+    "textIdentifier": "WilliamBennett",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "William Bennett (b. 1943) ",
+    "synopsis": "is an American conservative politician who served as Secretary of Education from 1985 to 1988. He has highlighted the great value of <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "6d9c102c-99fa-500d-bd99-1a9e1f2a7c6e",
+    "position": 28,
+    "type": "Term",
+    "textIdentifier": "NorthAtlanticTreatyOrganization",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "North Atlantic Treaty Organization (NATO):",
+    "synopsis": " an intergovernmental military alliance based on the North Atlantic Treaty, which was signed on 4 April 1949."
+  },
+  {
+    "id": "6f575762-4296-5f29-97d0-515a78e58d2e",
+    "position": 24,
+    "type": "Person",
+    "textIdentifier": "EzraPound",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Ezra Pound",
+    "synopsis": " (1885–1972) was an American expatriate poet and critic. As well known for his editing as for his poetry, he discovered and published major American poets, and founded the Imagist school of poetry, which stressed concreteness of visual description and played a defining role in literary modernism."
+  },
+  {
+    "id": "6f8b8657-4fec-51e6-be4f-b443eaa7d540",
+    "position": 8,
+    "type": "Person",
+    "textIdentifier": "DavidCannadine",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "David Cannadine",
+    "synopsis": " (b. 1950) is a professor at Princeton University and a celebrated historian of the British aristocracy, imperial culture and class."
+  },
+  {
+    "id": "707b7789-0ec3-533b-a398-c221ccd56436",
+    "position": 37,
+    "type": "Person",
+    "textIdentifier": "BrendanOLeary",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Brendan O’Leary",
+    "synopsis": " <b>(b. 1958)</b> is a political scientist teaching at the University of Pennsylvania. His research focuses on nationalism, democracy, and constitutional design. "
+  },
+  {
+    "id": "70a39af6-2978-5a13-a94d-dbf7d7c52848",
+    "position": 7,
+    "type": "Person",
+    "textIdentifier": "Averroes",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Averroes (Ibn Rushd)",
+    "synopsis": " <b>(1126</b><b>–</b><b>98 </b><b>c.e.</b><b>) </b>was an Islamic philosopher especially known for his commentaries on Aristotle."
+  },
+  {
+    "id": "70bd17cd-9f86-5564-84a2-cb02f3444e24",
+    "position": 22,
+    "type": "Person",
+    "textIdentifier": "HermanMelville",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Herman Melville",
+    "synopsis": " (1819–1891) was an American writer, best known for his novel <em>Moby-Dick</em> (1851) and his unfinished novella <em>Billy Budd</em> (1924). Although little appreciated during his lifetime, Melville is now regarded as one of the pre-eminent American writers of the nineteenth century."
+  },
+  {
+    "id": "7149e49c-53d5-56be-9cad-e181999c7c7d",
+    "position": 69,
+    "type": "Term",
+    "textIdentifier": "SovietUnionorUSSR",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Soviet Union, or USSR: ",
+    "synopsis": "a kind of “super state” that existed from 1922 to 1991 and centered primarily on Russia and its neighbors in Eastern Europe and the northern half of Asia. It was the communist pole of the Cold War, with the United States as its main “rival.”"
+  },
+  {
+    "id": "719044da-bd4e-57ba-9709-621afa64a67a",
+    "position": 1,
+    "type": "Person",
+    "textIdentifier": "AlexandertheGreat",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Alexander the Great",
+    "synopsis": " <b>(356–323 b.c.e.) </b>was a Macedonian king. He is best known for his vast military conquests. At its height, his empire stretched from the eastern part of the Mediterranean to the Himalayas."
+  },
+  {
+    "id": "72d80d05-d1f7-571f-8f6b-817c9302f6c1",
+    "position": 58,
+    "type": "Person",
+    "textIdentifier": "Thrasymachus",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Thrasymachus (459–400",
+    "synopsis": "<b> b.c.e.</b><b>)</b> is mentioned in Plato’s <i>Republic</i>, where he is depicted as a Sophist who entered into a number of disagreements with Socrates. "
+  },
+  {
+    "id": "73dad9ef-45cd-5d36-b0a5-e3ad14cc14da",
+    "position": 29,
+    "type": "Term",
+    "textIdentifier": "Originalists",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Originalists (or strict constructionists):",
+    "synopsis": " a legal school that argues for the reading and enforcing of a text, in this case the US Constitution, as closely as possible to the original meaning and intent of those who wrote it."
+  },
+  {
+    "id": "73efc66e-384b-5f86-bd18-1d44d1bdffc2",
+    "position": 26,
+    "type": "Person",
+    "textIdentifier": "ClaudePanaccio",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Claude Panaccio (b. 1946) ",
+    "synopsis": "is a professor of philosophy at the University of Quebec. He is an expert in medieval philosophy. "
+  },
+  {
+    "id": "75d9b481-110b-5f3f-9b40-ff07c5708871",
+    "position": 14,
+    "type": "Person",
+    "textIdentifier": "AnthonyDomestico",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Anthony Domestico",
+    "synopsis": " is an American writer and Assistant Professor of Literature at Purchase College, State University of New York."
+  },
+  {
+    "id": "75e72a1a-1900-52a6-88ea-53d62f818b88",
+    "position": 71,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Recognition: </strong>an idea central to Hegel’s thought, whereby a self-conscious being is unaware that he is self-conscious until he is confronted by another self-conscious being, when he then desires to be recognized as such. This aspect of human nature has many implications for political society and can be applied to widely divergent academic fields."
+  },
+  {
+    "id": "773ca6fe-0115-517b-9aad-1729641e9c75",
+    "position": 66,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Protestant:</strong> a Christian denomination that broke free from the primacy of Roman Catholicism in the sixteenth century."
+  },
+  {
+    "id": "77424202-58ff-518f-b1f5-9f387f07bb44",
+    "position": 17,
+    "type": "Person",
+    "textIdentifier": "EdwardFeser",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Edward Feser (b. 1968)",
+    "synopsis": " is an associate professor of philosophy at Pasadena City College in Pasadena, California. He has published on a wide variety of topics in historical and contemporary philosophy. "
+  },
+  {
+    "id": "79d44d12-7a1a-57fe-bf69-f7a7f9328744",
+    "position": 71,
+    "type": "Term",
+    "textIdentifier": "Typology",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Typology:",
+    "synopsis": " a system for classifying things according to type, or study of how things have similar traits or characteristics."
+  },
+  {
+    "id": "7a2cb7e6-5074-53c1-bc43-40d0070359c6",
+    "position": 74,
+    "type": "Term",
+    "textIdentifier": "WorldWar",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "World War",
+    "synopsis": " <b>I:</b> a global conflict that began in 1914, pitting the Allies, a group of countries including the United Kingdom, France, and Russia (and eventually the United States) against the Central Powers, which included Germany, Austria-Hungary, and the Ottoman Empire. The war ended in 1918 with the defeat of the Central Powers."
+  },
+  {
+    "id": "7bd930f7-25f0-5561-b772-b7e712910bc6",
+    "position": 12,
+    "type": "Person",
+    "textIdentifier": "JFFries",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "J. F. Fries (1773–1843)",
+    "synopsis": " was a German philosopher and professor at the University of Heidelberg. He was politically active and influential on the politics of student fraternities. He combined nationalism with a form of unionism and liberalism. He also advocated discrimination against Jews and published anti-Semitic propaganda. He was Hegel’s chief philosophical and personal enemy."
+  },
+  {
+    "id": "7d505ab4-7e63-5395-812b-9174939a2e2c",
+    "position": 29,
+    "type": "Person",
+    "textIdentifier": "Plotinus",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Plotinus",
+    "synopsis": " <b>(204–70 c.e.)</b> was the founder of the Neoplatonic philosophical school. He is known for creating a complex but well-rounded philosophical system preserved in a work called <i>Enneads.</i>"
+  },
+  {
+    "id": "7ed97874-671f-51f7-8ba4-102a50b77baa",
+    "position": 31,
+    "type": "Person",
+    "textIdentifier": "AlanMacfarlane",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Alan Macfarlane (b. 1941)",
+    "synopsis": " is a British anthropologist who has written many historical works on England, Nepal, Japan, and China. "
+  },
+  {
+    "id": "7f0fc77c-5f75-5688-9c2f-843c24793c32",
+    "position": 9,
+    "type": "Person",
+    "textIdentifier": "KarlDeutsch",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Karl Deutsch",
+    "synopsis": " <b>(1912–92)</b> was born to a German-speaking family in Prague and went on to obtain two doctorates—one in political science and the other in sociology. He worked extensively on nationalism, international relations, and cybernetics."
+  },
+  {
+    "id": "7f29a72f-8402-5ffc-881b-e826710940b8",
+    "position": 1,
+    "type": "Person",
+    "textIdentifier": "JohnQuincyAdams",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "John Quincy Adams",
+    "synopsis": " (1767–1848) was the sixth president of the United States and son of the second American president, John Adams. His best-remembered achievements include the negotiation of the Treaty of Ghent, which brought an end to the War of 1812, and the authoring of the Monroe Doctrine (1823), which defined American foreign policy for over a century."
+  },
+  {
+    "id": "7f46910a-ed45-5b04-8893-d30bf07d2ada",
+    "position": 36,
+    "type": "Term",
+    "textIdentifier": "Senate",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Senate:",
+    "synopsis": " a legislative chamber that, together with the House of Representatives, makes up the US Congress."
+  },
+  {
+    "id": "7f878f30-b10a-5a7a-b4b7-48379259cca1",
+    "position": 45,
+    "type": "Term",
+    "textIdentifier": "Universal",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Universal:",
+    "synopsis": " a philosophical concept denoting certain general common characteristics shared by all objects of the same kind. Its opposite is a particular, which refers to a specific individual of that kind. For instance, your pet dog is a particular instance of the universal “dog.” "
+  },
+  {
+    "id": "7fe97191-f981-5969-ba11-ce0f131c72d8",
+    "position": 18,
+    "type": "Person",
+    "textIdentifier": "JohannGottfriedHerder",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Johann Gottfried Herder (1744–1803)",
+    "synopsis": " was a German poet and philosopher. He was a key figure both of the <i>Sturm und Drang </i>(“storm and stress”) movement and Weimar Classicism. This literary movement, a reaction to rationalism, allowed for the free expression of extreme emotion."
+  },
+  {
+    "id": "807ac8e8-a2e8-586c-b67d-b79cd924fbc6",
+    "position": 43,
+    "type": "Person",
+    "textIdentifier": "KLReinhold",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "K. L. Reinhold (1757–1823)",
+    "synopsis": " was a German philosopher. His <i>Letters on the Kantian Philosophy</i> (1786–87) brought Kant’s critical philosophy to a wider audience at the expense of its nuances. "
+  },
+  {
+    "id": "80bcfc38-e2cd-555f-a026-a7f161ae2722",
+    "position": 7,
+    "type": "Person",
+    "textIdentifier": "AugusteComte",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Auguste Comte",
+    "synopsis": " <b>(1798–1857)</b> was a French philosopher who helped found the discipline of sociology and the concept of positivism."
+  },
+  {
+    "id": "812a5879-c41d-5804-9f92-e1dbcd778bb3",
+    "position": 45,
+    "type": "Person",
+    "textIdentifier": "CharlesTaylor",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Charles Taylor",
+    "synopsis": " <b>(b. 1931)</b> is a Canadian philosopher best known for his work on Hegel, modern understandings of selfhood, and the history of secularization in Europe and North America."
+  },
+  {
+    "id": "8183d0a5-48b7-5d14-b4d8-8d606e1528a5",
+    "position": 47,
+    "type": "Person",
+    "textIdentifier": "MichaelSandel",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Michael Sandel (b. 1953)",
+    "synopsis": " is an American philosopher who currently teaches at Harvard University. In his first book, <i>Liberalism and the Limits of Justice </i>(1982), he was highly critical of John Rawls. "
+  },
+  {
+    "id": "818b1bee-8a8f-5785-be78-fad3676a6fba",
+    "position": 19,
+    "type": "Person",
+    "textIdentifier": "F.R.Leavis",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "F. R. Leavis",
+    "synopsis": " (1895–1978) was a British literary critic, teacher, and publisher who, with I. A. Richards, advocated for rigorous intellectual standards and often attacked what he saw as the informal dilettantism of the Bloomsbury Group."
+  },
+  {
+    "id": "82013ef5-2ab6-5ea8-9037-defce76eeddc",
+    "position": 4,
+    "type": "Person",
+    "textIdentifier": "FrederickBeiser",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Frederick Beiser (b. 1949)",
+    "synopsis": " is a German philosopher best known for his work on German Idealism and German Romanticism. He is currently professor of philosophy at Syracuse University. "
+  },
+  {
+    "id": "82880e0e-89a9-5f89-923f-0c95b80b9af7",
+    "position": 60,
+    "type": "Person",
+    "textIdentifier": "JoachimWinkelmann",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Joachim Winkelmann (1717–68)",
+    "synopsis": " was a German art historian. His 1764 work, <i>The History of Ancient Art</i>, had a profound impact on Hegel and many of his contemporaries. "
+  },
+  {
+    "id": "82e98c50-33f5-597a-8857-e042e15579e7",
+    "position": 39,
+    "type": "Term",
+    "textIdentifier": "Statesovereignty",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "State sovereignty:",
+    "synopsis": " the understanding that federal government only has powers that have been given to it by the Constitution and that all remaining powers are to be exercised by the states."
+  },
+  {
+    "id": "8387cc8c-f57a-5fb4-8950-9e35000a7b85",
+    "position": 13,
+    "type": "Person",
+    "textIdentifier": "FrancisFukuyama",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Francis Fukuyama (b. 1952)",
+    "synopsis": " is an American political philosopher. He is best known for his 1992 work <i>The End of History and the Last Man</i>, which drew heavily from Alexandre Kojève’s interpretation of Hegel, especially where it concerned the struggle for recognition. "
+  },
+  {
+    "id": "83e9f4b2-25df-5b43-b56a-2f42886ea5cf",
+    "position": 54,
+    "type": "Term",
+    "textIdentifier": "Politicaltheory",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Political theory:",
+    "synopsis": " the study of the ideas and concepts at work in the understanding and evaluation of politics."
+  },
+  {
+    "id": "845ccf9c-b60a-5277-8c94-144c7e0823fc",
+    "position": 42,
+    "type": "Person",
+    "textIdentifier": "EdMiliband",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Ed Miliband",
+    "synopsis": " (b. 1969) is a British Labour politician and the current leader of the Labour Party. His father Ralph Miliband was an associate of Hobsbawm in British communist circles."
+  },
+  {
+    "id": "848b6440-b742-591f-9e11-e8ee1bdb9116",
+    "position": 65,
+    "type": "Term",
+    "textIdentifier": "Socialentropy",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Social entropy",
+    "synopsis": ": regarding social systems, this is the idea that social structures or networks have a tendency to break down over time. This can lead to the disappearance of social distinctions. "
+  },
+  {
+    "id": "85c6fbf0-9b3d-5c5a-b6ad-eb440d5366e9",
+    "position": 38,
+    "type": "Person",
+    "textIdentifier": "GyörgyLukács",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "György Lukács",
+    "synopsis": " (1885–1971) was a Hungarian philosopher and literary critic who, after serving briefly in Hungary’s communist government of 1919, dedicated himself to writing about nineteenth-century European literature."
+  },
+  {
+    "id": "85cc24ef-4564-56aa-b20c-6bff587f75b7",
+    "position": 68,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Ratiocination:</strong> the process of reasoning."
+  },
+  {
+    "id": "85e15bb7-46ba-50db-85cc-d672d1f08121",
+    "position": 2,
+    "type": "Person",
+    "textIdentifier": "ChristopherBayly",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Christopher Bayly ",
+    "synopsis": "(b. 1945) is a professor emeritus in Indian and global history at the University of Cambridge. He has produced his own global account of the “long nineteenth century.”<b></b>"
+  },
+  {
+    "id": "85f7e0fa-bf8e-58d2-9e32-5a12833aadbb",
+    "position": 3,
+    "type": "Person",
+    "textIdentifier": "MarcusTulliusCicero",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Marcus Tullius Cicero (106–43 b.c.e.)",
+    "synopsis": " was a Roman statesman, orator, and political leader famous for the beauty of his Latin prose and well known for his political philosophy in works like <i>On Duties</i>, <i>The Republic</i>, and <i>On the Laws</i>. His ideas influenced the views of Publius in <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "869b0ad1-5f9a-5217-8107-b381e3d10ef9",
+    "position": 13,
+    "type": "Person",
+    "textIdentifier": "NicholasCrafts",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Nicholas Crafts",
+    "synopsis": " (b. 1949) is professor of British economic history at the University of Warwick. He has argued influentially for the slow spread and growth of the Industrial Revolution in Britain."
+  },
+  {
+    "id": "86ff0ac8-efb5-52ef-82d4-3a5035062634",
+    "position": 30,
+    "type": "Person",
+    "textIdentifier": "AlasdairMacIntyre",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Alasdair MacIntyre (b. 1929)",
+    "synopsis": " is a Scottish philosopher and senior research fellow at London Metropolitan University. His 1981 text, <i>After Virtue, </i>is considered to be seminal. "
+  },
+  {
+    "id": "8715644c-772c-5bcd-b192-c8421dea7001",
+    "position": 17,
+    "type": "Person",
+    "textIdentifier": "HughKenner",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Hugh Kenner",
+    "synopsis": " (1923–2003) was a Canadian professor of literature and literary scholar. He became acquainted with Ezra Pound as a young man and went on to become one of the major critical interpreters of modernist literature. He is best known for his studies of Ezra Pound, James Joyce, and T. S. Eliot."
+  },
+  {
+    "id": "88b6f0e8-dcc9-5c33-8f9b-c9c2dc131825",
+    "position": 3,
+    "type": "Person",
+    "textIdentifier": "MatthewArnold",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Matthew Arnold",
+    "synopsis": " (1822–1888) was a British poet and critic who addressed literary, social, and cultural issues in his criticism. Arnold is now commonly regarded as the most modern, and most sage, of the Victorian writers."
+  },
+  {
+    "id": "88c36a70-34f9-585e-b271-a2491f5553e2",
+    "position": 36,
+    "type": "Person",
+    "textIdentifier": "NicosMouzelis",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Nicos Mouzelis (b. 1939)",
+    "synopsis": " is professor of sociology at the London School of Economics. His research focuses on the sociology of development."
+  },
+  {
+    "id": "8bda663a-cc76-5842-b3c8-9148a5e6dc61",
+    "position": 73,
+    "type": "Term",
+    "textIdentifier": "Urbanization",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Urbanization:",
+    "synopsis": " the movement of population from rural areas to urban centers and the attendant social, political, and economic effects."
+  },
+  {
+    "id": "8caf71e2-9ccc-5e82-9c2f-c13ba8a81447",
+    "position": 67,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Prussia:</strong> a country situated in what is now northern Germany. Originally a duchy, it gradually expanded its territory until in 1701 it was reformed as the Kingdom of Prussia. The country was instrumental in the eventual unification of Germany, which occurred in 1871."
+  },
+  {
+    "id": "8d51f739-46b7-5c9b-8af2-c68a2edceab7",
+    "position": 16,
+    "type": "Person",
+    "textIdentifier": "Empedocles",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Empedocles",
+    "synopsis": " <b>(490</b><b>–</b><b>430 b.c.e.)</b> was a pre-Socratic philosopher and author of many notable doctrines. He is best known for being the first to advocate the four-element theory (fire, water, earth, air). "
+  },
+  {
+    "id": "8db39458-a8e7-561f-8b84-5436290446cb",
+    "position": 10,
+    "type": "Person",
+    "textIdentifier": "JohannGottliebFichte",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Johann Gottlieb Fichte (1762–1814)",
+    "synopsis": " was the first of the three major philosophers of German Idealism, the others being F. W. J. Schelling and Hegel. Fichte’s position continually evolved throughout his philosophical career. He introduced the idea of mutual recognition, which is central to <i>Phenomenology</i>. "
+  },
+  {
+    "id": "8e289f03-2463-5cbf-85f1-72b32254c6d1",
+    "position": 6,
+    "type": "Person",
+    "textIdentifier": "WilliamBlake",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "William Blake",
+    "synopsis": " (1757–1827) was an English poet, painter, and engraver. Unlike his contemporaries, he was born into a working family of moderate means and received almost no formal education. Blake’s poetry stands out in this period as unconventional, dreamlike, and imaginative."
+  },
+  {
+    "id": "8e2b5964-77bd-5858-a5b3-552653a7f7b3",
+    "position": 20,
+    "type": "Person",
+    "textIdentifier": "AxelHonneth",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Axel Honneth (b. 1949)",
+    "synopsis": " is a professor of philosophy and currently the director of the Institute for Social Research in Frankfurt. He has written several books on the Hegelian concept of a struggle for recognition. "
+  },
+  {
+    "id": "8e3f48c9-7294-5c05-9204-c8de01929d45",
+    "position": 22,
+    "type": "Person",
+    "textIdentifier": "JoshuaHoffman",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Joshua Hoffman",
+    "synopsis": " is a professor of philosophy at the University of North Carolina at Greensboro. He is known for his work on metaphysics and theology. "
+  },
+  {
+    "id": "8fb82b3f-8ca5-551b-9e2a-53016d4828cd",
+    "position": 34,
+    "type": "Person",
+    "textIdentifier": "KarlMarx",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Karl Marx",
+    "synopsis": " <b>(1818</b><b>–</b><b>83)</b> was a German economist and political theorist who became the founder of modern communism. He co-wrote <i>The Communist Manifesto</i> (1848) with the industrialist Friedrich Engels and authored <i>Capital</i> (1867)."
+  },
+  {
+    "id": "8fe0b702-3a69-5043-a9ce-31dd8b23783d",
+    "position": 48,
+    "type": "Person",
+    "textIdentifier": "WoodrowWilson",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Woodrow Wilson",
+    "synopsis": " <b>(1856–1924)</b> was the 28th president of the United States. Wilson served from 1913 to 1921 and his administration supervised America’s entry into World War I. He is perhaps best known for his Fourteen Points speech to the American Congress on January 8, 1918, which called for “a general association of nations” and led to the establishment of the League of Nations (an international organization founded in January 1920 after the end of World War I to help settle international disputes and which was dissolved in 1946). "
+  },
+  {
+    "id": "90118291-349f-5b25-8694-89973d1b14b3",
+    "position": 55,
+    "type": "Term",
+    "textIdentifier": "Positivism",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Positivism:",
+    "synopsis": " the idea that any rational assertion can be verified, either by scientific methods or a logical proof."
+  },
+  {
+    "id": "90c41340-58e3-53ea-a5f0-56f9f2fa749b",
+    "position": 59,
+    "type": "Person",
+    "textIdentifier": "MichaelWalzer",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Michael Walzer (b. 1935)",
+    "synopsis": " is an American political theorist and professor emeritus at Princeton University. He specializes in political ethics. "
+  },
+  {
+    "id": "9190bfc0-491e-529a-9658-3016841d40d4",
+    "position": 6,
+    "type": "Person",
+    "textIdentifier": "ParthaChatterjee",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Partha Chatterjee",
+    "synopsis": " <b>(b. 1947)</b> is a professor of anthropology and South Asian studies at Columbia University. His work focuses on empire and nationalism in South Asia."
+  },
+  {
+    "id": "91eaacff-e780-58bc-8ec1-f85f2ddb1bc6",
+    "position": 62,
+    "type": "Person",
+    "textIdentifier": "FrankTrentmann",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Frank Trentmann",
+    "synopsis": " is professor of history at Birkbeck and specializes in modern British economic history and the history of consumption."
+  },
+  {
+    "id": "92134d08-5fe6-5b5a-8e95-ea70a7761860",
+    "position": 54,
+    "type": "Person",
+    "textIdentifier": "JosephSchumpeter",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Joseph Schumpeter",
+    "synopsis": " (1883–1950) was a Czech-born Austrian–American economist, who wrote widely on economic cycles and produced the classic work <i>Capitalism, Socialism, Democracy</i> (1942).<b></b>"
+  },
+  {
+    "id": "92ab3d70-4568-5867-92ba-302dce95e231",
+    "position": 8,
+    "type": "Person",
+    "textIdentifier": "Avicenna",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Avicenna (Ibn Sīnā)",
+    "synopsis": " <b>(980–1037 c.e.)</b> was a Persian philosopher and intellectual. He is especially well known for contributing to the development of medicine, but his philosophical work is also substantial. His ontological theories about being were strongly influenced by Aristotle."
+  },
+  {
+    "id": "940bd96c-3aad-58d9-9134-04e3423a474d",
+    "position": 56,
+    "type": "Person",
+    "textIdentifier": "JonathanSperber",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Jonathan Sperber",
+    "synopsis": " (b. 1952) is professor of history at the University of Missouri. He is an acclaimed historian of nineteenth-century Europe, especially focusing on the 1848 revolutions and the career of Karl Marx."
+  },
+  {
+    "id": "94256543-faa1-5a6b-bc6d-ad8104306c41",
+    "position": 25,
+    "type": "Person",
+    "textIdentifier": "ImmanuelKant",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Immanuel Kant (1724–1804)",
+    "synopsis": " was a German philosopher based in Königsberg, now called Kaliningrad. He is famous for his so-called “critical philosophy,” which is principally laid out in his three great “Critiques”: the<i> Critique of Pure Reason</i> (1781; second edition, 1787), the <i>Critique of Practical Reason</i> (1788), and the <i>Critique of the Power of Judgment</i> (1790). "
+  },
+  {
+    "id": "9521646b-b4d5-5e00-9f11-8d8ee9abe9df",
+    "position": 46,
+    "type": "Term",
+    "textIdentifier": "WorldTradeOrganization",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "World Trade Organization (WTO): ",
+    "synopsis": "the only global international organization dealing with the rules of trade between nations."
+  },
+  {
+    "id": "9580dcae-0b9c-5e25-88dc-161993a6c4dc",
+    "position": 21,
+    "type": "Person",
+    "textIdentifier": "RobertGildea",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Robert Gildea",
+    "synopsis": " (b. 1952) is professor of history at Oxford University. He has published widely on French political traditions, May 1968 and the French Resistance."
+  },
+  {
+    "id": "959602e4-defe-58f1-bf67-6a6760fea2c3",
+    "position": 21,
+    "type": "Person",
+    "textIdentifier": "KyleScott",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Kyle Scott ",
+    "synopsis": "is a lecturer in political science at the University of Houston and author of <i>The</i> <i>Federalist Papers: A Reader’s Guide</i>."
+  },
+  {
+    "id": "95b77910-dc97-5eab-85a6-2ed3e9e88a6b",
+    "position": 23,
+    "type": "Person",
+    "textIdentifier": "GregoryJusdanis",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Gregory Jusdanis",
+    "synopsis": " <b>(b. 1955)</b> is professor of classics at Ohio State University. His research focuses on aesthetics, nationalism, and cultural studies."
+  },
+  {
+    "id": "9684b6be-abee-533f-8e31-171839fb89cb",
+    "position": 23,
+    "type": "Person",
+    "textIdentifier": "FHJacobi",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "F. H. Jacobi (1743–1819)",
+    "synopsis": " was a German merchant, civil servant, novelist, and philosopher. "
+  },
+  {
+    "id": "96875786-6de8-53a6-b51f-c917b70f41ec",
+    "position": 59,
+    "type": "Person",
+    "textIdentifier": "GeorgeVTaylor",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "George V. Taylor",
+    "synopsis": " (1919–2011) was an American historian based at Chapel Hill in North Carolina who wrote a series of landmark articles on the French eighteenth-century economy in the 1960s."
+  },
+  {
+    "id": "96e483b4-b63c-5acc-8ff6-2b46f2474c0e",
+    "position": 13,
+    "type": "Person",
+    "textIdentifier": "RemydeGourmont",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Remy de Gourmont",
+    "synopsis": " (1858–1915) was a French poet, novelist, and literary critic of the Symbolist school, which rejected naturalism and realism in favor of dreams and visions. Best known for his critical work <em>Le Problème du Style</em> (<em>The Problem of Style</em>), which became a source for literary movements in England and France."
+  },
+  {
+    "id": "98fdaea3-69d1-5b20-b57c-b2e3adcbe772",
+    "position": 33,
+    "type": "Term",
+    "textIdentifier": "Representativedemocracy",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Representative democracy:",
+    "synopsis": " a form of government in which citizens, rather than making public decisions directly (which is direct democracy), elect a body of representatives who will then act in their name."
+  },
+  {
+    "id": "9919c89e-da99-5a94-a676-60479cab50f9",
+    "position": 79,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Standpoint of the consciousness:</strong> refers to Hegel’s belief that neither our everyday experience nor the philosophical tradition was capable of properly understanding the relationship between the mind and the world."
+  },
+  {
+    "id": "9a1f712b-fae9-500a-abf1-97604c43c03e",
+    "position": 62,
+    "type": "Term",
+    "textIdentifier": "Selfdetermination",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Self-determination: ",
+    "synopsis": "a political principle that a people who consider themselves a nation should have the right to form a state and govern themselves."
+  },
+  {
+    "id": "9ccb6105-93d0-5b4e-9be7-28fc692fbb64",
+    "position": 57,
+    "type": "Term",
+    "textIdentifier": "Premodern",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Pre-modern:",
+    "synopsis": " the period in history prior to the modern period, meaning the era preceding the late fifteenth century when changes in technology and science led to increasing globalization and industrialization."
+  },
+  {
+    "id": "9d49966e-00d3-5126-a74c-7a5aeb705c94",
+    "position": 9,
+    "type": "Person",
+    "textIdentifier": "JohnHClapham",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "John H. Clapham",
+    "synopsis": " (1873–1946) was the first professor of economic history at the University of Cambridge and provost of King’s College, Cambridge, as well as the author of important works on the Industrial Revolution and the Bank of England."
+  },
+  {
+    "id": "9f5e9670-6a3b-596a-830f-678c9591d7d5",
+    "position": 19,
+    "type": "Person",
+    "textIdentifier": "IlsetrautHadot",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Ilsetraut Hadot ",
+    "synopsis": "is an emerita professor at the French National Center for Scientific Research. She has published many works on ancient philosophy, especially Neoplatonism. "
+  },
+  {
+    "id": "a00da646-d43a-5883-8b34-51cc7ae27dab",
+    "position": 3,
+    "type": "Person",
+    "textIdentifier": "ShlomoAvineri",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Shlomo Avineri (b. 1933)",
+    "synopsis": " is an Israeli political scientist. He has written extensively on the history of philosophy, especially that of Marx and Hegel. "
+  },
+  {
+    "id": "a07eb3c1-bd80-55e5-baf8-694c36dcd829",
+    "position": 75,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Serfdom:</strong> a system that existed during the European Middle Ages whereby a person was effectively tied to the land. Land would be given by its owner to the serf in return for the serf working the lord’s fields, mines, forests, or roads."
+  },
+  {
+    "id": "a08cf179-420e-5ddd-9348-5ad3b2353cd6",
+    "position": 16,
+    "type": "Person",
+    "textIdentifier": "MarkHaugaard",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Mark Haugaard (b. 1961)",
+    "synopsis": " is a professor of political science at the National University of Ireland Galway. His research interests focus on political and sociological theory."
+  },
+  {
+    "id": "a09c07b9-5ae3-52cc-a6a4-70ab489253a4",
+    "position": 14,
+    "type": "Person",
+    "textIdentifier": "JohnMarshall",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "John Marshall",
+    "synopsis": " <b>(1755–1835)</b> was Chief Justice of the US Supreme Court from 1801 to 1835. His opinions form the basis of much of present US jurisprudence, including the principle of judicial review where laws can be declared unconstitutional and invalidated by the courts. He relied heavily on <i>The Federalist Papers</i> for his decisions."
+  },
+  {
+    "id": "a11cf551-a4cb-51d7-96c5-f97d29d658ff",
+    "position": 39,
+    "type": "Person",
+    "textIdentifier": "JohnPlamenatz",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "John Plamenatz",
+    "synopsis": " <b>(1912–75)</b> was a political philosopher. He is best known for his work on democracy and spent most of his career at the University of Oxford."
+  },
+  {
+    "id": "a1632615-e291-5a69-8013-3f69439eeb3d",
+    "position": 38,
+    "type": "Term",
+    "textIdentifier": "Separatistmovement",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Separatist movement: ",
+    "synopsis": "this is when one group desires to break away from another."
+  },
+  {
+    "id": "a2ba9914-92b3-5db6-be63-0ea9d645c8bc",
+    "position": 43,
+    "type": "Term",
+    "textIdentifier": "ThirteenColonies",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Thirteen Colonies:",
+    "synopsis": " the colonies that composed the original United States in 1776: Connecticut, Delaware, Georgia, Maryland, Massachusetts, New Hampshire, New Jersey, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, and Virginia. They revolted against the British monarchy and became part of the United States of America."
+  },
+  {
+    "id": "a37d6930-f887-50e4-a2b1-60858c8f977a",
+    "position": 46,
+    "type": "Person",
+    "textIdentifier": "UgurUmitUngor",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Ugur Umit Ungor (b. 1980) ",
+    "synopsis": "is a historian and sociologist at Utrecht University. His research focuses on mass violence and genocide."
+  },
+  {
+    "id": "a3a7acde-7d4e-5caa-8f63-f49a821d2331",
+    "position": 24,
+    "type": "Person",
+    "textIdentifier": "JohnWitherspoon",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "John Witherspoon (1723–94)",
+    "synopsis": " was president of the College of New Jersey (now Princeton University) and representative of New Jersey in the Constitutional Convention. He signed the Declaration of Independence. An expert on the Scottish Enlightenment, he was a teacher of James Madison."
+  },
+  {
+    "id": "a4ceedcd-398b-5c94-ba87-682744e4643a",
+    "position": 13,
+    "type": "Person",
+    "textIdentifier": "",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "",
+    "synopsis": "<b>Mohandas K. (Mahatma) Gandhi</b> <b>(1869–1948)</b> was the leader of the Indian independence movement against the rule of the British Empire. Gandhi employed nonviolent techniques of civil disobedience to resist British rule."
+  },
+  {
+    "id": "a5f555b8-41df-5536-b588-1a50e03dd4e3",
+    "position": 30,
+    "type": "Person",
+    "textIdentifier": "RupertShortt",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Rupert Shortt",
+    "synopsis": " is a London-based writer and editor. He is Religion Editor at the <em>Times Literary Supplement</em>, and author of five books, including&nbsp;<em>Rowan’s Rule: The Biography of the Archbishop</em> and <em>Benedict XVI: Commander of the Faith</em>."
+  },
+  {
+    "id": "a62a0b35-ac2c-5344-ad0a-be380f58588b",
+    "position": 0,
+    "type": "Person",
+    "textIdentifier": "MohamedAli",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Mohamed Ali",
+    "synopsis": " (1769–1849) rebelled against the Ottoman Empire to become self-proclaimed ruler of Egypt and Sudan, introducing a host of modernizing reforms in his country."
+  },
+  {
+    "id": "a687f83e-1913-5e87-b5d7-e9356e98297e",
+    "position": 78,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Soviet Union, or USSR: </strong>a kind of “super state” that existed from 1922 to 1991, centered primarily on Russia and its neighbors in Eastern Europe and the northern half of Asia. It was the communist pole of the Cold War, with the United States as its main “rival.”"
+  },
+  {
+    "id": "a6a1e68d-ac60-53b4-b99b-8d4910e38bd4",
+    "position": 24,
+    "type": "Person",
+    "textIdentifier": "ElieKedourie",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Elie Kedourie",
+    "synopsis": " <b>(1926–92)</b> was a British historian of the Middle East. Of Iraqi Jewish background, Kedourie wrote extensively on empire, Middle East politics, and nationalism."
+  },
+  {
+    "id": "a6d1c48f-1fa5-5993-8ee3-a6309b83dbf7",
+    "position": 65,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Pragmatism:</strong> a philosophical approach that originated in the latter half of the nineteenth century in the United States with such philosophers as Charles Sanders Peirce (1839–1914), William James (1842–1910), and John Dewey (1859–1952). Pragmatism’s central idea is that the content of hypotheses is to be explained in terms of their practical consequences. It is commonly applied to the notion of truth, but has further application, for example, in ethics and semantics."
+  },
+  {
+    "id": "a7c73073-5834-5960-8302-792542385b95",
+    "position": 48,
+    "type": "Person",
+    "textIdentifier": "RichardNPrice",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Richard N. Price",
+    "synopsis": " is professor of British history at the University of Maryland and an advocate for the slow evolution of nineteenth-century economy and society. He has recently explored Victorian governance of Africa."
+  },
+  {
+    "id": "a8ef38ad-9fbd-59ef-81cf-6f41c285a062",
+    "position": 26,
+    "type": "Term",
+    "textIdentifier": "Livingconstitutionalism",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Living constitutionalism:",
+    "synopsis": " a school of thought which argues that the US Constitution was always intended to evolve and to be read in a manner suited to the needs and values of the time. Although <i>The Federalist Papers</i> were written in a very specific context, their authors envisioned an enduring legacy on governance and jurisprudence."
+  },
+  {
+    "id": "aa3396f4-f9e0-5950-9ab0-716144ff4aec",
+    "position": 44,
+    "type": "Person",
+    "textIdentifier": "RichardRorty",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Richard Rorty (1931–2007)",
+    "synopsis": " was an American philosopher best known for his work in analytic philosophy. He taught at a number of universities during his long career, including Stanford and Princeton. "
+  },
+  {
+    "id": "aaec1c27-033d-51a7-a90a-8f3a12417510",
+    "position": 20,
+    "type": "Person",
+    "textIdentifier": "VerityHarte",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Verity Harte ",
+    "synopsis": "is a professor of philosophy and classics at Yale University. She is a specialist in ancient philosophy, with particular interest in Plato and Aristotle."
+  },
+  {
+    "id": "ab07e3c0-b98f-5db8-9dce-fa54ac28c3db",
+    "position": 65,
+    "type": "Person",
+    "textIdentifier": "SidneyWebb",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Sidney Webb",
+    "synopsis": " (1859<i>–</i>1947) was a British socialist, economist and historian, who belonged to the Fabian Society and was a co-founder of the London School of Economics and Political Science. "
+  },
+  {
+    "id": "ab351158-2927-563d-9353-832e3d490030",
+    "position": 44,
+    "type": "Term",
+    "textIdentifier": "Thirdmanargument",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Third man argument:",
+    "synopsis": " an argument put forward by Aristotle that criticizes Plato’s Theory of Forms. It shows that the forms cannot be the universals as their own existence calls for a universal."
+  },
+  {
+    "id": "abe5d93a-dfa9-571d-b0ad-a34524d4fbf0",
+    "position": 61,
+    "type": "Person",
+    "textIdentifier": "ChristianWolff",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Christian Wolff (1679–1754)",
+    "synopsis": " was a German philosopher. He wrote on almost every scholarly subject of his time and tried to give systematic and mathematical form to a broadly rationalist and Leibnizian philosophical world-view. "
+  },
+  {
+    "id": "aedba987-c8ad-5162-aa58-a2b96d9b334a",
+    "position": 32,
+    "type": "Person",
+    "textIdentifier": "RowanWilliams",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Rowan Williams",
+    "synopsis": " (born 1950) was Archbishop of Canterbury (the supreme head of the Church of England) from 2002 to 2012. He is also a noted theologian and literary scholar and is currently Master of Magdalene College, Cambridge."
+  },
+  {
+    "id": "af7e677b-979a-5ae5-a1ec-ee971e344431",
+    "position": 6,
+    "type": "Person",
+    "textIdentifier": "AsaBriggs",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Asa Briggs",
+    "synopsis": " (b. 1921) is an English historian based at Sussex famed for his important work on Victorian culture, Chartism and broadcasting. His survey of nineteenth-century politics was entitled <i>The Age of Improvement: 1783</i><i>–1867</i> (1959)."
+  },
+  {
+    "id": "afafa32c-0c31-550b-bf7b-ac5d7f15e4b6",
+    "position": 35,
+    "type": "Person",
+    "textIdentifier": "FriedrichImmanuelNiethammer",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Friedrich Immanuel Niethammer (1766–1848)",
+    "synopsis": " was a German theologian and philosopher. A professor of philosophy in Jena until 1804, he became Central Commissioner of Education and a member of the Consistory of Bavaria in 1807. He had met Hegel when a student at Tübingen and frequently assisted the advancement of Hegel’s career."
+  },
+  {
+    "id": "b0015808-d984-5f55-bc8e-6dc69e14ec54",
+    "position": 33,
+    "type": "Person",
+    "textIdentifier": "MosesMendelssohn",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Moses Mendelssohn (1729–86)",
+    "synopsis": " was a German Jewish philosopher and stalwart of the Berlin Enlightenment. His thought belonged to the rationalist school of Leibniz and Christian Wolff. "
+  },
+  {
+    "id": "b035a488-f7aa-54f0-a5eb-0b2dfa32190b",
+    "position": 13,
+    "type": "Person",
+    "textIdentifier": "Thomas",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Thomas",
+    "synopsis": " <b>Case (1844</b><b>–</b><b>1925)</b> was a professor of moral and metaphysical philosophy at the University of Oxford. He is best known for his work in contemporary metaphysics, but he also produced several works on Aristotle. "
+  },
+  {
+    "id": "b03c645a-d023-5e9b-84fa-d071ecdb21ca",
+    "position": 63,
+    "type": "Term",
+    "textIdentifier": "Slav",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Slav:",
+    "synopsis": " an ethno-linguistic group occupying much of the eastern half of Europe."
+  },
+  {
+    "id": "b04c2b44-780f-5c7d-ad37-77ca8eb3dbf7",
+    "position": 15,
+    "type": "Person",
+    "textIdentifier": "JohnAHall",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "John A. Hall",
+    "synopsis": " <b>(b. 1949) </b>is a professor of sociology at McGill University in Montreal, Canada. He obtained his PhD from the London School of Economics and has written extensively on nationalism and the life and ideas of Ernest Gellner."
+  },
+  {
+    "id": "b0762ea5-f655-5be1-ac3d-623bcf213067",
+    "position": 49,
+    "type": "Person",
+    "textIdentifier": "DavidPriestland",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "David Priestland ",
+    "synopsis": "is a lecturer in modern history at Oxford University who specializes in communist regimes and broad political history.<b></b>"
+  },
+  {
+    "id": "b0d3b58d-b979-5bc3-bc06-952c9f63f246",
+    "position": 14,
+    "type": "Person",
+    "textIdentifier": "LeonoreDavidoff",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Leonore Davidoff ",
+    "synopsis": "(1932–2014) was a historian and sociologist at Essex University famed for her studies of nineteenth-century class, gender and family relationships.<u></u>"
+  },
+  {
+    "id": "b14d6d28-08eb-5c21-8621-5b6385dfe8ea",
+    "position": 20,
+    "type": "Person",
+    "textIdentifier": "RobertLowell",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Robert Lowell",
+    "synopsis": " (1917–1977) was one of the most famous American poets of the twentieth century, known for a lyrical style and for helping to found the Confessional movement in American poetry. Lowell won the Pulitzer Prize in 1947."
+  },
+  {
+    "id": "b1ac1fbb-ece4-5074-a070-558c01f98afc",
+    "position": 29,
+    "type": "Person",
+    "textIdentifier": "WilliamShakespeare",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "William Shakespeare",
+    "synopsis": " (1564–1616) was an English playwright and poet. His best-known works include <em>Romeo and Juliet</em>, <em>A Midsummer Night’s Dream</em> and <em>Hamlet </em>among many other plays, as well as his sonnets. He worked as an actor and a writer in London during the rule of Elizabeth I, but his reputation far exceeds those of his contemporaries, and his influence on literature in English extends to the present day."
+  },
+  {
+    "id": "b348e3c1-4085-535b-9bd8-5cab766149ee",
+    "position": 45,
+    "type": "Term",
+    "textIdentifier": "Warof1812",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "War of 1812: ",
+    "synopsis": "a war between Britain and the United States, fought between 1812 and 1815. It has also been called the second American war of independence."
+  },
+  {
+    "id": "b35b5326-e0e1-547f-b577-fe5899756d30",
+    "position": 52,
+    "type": "Person",
+    "textIdentifier": "WilfridSellars",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Wilfrid Sellars (1912–89)",
+    "synopsis": " was an American philosopher who helped develop the school of thought known as Critical Realism. His most famous work remains his Hegelian <i>Empiricism and the Philosophy of the Mind </i>(1954). "
+  },
+  {
+    "id": "b3d7553f-ddf0-5630-abc7-9bd6d73edce2",
+    "position": 76,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong><em>Selbst</em></strong>: German word meaning personally or “oneself”."
+  },
+  {
+    "id": "b4340ac5-8dd7-5fbe-b266-ae2329986644",
+    "position": 7,
+    "type": "Person",
+    "textIdentifier": "RobertBrandom",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Robert Brandom",
+    "synopsis": " <b>(b. 1950) </b>is a distinguished professor and fellow of the American Academy of Arts and Sciences. He currently teaches in the philosophy department of the University of Pittsburgh. "
+  },
+  {
+    "id": "b48894cc-97a5-540a-9cca-dc7353d9e999",
+    "position": 24,
+    "type": "Person",
+    "textIdentifier": "Terence",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Terence",
+    "synopsis": " <b>Irwin (b. 1947) </b>is a professor of ancient philosophy at the University of Oxford. He is an expert on ancient philosophy and the history of ethics. "
+  },
+  {
+    "id": "b4929653-e451-5521-a5c9-9078bede1d5d",
+    "position": 7,
+    "type": "Person",
+    "textIdentifier": "ThomasHobbes",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Thomas Hobbes (1588–1679)",
+    "synopsis": " was an English philosopher best remembered for his book <i>Leviathan</i>, in which he established what is now known as social contract theory. Hobbes championed government, specifically the monarchy, as the supreme defense against the chaotic “state of nature.” His ideas may have influenced the view of Publius regarding human nature in <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "b49734f1-f43b-542b-8c02-963fbd2c613d",
+    "position": 19,
+    "type": "Person",
+    "textIdentifier": "Publius",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Publius ",
+    "synopsis": "was the pseudonym of the authors of <i>The Federalist Papers</i>. Publius was profiled in Plutarch’s writing as having helped establish the Roman republic by overthrowing Rome’s kings, importing democratic laws from Athens, and denying himself wealth that would cause envy."
+  },
+  {
+    "id": "b59613e2-f36e-5153-b5be-180fcd623dc6",
+    "position": 12,
+    "type": "Person",
+    "textIdentifier": "LindaColley",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Linda Colley",
+    "synopsis": " (b. 1949) is professor at Princeton and an authority on questions of British national and imperial identity in the eighteenth century."
+  },
+  {
+    "id": "b5ec0ad7-3a5c-5f28-bba5-b6205aa4d2b1",
+    "position": 15,
+    "type": "Person",
+    "textIdentifier": "Demosthenes",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Demosthenes (384–322 ",
+    "synopsis": "<b>b.c.e.</b><b>)</b> was an orator and statesman in ancient Athens. He is especially well known for his political speeches."
+  },
+  {
+    "id": "b75d8ece-b2fb-559d-b007-55cf3c824c6a",
+    "position": 51,
+    "type": "Term",
+    "textIdentifier": "Philosophy",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Philosophy:",
+    "synopsis": " the academic field focused on fundamental problems of mind, language, existence, and reason. The word comes from the ancient Greek for “love of wisdom.” "
+  },
+  {
+    "id": "b823218b-cd49-5d4d-8c55-deba42ec295b",
+    "position": 22,
+    "type": "Person",
+    "textIdentifier": "EricHobsbawm",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Eric Hobsbawm",
+    "synopsis": " <b>(1917–2012)</b> was a British Marxist historian considered by many to be the greatest British historian of the twentieth century. He is perhaps best known for his five-volume work on the history of modern Europe."
+  },
+  {
+    "id": "b8e8e76c-ef1e-58f9-85ed-448d98431733",
+    "position": 85,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>World War II</strong>: Global conflict between 1939 and 1945 that pitted the Axis Powers of Nazi Germany, Fascist Italy, and Imperial Japan against the Allied nations including Britain, the United States, and the USSR."
+  },
+  {
+    "id": "b989a02c-ee13-5ea7-a1d7-bd487360e6df",
+    "position": 40,
+    "type": "Term",
+    "textIdentifier": "Statesrights",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "States’ rights:",
+    "synopsis": " the American political idea that the individual states maintain certain political powers that cannot be infringed upon by the national government. This was the view of the Anti-Federalists, who feared that a new Constitution would reduce the power of the states."
+  },
+  {
+    "id": "b9a92a1e-232a-5de6-9d74-1b1961d702bf",
+    "position": 23,
+    "type": "Person",
+    "textIdentifier": "DavidHume",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "David Hume (1711–76)",
+    "synopsis": " was an important Scottish philosopher, especially known for his philosophical empiricism, the main belief of which is that the principal source of knowledge is the senses."
+  },
+  {
+    "id": "bae1eeeb-48ee-59ea-b6b7-6231d937c880",
+    "position": 33,
+    "type": "Person",
+    "textIdentifier": "RobertSharples",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Robert Sharples",
+    "synopsis": "<b> (1949–2010) </b>was a professor in the Greek and Latin department at University College London during an extensive career and was well-respected for his work on Ancient Greek philosophy."
+  },
+  {
+    "id": "c041c232-d5a3-5a3b-8d69-0c49b145a3ac",
+    "position": 80,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Totalitarianism:</strong> a political system in which the state exercises absolute or near-absolute control over society."
+  },
+  {
+    "id": "c172e7c3-826a-5e12-b0b3-60b59a3c7894",
+    "position": 10,
+    "type": "Person",
+    "textIdentifier": "AlfredCobban",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Alfred Cobban",
+    "synopsis": " (1901–68) was a British historian of France, based at the University of London. Cobban began the wave of revisionism that questioned the accuracy of the Marxist understanding of 1789.<b></b>"
+  },
+  {
+    "id": "c1bbb910-6c90-5655-814f-357039bb8115",
+    "position": 23,
+    "type": "Person",
+    "textIdentifier": "AlbertGoodwin",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Albert Goodwin",
+    "synopsis": " (1906–85) was a professor of modern history at the University of Oxford and an expert on revolutionary France."
+  },
+  {
+    "id": "c3364649-d3a1-5058-b3c3-cb88344c56c3",
+    "position": 64,
+    "type": "Term",
+    "textIdentifier": "Socialanthropology",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Social anthropology:",
+    "synopsis": " a subfield of the academic discipline of anthropology that combines features of both sociology and anthropology. Like sociology, it focuses on social phenomena such as customs, political organization, family and gender relations, and religion. But it emphasizes qualitative methods, or the study of something’s qualities, and smaller-scale studies. Social anthropologists emphasize fieldwork as they pursue questions related to human interaction, including social customs, patterns of exchange, family structures, political organization, and religion. The subfield generally views culture as embedded in social and historical contexts. "
+  },
+  {
+    "id": "c40ac7b0-07e1-5331-b55d-cd2cfe371335",
+    "position": 22,
+    "type": "Person",
+    "textIdentifier": "JacquesGodechot",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Jacques Godechot",
+    "synopsis": " (1907–89) was a French historian, influenced by Marxism and the Annales, and a pioneer of Atlantic history.<b></b>"
+  },
+  {
+    "id": "c47f24c7-09a3-5b64-b4e8-0802f68a88d2",
+    "position": 30,
+    "type": "Person",
+    "textIdentifier": "Gary",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Gary",
+    "synopsis": " <b>Rosenkrantz </b>is a professor of philosophy at the University of North Carolina at Greensboro. He is known for his work on metaphysics and theological issues. "
+  },
+  {
+    "id": "c50d5ff6-0b43-5208-abf5-c415c275bfa9",
+    "position": 22,
+    "type": "Person",
+    "textIdentifier": "JeanHyppolite",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Jean Hyppolite (1907–68)",
+    "synopsis": " was a French philosopher who focused much of his life’s work on German philosophers, especially Hegel. "
+  },
+  {
+    "id": "c644d945-71eb-5d05-8a16-5d1822446be9",
+    "position": 9,
+    "type": "Person",
+    "textIdentifier": "LudwigFeuerbach",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Ludwig Feuerbach (1804–72)",
+    "synopsis": " was a German “left-Hegelian” philosopher. He is best known for the critique of religion he outlined in his 1841 <i>The Essence of Christianity</i>. Feuerbach claimed that belief in a transcendent deity involved projecting humanity’s “species being” onto a fictional entity. "
+  },
+  {
+    "id": "c72a394c-c880-5a88-80d5-6e0a0711deed",
+    "position": 82,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Transcendental Idealism:</strong> philosophical idea that argues human experience of objects is governed by the senses. According to Kant, our perception of objects is necessarily subjective and we do not necessarily understand them as they are in reality. The transcendental, according to Immanuel Kant, was comprised of all things that lay outside of human experience."
+  },
+  {
+    "id": "c74ea9bb-a852-52e5-b485-fea5f6cd5bf2",
+    "position": 8,
+    "type": "Person",
+    "textIdentifier": "DanieleConversi",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Daniele Conversi",
+    "synopsis": " is a research professor at the University of the Basque Country in Bilbao, Spain. He focuses on the history of nationalism and cultural homogenization."
+  },
+  {
+    "id": "c7d988c2-bd4c-5ec1-8cec-0bb95f55d5dc",
+    "position": 10,
+    "type": "Person",
+    "textIdentifier": "SamuelTaylorColeridge",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Samuel Taylor Coleridge",
+    "synopsis": " (1772–1834) was a pre-eminent poet-critic of modern English literature. His <em>Lyrical Ballads</em> (1798), a collaboration with William Wordsworth, became the defining text of the Romantic style, and his criticism is known for a wide-ranging intelligence and cultural influence."
+  },
+  {
+    "id": "c92933b3-361c-57f2-8a78-57e997741b03",
+    "position": 2,
+    "type": "Person",
+    "textIdentifier": "AlexanderofAphrodisias",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Alexander of Aphrodisias",
+    "synopsis": " was a Peripatetic commentator and philosopher who was active around the turn of the third century c.e. He is best known for writing commentaries on various works by Aristotle."
+  },
+  {
+    "id": "c99cb4dd-300d-5e1b-8afa-840cc374cec4",
+    "position": 46,
+    "type": "Person",
+    "textIdentifier": "GilbertRyle",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Gilbert Ryle (1900–76)",
+    "synopsis": " was a British philosopher interested in linguistics and behaviorism. He is best remembered for his work <i>The Concept of Mind </i>(1949). "
+  },
+  {
+    "id": "c9f67640-b9db-5fc2-92ca-f4eb95f44283",
+    "position": 14,
+    "type": "Person",
+    "textIdentifier": "SMarcCohen",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "S. Marc Cohen ",
+    "synopsis": "is an emeritus professor of philosophy at the University of Washington. He is an expert on ancient philosophy and has published many works on Aristotle. "
+  },
+  {
+    "id": "c9fac2e7-987a-5063-b5f5-31094903f4a2",
+    "position": 50,
+    "type": "Term",
+    "textIdentifier": "Orientalism",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Orientalism:",
+    "synopsis": " a term used for the imitation or depiction of cultures predominant in areas east of Europe. Edward Said’s formulation of the term refers to the patronizing frame of many Western depictions, which he argued stripped the subject culture of dynamism and diversity. "
+  },
+  {
+    "id": "cac1edf3-a68c-50c8-a549-8dfdd81b819f",
+    "position": 37,
+    "type": "Term",
+    "textIdentifier": "Unitarianism",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Unitarianism",
+    "synopsis": ": a liberal religious movement that took hold in America in the late eighteenth century. Unitarianism rejects central Protestant theological tenets such as the doctrine of the Trinity, emphasizing the moral authority rather than the divinity of Jesus Christ. Although Unitarianism first developed in Europe, it is often regarded in the United States as an essentially American religion."
+  },
+  {
+    "id": "cbd6d1a7-e653-5086-b52c-f47fea70e3cf",
+    "position": 69,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Rationalism:</strong> a prominent philosophical position in seventeenth- and eighteenth-century Europe. It emphasized that knowledge is an innate possession of reason."
+  },
+  {
+    "id": "cc2ec99f-155a-512c-a3b5-1d8beb656487",
+    "position": 11,
+    "type": "Person",
+    "textIdentifier": "ImmanuelKant",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Immanuel Kant (1724–1804)",
+    "synopsis": " was a German philosopher. His work discusses how governments should ideally be republics and gives justification for political freedom. His ideas had an influence on the views of Publius in <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "cc8a9593-5df7-58d2-b183-ac2f812e8611",
+    "position": 30,
+    "type": "Term",
+    "textIdentifier": "Politicalconservatism",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Political conservatism:",
+    "synopsis": " an ideology that generally seeks to maintain the existing political order and respect for tradition, and prefers political change to occur gradually rather than suddenly. Political conservatives were skeptical of a new Constitution as a replacement for the Articles of Confederation."
+  },
+  {
+    "id": "cd3bfd4b-5cdb-56dd-8eb5-b0395bca5167",
+    "position": 28,
+    "type": "Person",
+    "textIdentifier": "BertrandRussell",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Bertrand Russell",
+    "synopsis": " (1872–1970) was a British philosopher best known for his work on mathematical logic and analytic philosophy. Russell is generally recognized as one of the founders of modern analytic philosophy."
+  },
+  {
+    "id": "cd52fbbb-c6f6-54b4-95cf-5c2c4f1d423c",
+    "position": 41,
+    "type": "Person",
+    "textIdentifier": "EdwardSaid",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Edward Said",
+    "synopsis": " <b>(1935–2003)</b> was a Palestinian American literary theorist and advocate for Palestinian rights, best known for his book <i>Orientalism </i>(1978), which argues that Orientalist scholarship is inextricably tied to the imperialist societies that produce it."
+  },
+  {
+    "id": "cd98e94a-7cfa-5498-9d36-6c7bc2790889",
+    "position": 9,
+    "type": "Person",
+    "textIdentifier": "DavidHume",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "David Hume (1711–76)",
+    "synopsis": " was a key figure of the Scottish Enlightenment. His main ideas suggested that all things had a physical cause and should be discoverable via empirical, or scientifically provable, methods. His ideas helped form the views of Publius in <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "d0c86421-4b1d-5644-9dfa-5d00e860ce5a",
+    "position": 41,
+    "type": "Term",
+    "textIdentifier": "Substance",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Substance",
+    "synopsis": ": a philosophical concept denoting an object’s essence, which differs from any accidental properties the object might have. The proponents of substance theory believe that the substance of a person is distinct, for instance, from that person being pale or having a snub nose. According to Aristotle, substance is an immanent form: that is, a form present in matter."
+  },
+  {
+    "id": "d16118bc-dceb-59cf-80a6-280af01d2a46",
+    "position": 4,
+    "type": "Person",
+    "textIdentifier": "Anaximenes",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Anaximenes (c. 585–c. 528 ",
+    "synopsis": "<b>b.c.e.</b><b>) </b>was one of the pre-Socratics in the Milesian school. He is best known for arguing that air was the foundational principle and material of the world. "
+  },
+  {
+    "id": "d231a3ba-6c1f-5692-86f3-8d735877b1df",
+    "position": 33,
+    "type": "Person",
+    "textIdentifier": "BillieHoliday",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Billie Holiday",
+    "synopsis": " (1915–59) was an African–American jazz singer. She was much admired by Hobsbawm."
+  },
+  {
+    "id": "d2cf5d89-8efd-5bb5-b53f-4adfe302a5cb",
+    "position": 15,
+    "type": "Person",
+    "textIdentifier": "JohannWolfgangvonGoethe",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Johann Wolfgang von Goethe (1749–1832)",
+    "synopsis": " was a German polymath and statesman. Goethe was instrumental in furthering both Hegel’s career and his philosophy of science."
+  },
+  {
+    "id": "d4607f5b-ba7c-57eb-a392-962eae782ca7",
+    "position": 35,
+    "type": "Person",
+    "textIdentifier": "RIMoore",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "R. I. Moore",
+    "synopsis": " <b>(b. 1941)</b> is a professor and specialist in medieval history. He has written several works on the concept of heresy."
+  },
+  {
+    "id": "d5aa4db6-7bd0-5a56-a888-8eab29c217eb",
+    "position": 0,
+    "type": "Person",
+    "textIdentifier": "LouisAlthusser",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Louis Althusser (1918–90)",
+    "synopsis": " was a French Marxist philosopher who taught at the École Normale Supérieure in Paris. His works include <i>The Return to Hegel </i>(1950) and <i>For Marx </i>(1965). "
+  },
+  {
+    "id": "d6478832-7058-5032-98cf-07170e5c2b5e",
+    "position": 34,
+    "type": "Term",
+    "textIdentifier": "Republic",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Republic:",
+    "synopsis": " literally, “a thing of the people”—government that represents the rights and needs of the entire public and is supposed to act on their behalf. Elections are held where the people themselves choose political representatives. Publius was in favor of this system of government."
+  },
+  {
+    "id": "d77b4c4a-4356-5306-ae73-78c26086efc1",
+    "position": 40,
+    "type": "Person",
+    "textIdentifier": "KarlPopper",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Karl Popper (1902–94)",
+    "synopsis": " was an Austrian British philosopher whose work <i>The Open Society and its Enemies</i> (1945) marked him as one of the most influential scholars of the twentieth century. "
+  },
+  {
+    "id": "d7ff96cd-44f6-5478-8b13-e63c1321a174",
+    "position": 26,
+    "type": "Person",
+    "textIdentifier": "ChristopherRicks",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Christopher Ricks",
+    "synopsis": " (born 1933) is a British literary critic and scholar, with a particular interest in poetry."
+  },
+  {
+    "id": "d85759b2-6216-526c-b234-72ea49698d78",
+    "position": 48,
+    "type": "Person",
+    "textIdentifier": "JeanPaulSartre",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Jean-Paul Sartre (1905–80)",
+    "synopsis": " was a French writer and novelist. He authored plays, novels, screenplays, and journalistic articles, as well as philosophical treatises. He was France’s most prominent postwar public intellectual, and an exponent of existentialist philosophy and Marxism. (Existentialism is a philosophical movement that began in the late nineteenth century; its proponents argued that the origin point of philosophical thought stems from human individuality. They included in this category all aspects of the individual as a thinking, feeling, acting individual.)"
+  },
+  {
+    "id": "d87cb4fa-c542-529b-9f2f-c0bb1b1b6275",
+    "position": 36,
+    "type": "Person",
+    "textIdentifier": "Novalis",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Novalis",
+    "synopsis": " is the pen name of the German aristocrat Friedrich Freiherr von Hardenberg (1772–1801). He was associated with the Romantics in Jena. One of the few works published in his lifetime was his <i>Hymns to the Night</i> (1800)."
+  },
+  {
+    "id": "da4fd408-cc6c-5530-abd5-cb3e597b19d6",
+    "position": 19,
+    "type": "Person",
+    "textIdentifier": "FrançoisFuret",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "François Furet",
+    "synopsis": " (1927–97) was a former Marxist who, disillusioned with Soviet communism, abandoned social explanations in the 1970s to become the most important French historian of the Revolution through his emphasis on politics, culture and discourse."
+  },
+  {
+    "id": "db5ee5fd-277f-596b-ae8c-60eec958374d",
+    "position": 3,
+    "type": "Person",
+    "textIdentifier": "OttoBauer",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Otto Bauer",
+    "synopsis": " <b>(1881–1938)</b> was one of the leading left-wing thinkers in Vienna, Austria. He held a PhD in law and served as the foreign minister of Austria from 1918–19 at the end of World War I."
+  },
+  {
+    "id": "db7ad0d3-1eff-5b7c-88fe-805c830c45b4",
+    "position": 81,
+    "type": "Term",
+    "textIdentifier": "",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "",
+    "synopsis": "<strong>Transcendental dialectic:</strong> In <em>Critique of Pure Reason</em>, Immanuel Kant described the futility in trying to find meaning behind transcendental categories using the senses alone. The transcendental, according to Immanuel Kant, was comprised of all things that lay outside of human experience."
+  },
+  {
+    "id": "dbe34391-7222-5666-b256-1f79fe71093b",
+    "position": 15,
+    "type": "Person",
+    "textIdentifier": "NathanielHawthorne",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Nathaniel Hawthorne",
+    "synopsis": " (1804–1864) was an American author best known for his novels <em>The Scarlet Letter</em> (1850) and <em>The House of the Seven Gables</em> (1851). His writing was deeply influenced by the Puritan religious values of early nineteenth-century New England."
+  },
+  {
+    "id": "dd093a50-5908-59cd-83b4-bcb6fefb7642",
+    "position": 32,
+    "type": "Person",
+    "textIdentifier": "David",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "David",
+    "synopsis": " <b>Sedley (b. 1947) </b>is a professor of ancient philosophy at the University of Cambridge. He is a very well-known scholar who has worked on many areas of ancient philosophy. "
+  },
+  {
+    "id": "deb46001-c6b8-5360-8c0d-b00d51490ac2",
+    "position": 68,
+    "type": "Term",
+    "textIdentifier": "Sovietbloc",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Soviet bloc:",
+    "synopsis": " the communist states of Eastern Europe, including the Balkans, which shared a common ideology during the Cold War, which lasted from the end of World War II to the collapse of the Soviet communist system (1947–91). "
+  },
+  {
+    "id": "df11de28-5de2-5061-acd0-1ae601e9c8e4",
+    "position": 23,
+    "type": "Person",
+    "textIdentifier": "JamesWilson",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "James Wilson",
+    "synopsis": " <b>(1742–98)</b> was a Scottish-born American Founding Father and legal theorist who helped write the US Constitution and served as one of the original Supreme Court justices."
+  },
+  {
+    "id": "e0f948ca-d731-54e9-9269-3acb881845e5",
+    "position": 44,
+    "type": "Person",
+    "textIdentifier": "RobertRoswellPalmer",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Robert Roswell Palmer",
+    "synopsis": " (1909–2002) was an American historian based at Princeton whose most famous work was the two-volume <i>Age of the Democratic Revolution</i> (1959–64)."
+  },
+  {
+    "id": "e1db7260-8632-58ab-a988-4a54b51e1b16",
+    "position": 1,
+    "type": "Person",
+    "textIdentifier": "Aristotle",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Aristotle (384–322 b.c.e.)",
+    "synopsis": " was an ancient Greek philosopher, and one of the most renowned thinkers of all time. His ideas regarding human nature and political organization partly shaped the views of Publius in <i>The Federalist Papers</i>."
+  },
+  {
+    "id": "e1e75f71-9fb8-5214-9707-4281ad74b612",
+    "position": 59,
+    "type": "Term",
+    "textIdentifier": "Printcapitalism",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Print-capitalism:",
+    "synopsis": " the consolidation and standardization of a language as a consequence of the printing press and the capitalist market that engendered it."
+  },
+  {
+    "id": "e27b57dd-125a-5c77-83f3-7ef96a3212d3",
+    "position": 27,
+    "type": "Person",
+    "textIdentifier": "DavidHarvey",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "David Harvey",
+    "synopsis": " (b. 1935) is professor in geography and anthropology at City University of New York, famed for his radical, Marxist approach to the study of urban development."
+  },
+  {
+    "id": "e2cfd3f7-3a18-559f-b407-15d4fb41fccb",
+    "position": 36,
+    "type": "Person",
+    "textIdentifier": "Tuomas",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Tuomas",
+    "synopsis": " <b>Tahko </b>is an associate professor of philosophy at the University of Helsinki. He specializes in contemporary metaphysics. "
+  },
+  {
+    "id": "e2d38e46-e16f-526d-b2d9-324478c704b2",
+    "position": 30,
+    "type": "Person",
+    "textIdentifier": "DavidHerman",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "David Herman",
+    "synopsis": " is a contemporary journalist and essayist."
+  },
+  {
+    "id": "e2f6a46a-3261-52d0-9c34-bda6c65088ad",
+    "position": 5,
+    "type": "Person",
+    "textIdentifier": "IsaiahBerlin",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Isaiah Berlin (1909–97)",
+    "synopsis": " was a political theorist who not only taught at Oxford University but also helped found Oxford’s Wolfson College. His most important work centered on individual freedom and liberty. "
+  },
+  {
+    "id": "e32a1205-726d-5221-9f11-96278e46fc05",
+    "position": 38,
+    "type": "Term",
+    "textIdentifier": "WorldWarI1914–1918",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "World War I (1914–1918)",
+    "synopsis": ": an international conflict centered in Europe and involving the major economic world powers of the day. The industrial advancements in military technology as well as the scale of the conflict resulted in vast military and civilian casualties, usually estimated at about nine million. "
+  },
+  {
+    "id": "e651d156-a419-58cc-a0bf-a0cc6442187f",
+    "position": 46,
+    "type": "Person",
+    "textIdentifier": "KarlPolanyi",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Karl Polanyi",
+    "synopsis": " (1886–1964) was a Hungarian–American political economist famed for his work <i>The Great Transformation</i> (1944) on the changing relationship between the market and the state in the aftermath of the Industrial Revolution."
+  },
+  {
+    "id": "e6a46b94-093e-5175-ba3e-59760917aec4",
+    "position": 39,
+    "type": "Term",
+    "textIdentifier": "WorldWarII1939–1945",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "World War II (1939–1945)",
+    "synopsis": ": the most widespread military conflict in history, resulting in more than 50 million casualties. While the conflict began with Germany’s invasion of Poland in 1939, it soon involved all of the major world powers, which gradually formed two military alliances and were eventually joined by the vast majority of the world’s nations."
+  },
+  {
+    "id": "e703f5fd-a759-5e3d-b669-6fbab228def6",
+    "position": 34,
+    "type": "Person",
+    "textIdentifier": "LeonardWoolf",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Leonard Woolf",
+    "synopsis": " (1880–1969) was a writer, publisher, and critic belonging to the Bloomsbury Group. He discovered and promoted many of London’s leading writers in his role as co-publisher—with his wife, the novelist Virginia Woolf—at the Hogarth Press."
+  },
+  {
+    "id": "e877f334-a436-5b64-a7f0-f68e2a7356cb",
+    "position": 43,
+    "type": "Person",
+    "textIdentifier": "NapoleonBonaparte",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Napoleon Bonaparte",
+    "synopsis": " (1769–1821) was born in Corsica and rose spectacularly through the French army to become general. In 1799 he overthrew the French Republic in a coup d’état and in 1804 declared himself Emperor. His military and political genius made him master of Europe until his defeat to the British at Waterloo in 1815."
+  },
+  {
+    "id": "e9699766-f29d-5a4b-b9c8-f879bfc82884",
+    "position": 21,
+    "type": "Person",
+    "textIdentifier": "StephenHoulgate",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Stephen Houlgate (b. 1954) ",
+    "synopsis": "is a Hegel specialist who has written a number of books on Hegel and his work, including one published in 2013 devoted to <i>Phenomenology of Spirit</i>."
+  },
+  {
+    "id": "e98c1f4e-6eb1-5f74-b3f3-f2046347b75b",
+    "position": 50,
+    "type": "Person",
+    "textIdentifier": "FriedrichSchiller",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Friedrich Schiller (1759–1805)",
+    "synopsis": " was a German poet, philosopher, and playwright. He is known especially for his plays <i>The Robbers</i> (1781) and <i>William Tell</i> (1804). His poem “Ode to Joy” became the basis of the famous final choral section of Beethoven’s Ninth Symphony. "
+  },
+  {
+    "id": "ed2af870-2442-57c5-ae7d-2e3b37eabdf4",
+    "position": 11,
+    "type": "Person",
+    "textIdentifier": "MichaelForster",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Michael Forster (b. 1957) ",
+    "synopsis": "is a philosopher who teaches at Bonn University in Germany and at the University of Chicago in the United States."
+  },
+  {
+    "id": "f07a5976-31c7-54fd-a4f6-f263f23dd874",
+    "position": 27,
+    "type": "Person",
+    "textIdentifier": "JosiahRoyce",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Josiah Royce",
+    "synopsis": " (1855–1916) was an American philosopher who taught at Harvard University for many years. In his early career, he was a leading proponent of absolute idealism, the view that all aspects of reality are unified in a single all-encompassing consciousness (such as a higher power); he later revised his view and argued for “absolute pragmatism,” the view that reality is a universe of signs interpreted by a community of minds."
+  },
+  {
+    "id": "f1936f21-f567-5f59-b16a-12c38db0a6f6",
+    "position": 72,
+    "type": "Term",
+    "textIdentifier": "UlsterNationalism",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Ulster Nationalism:",
+    "synopsis": " the concept that the northeastern part of the island of Ireland, currently a part of the United Kingdom, should become its own separate country and not join the Republic of Ireland, which occupies the rest of the island."
+  },
+  {
+    "id": "f1bf2b0e-3161-572c-a3fc-e128d80d4923",
+    "position": 6,
+    "type": "Person",
+    "textIdentifier": "ThomasAquinas",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Thomas Aquinas ",
+    "synopsis": "<b>(1225–74 c.e.) </b>was one of the most important medieval philosopher-theologians. He wrote on most areas of philosophy, from metaphysics to ethics. His most famous works are <i>Summa Theologica</i> and <i>Summa contra Gentiles</i>."
+  },
+  {
+    "id": "f2b3a698-1d81-5bc7-a730-110c269e75e0",
+    "position": 3,
+    "type": "Person",
+    "textIdentifier": "Anaximander",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Anaximander (c. 610–c. 546 ",
+    "synopsis": "<b>b.c.e.</b><b>) </b>was one of the Pre-Socratics in the Milesian school. He is best known for introducing the theory of apeiron (“limitless”), which suggests that the world is generated by an element-like entity not resembling any ordinary elements. "
+  },
+  {
+    "id": "f46474d1-3303-5936-b033-d1217e5136be",
+    "position": 31,
+    "type": "Person",
+    "textIdentifier": "TheodoreScaltsas",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Theodore Scaltsas (b. 1949)",
+    "synopsis": " is a professor of philosophy at the University of Edinburgh. He works on ancient philosophy and contemporary metaphysics."
+  },
+  {
+    "id": "f490c377-5cb5-52b5-932d-eba317b7c062",
+    "position": 28,
+    "type": "Person",
+    "textIdentifier": "GottfriedWilhelmLeibniz",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Gottfried Wilhelm Leibniz (1646–1716)",
+    "synopsis": " was a German rationalist philosopher, mathematician, jurist, and polymath. He made numerous contributions to science and mathematics, including his independent discovery of the infinitesimal calculus. "
+  },
+  {
+    "id": "f50a4066-c4c3-5a81-8553-87f6c431311d",
+    "position": 28,
+    "type": "Person",
+    "textIdentifier": "ArnoldHauser",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "Arnold Hauser",
+    "synopsis": " (1892–1978) was a Hungarian art historian who adopted a Marxist approach to art history, claiming to find a link between the developments of naturalistic and realist art and the growth of the bourgeoisie.<b></b>"
+  },
+  {
+    "id": "f6138bf1-3c49-5d69-b6cd-68a0c8396f1a",
+    "position": 5,
+    "type": "Person",
+    "textIdentifier": "HenriBergson",
+    "bookId": "55641d6f-c066-5d86-963f-17e7453f3279",
+    "label": "Henri Bergson",
+    "synopsis": " (1859–1941) was a French philosopher whose combination of Darwinian theory and philosophy—and view of multiplicity, perception, and experience—were broadly influential on continental philosophy throughout the first half of the twentieth century."
+  },
+  {
+    "id": "f640b1e4-7671-54e5-a097-c4f0aa3fc48d",
+    "position": 37,
+    "type": "Term",
+    "textIdentifier": "Separationofpowers",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "Separation of powers:",
+    "synopsis": " a political theory that claims that the best way to run a government is to divide the role of making law from the roles of enforcing it and making judgments regarding it. This minimizes conflicts of interest and corruption among government workers. Drawing on the arguments of Montesquieu, Publius advocated the separation of powers."
+  },
+  {
+    "id": "f7ee21c8-6594-580e-a6c5-fc2620cbdaaf",
+    "position": 12,
+    "type": "Person",
+    "textIdentifier": "JohnLocke",
+    "bookId": "80d24c27-d1eb-56d4-afa3-57601112f6bb",
+    "label": "John Locke (1632–1704)",
+    "synopsis": " was an English political philosopher famous for works such as <i>Two Treatises of Government</i>, which set out a variety of positions on religious toleration, the protection of property rights, and the promotion of individual well-being that would be adopted by the founders of America."
+  },
+  {
+    "id": "f82072f7-8252-53f7-bf43-9b322d847e6b",
+    "position": 3,
+    "type": "Person",
+    "textIdentifier": "JohnDesmondBernal",
+    "bookId": "8c5f63c5-7acc-562f-b687-566bfb96e705",
+    "label": "John Desmond Bernal",
+    "synopsis": " (1901–71) was a scientist best known for his work on X–ray crystallography and molecular biology, but also for his writings on the history of science and communist belief."
+  },
+  {
+    "id": "f971d052-43d0-50c8-9e37-496cffd67eb9",
+    "position": 18,
+    "type": "Person",
+    "textIdentifier": "CarltonJHHayes",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Carlton J. H. Hayes",
+    "synopsis": " <b>(1882–1964)</b> was an American historian of nationalism and a diplomat. He served as the president of the American Historical Association and was appointed the American Ambassador to Spain during World War II."
+  },
+  {
+    "id": "f9f91099-94ef-54a6-8918-1ed061f002fc",
+    "position": 70,
+    "type": "Term",
+    "textIdentifier": "Teleology",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Teleology:",
+    "synopsis": " literally means the purpose of something, but in many contexts refers to determining the reason something exists or acts by virtue of what it appears to do or exist for."
+  },
+  {
+    "id": "fa33d157-e641-568c-bb0b-384e593e2323",
+    "position": 47,
+    "type": "Person",
+    "textIdentifier": "MaxWeber",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Max Weber",
+    "synopsis": " <b>(1864–1920)</b> was a German sociologist famous for his work on economy and society, notably his 1905 book,<i> The Protestant Ethic and the Spirit of Capitalism</i>. "
+  },
+  {
+    "id": "fadf1f3a-3cf6-5f75-9bab-37d328da6278",
+    "position": 42,
+    "type": "Term",
+    "textIdentifier": "Substantialproperty",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Substantial property:",
+    "synopsis": " the kind of property that is essential to defining an object. A substantial property of a human being would be something that all human beings share and which is necessary for being human. "
+  },
+  {
+    "id": "fcc185f0-dec8-5429-ac58-b7a9824d2274",
+    "position": 1,
+    "type": "Person",
+    "textIdentifier": "Aristotle",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Aristotle (384–322 b.c.e.)",
+    "synopsis": " was a Greek philosopher. Together with his teacher, Plato, he is one of the key originators of Western philosophy. Aristotle wrote and taught on a wide range of topics, from rhetoric and poetry to physics and ethics. "
+  },
+  {
+    "id": "fceaf621-9c31-5e7e-a52f-5e58aed29699",
+    "position": 9,
+    "type": "Person",
+    "textIdentifier": "Jonathan",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Jonathan",
+    "synopsis": " <b>Barnes</b> <b>(b. 1942)</b> is an emeritus professor of philosophy at the University of Oxford. He is one of the best-known contemporary experts of ancient philosophy and has published numerous works on many ancient philosophers. "
+  },
+  {
+    "id": "fd2faacf-eb71-5e90-ad0d-f24f30e72141",
+    "position": 11,
+    "type": "Person",
+    "textIdentifier": "FranzFerdinand",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Franz Ferdinand",
+    "synopsis": " <b>(1863–1914)</b> was an archduke of Austria and heir to the throne of the Austro-Hungarian Empire. His assassination prompted Austria-Hungary to declare war against Serbia, which led to the outbreak of World War I."
+  },
+  {
+    "id": "fd63a1e6-0c49-5b0c-b967-35a775fa9556",
+    "position": 45,
+    "type": "Person",
+    "textIdentifier": "BertrandRussell",
+    "bookId": "67c03e6a-42c8-5eb5-831b-2ec6eaa049f8",
+    "label": "Bertrand Russell (1872–1970)",
+    "synopsis": " was a British philosopher, logician, and political activist. Together with German philosopher Gottlob Frege (1848–1925), he was one of the principal founders of the analytic school of philosophy. "
+  },
+  {
+    "id": "ff6c89a3-ad65-535b-845f-b572686bcd45",
+    "position": 37,
+    "type": "Person",
+    "textIdentifier": "Thales",
+    "bookId": "04f2069c-a72c-545d-9834-7b8fc56c6141",
+    "label": "Thales",
+    "synopsis": " <b>(c. 624–c. 546 </b><b>b.c.e.</b><b>)</b> was one of the pre-Socratics in the Milesian school, typically referred to as the first philosopher in the Greek tradition. He is best known for arguing that water was the founding principle and material of the world. "
+  },
+  {
+    "id": "ff9fd896-1b7d-5bab-96ca-3673978899d5",
+    "position": 43,
+    "type": "Person",
+    "textIdentifier": "TimothySnyder",
+    "bookId": "6dc25e0d-3e35-50bd-a2b9-f474aa9d8856",
+    "label": "Timothy Snyder",
+    "synopsis": " <b>(b. 1969)</b> is a professor of history at Yale University. His work focuses on the history of Eastern and Central Europe and the history of the Holocaust."
+  }
+]

@@ -51,6 +51,29 @@ const generate = async (dbUrl : string) => {
     ORDER BY id ASC
   `, { type: QueryTypes.SELECT, replacements: { isbns: ISBN_WHITE_LIST } });
   fs.writeFileSync("seeders/data/notes.json", JSON.stringify(notes, null, 2));
+
+  const glossaryItems = await db.query(`
+    SELECT "GlossaryItems".id, "GlossaryItems".position,
+      "GlossaryItems".type, "GlossaryItems"."textIdentifier",
+      "GlossaryItems"."bookId", "GlossaryItems".label,
+      "GlossaryItems".synopsis
+    FROM "GlossaryItems"
+    INNER JOIN "Books"
+    ON "GlossaryItems"."bookId" = "Books".id WHERE "ISBN" in (:isbns)
+    ORDER BY id ASC
+  `, { type: QueryTypes.SELECT, replacements: { isbns: ISBN_WHITE_LIST } });
+  fs.writeFileSync("seeders/data/glossaryItems.json", JSON.stringify(glossaryItems, null, 2));
+
+  const bibliographyItems = await db.query(`
+    SELECT "BibliographyItems".id, "BibliographyItems".position,
+      "BibliographyItems"."bookId", "BibliographyItems".publication,
+      "BibliographyItems".content
+    FROM "BibliographyItems"
+    INNER JOIN "Books"
+    ON "BibliographyItems"."bookId" = "Books".id WHERE "ISBN" in (:isbns)
+    ORDER BY id ASC
+  `, { type: QueryTypes.SELECT, replacements: { isbns: ISBN_WHITE_LIST } });
+  fs.writeFileSync("seeders/data/bibliographyItems.json", JSON.stringify(bibliographyItems, null, 2));
 };
 
 export default generate;

@@ -4,6 +4,8 @@ import {
 
 import Author from "./author";
 import BookAuthor from "./bookAuthor";
+import BibliographyItem from "./bibliographyItem";
+import GlossaryItem from "./glossaryItem";
 
 @Table({ timestamps: true })
 export default class Book extends Model {
@@ -30,6 +32,12 @@ export default class Book extends Model {
 
   @HasMany(() => BookAuthor)
   bookAuthors! : BookAuthor[]
+
+  @HasMany(() => BibliographyItem)
+  bibliography! : BibliographyItem[]
+
+  @HasMany(() => GlossaryItem)
+  glossary! : GlossaryItem[]
 
   asResponse() {
     return {

@@ -13,7 +13,7 @@
     "migrate": "scripts/migrate",
     "seed": "scripts/seed",
     "start": "concurrently --kill-others \"npx ts-node-dev ./src/index.ts\" \"npx eslint-watch . -w --ext .ts\" \"npx jest --watch\"",
-    "test": "jest"
+    "test": "jest --runInBand"
   },
   "author": "",
   "license": "ISC",
