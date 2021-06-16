@@ -6,6 +6,17 @@ import GlossaryItem from "../models/glossaryItem";
 import Author from "../models/author";
 
 export default {
+  findAll: () => (
+    Book.findAll({
+      include: [{
+        model: BookAuthor,
+        include: [{
+          model: Author
+        }]
+      }]
+    })
+  ),
+
   findByPublicationURL: async (publicationURL : string) => (
     Book.findOne({
       where: { publicationURL },

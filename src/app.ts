@@ -8,6 +8,7 @@ import passport from "./passport";
 import users from "./routes/users";
 import sessionRoute from "./routes/session";
 import structure from "./routes/structure";
+import books from "./routes/books";
 import book from "./routes/book";
 import env from "./env";
 import db from "./db";
@@ -40,6 +41,7 @@ app.use(passport.session());
 app.use("/users", users);
 app.use("/session", sessionRoute);
 app.use("/structure", structure);
+app.use("/books", books);
 app.use("/book", book);
 app.use(
   "/docs",
