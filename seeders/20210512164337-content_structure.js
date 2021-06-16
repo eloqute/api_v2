@@ -733,7 +733,7 @@ module.exports = {
         "moduleId": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
         "position": 3,
         "contentType": "WhyDoesPublicationMatter",
-        "title": "Why Does <em>The Sacred Wood</em> Matter?",
+        "title": "Why Does <em>{{title}}</em> Matter?",
         "outerTag": "",
         "innerTag": "p"
       },
@@ -742,7 +742,7 @@ module.exports = {
         "moduleId": "cb573ade-551f-45a4-8be9-83d78a9f27a9",
         "position": 1,
         "contentType": "WhoWasAuthor",
-        "title": "Who was T. S. Eliot?",
+        "title": "Who was {{author}}?",
         "outerTag": "",
         "innerTag": "p"
       },

@@ -32,6 +32,9 @@ export default class ContentStructure extends Model {
   innerTag! : string
 
   asResponse() {
-    return this.contentType;
+    return {
+      contentType: this.contentType,
+      title: this.title
+    };
   }
 }

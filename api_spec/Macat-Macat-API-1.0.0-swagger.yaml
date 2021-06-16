@@ -397,6 +397,19 @@ components:
       required:
         - status
         - location
+    ContentStructure:
+      additionalProperties: false
+      type: object
+      properties:
+        title:
+          type: string
+          example: "What does <em>The Sacred Wood</em> say?"
+        contentType:
+          type: string
+          example: "KeyPoints"
+      required:
+        - title
+        - contentType
     ModuleStructure:
       additionalProperties: false
       type: object
@@ -408,7 +421,7 @@ components:
         content:
           type: array
           items:
-            type: string
+            $ref: "#/components/schemas/ContentStructure"
       required:
         - content
       description: A module of the analysis, gives order and content types
