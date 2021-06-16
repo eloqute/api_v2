@@ -22,8 +22,10 @@ describe("/session", () => {
 
   describe("POST /session", () => {
     describe("When the email exists and the password is correct", () => {
-      it("sets the session cookie and returns the user object", async () => {
-        const res = await request(app).post("/session").send({
+      it("logs the user in and returns the user object", async () => {
+        const ses = session(app);
+
+        const res = await ses.post("/session").send({
           email: "test@example.com",
           password: "password123"
         });
@@ -37,30 +39,46 @@ describe("/session", () => {
         expect(res.status).toEqual(201);
         expect(res).toSatisfyApiSpec();
         expect(res.body).toSatisfySchemaInApiSpec("User");
+
+        const res2 = await ses.get("/session").send();
+        expect(res2.status).toEqual(200);
+        expect(res2.body).toSatisfySchemaInApiSpec("User");
       });
     });
 
     describe("When the email exists and the password is incorrect", () => {
-      it("does not set the session cookie and returns an error", async () => {
-        const res = await request(app).post("/session").send({
+      it("does not log the user in and returns an error", async () => {
+        const ses = session(app);
+
+        const res = await ses.post("/session").send({
           email: "test@example.com",
           password: "contrasenya123"
         });
         expect(res.status).toEqual(401);
         expect(res).toSatisfyApiSpec();
         expect(res.body).toSatisfySchemaInApiSpec("ValidationError");
+
+        const res2 = await ses.get("/session").send();
+        expect(res2.status).toEqual(404);
+        expect(res2.body).toSatisfySchemaInApiSpec("Error");
       });
     });
 
     describe("When the email does not exist", () => {
-      it("does not set the session cookie and returns an error", async () => {
-        const res = await request(app).post("/session").send({
+      it("does not sign the user in and returns an error", async () => {
+        const ses = session(app);
+
+        const res = await ses.post("/session").send({
           email: "noone@example.com",
           password: "password123"
         });
         expect(res.status).toEqual(401);
         expect(res).toSatisfyApiSpec();
         expect(res.body).toSatisfySchemaInApiSpec("ValidationError");
+
+        const res2 = await ses.get("/session").send();
+        expect(res2.status).toEqual(404);
+        expect(res2.body).toSatisfySchemaInApiSpec("Error");
       });
     });
   });
