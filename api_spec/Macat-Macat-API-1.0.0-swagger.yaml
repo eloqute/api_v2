@@ -354,7 +354,7 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
-  "/product":
+  "/products":
     get:
       tags:
         - open
