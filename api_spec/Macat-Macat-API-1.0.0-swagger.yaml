@@ -348,6 +348,101 @@ paths:
             "application/json":
               schema:
                 $ref: "#/components/schemas/Error"
+  "/payment_client_token":
+    get:
+      tags:
+        - closed
+      responses:
+        "200":
+          description: A client JWT token for the Braintree client SDK is successfully returned
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/PaymentClientToken"
+        "401":
+          description: The user is not logged in
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+  "/products":
+    get:
+      tags:
+        - open
+      responses:
+        "200":
+          description: The list of available products is returned
+          content:
+            "application/json":
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Product"
+  "/purchases":
+    get:
+      tags:
+        - closed
+      responses:
+        "200":
+          description: The current user's list of purchases is sucessfully returned
+          content:
+            "application/json":
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Purchase"
+        "401":
+          description: The user is not logged in
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+    post:
+      tags:
+        - closed
+      requestBody:
+        content:
+          "application/json":
+            schema:
+              type: object
+              required:
+                - paymentMethodNonce
+                - deviceData
+                - productId
+              properties:
+                paymentMethodNonce:
+                  type: string
+                  description: provided by the Braintree client SDK
+                deviceData:
+                  type: string
+                  description: provided by the Braintree client SDK
+                productId:
+                  type: string
+                  description: "the ID of a product"
+                  example: 991f919d-779d-43a9-b4fc-c23bc4d2b1c9
+                bookId:
+                  type: string
+                  description: "the ID of a book, IF this particular product refers to an individual book."
+                  example: "d4369991-3c35-45b4-b3e7-787bbade20a8"
+      responses:
+        "201":
+          description: "the purchase is successfully created and returned"
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Purchase"
+        "401":
+          description: "the user is not logged in"
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/Error"
+        "422":
+          description: The purchase details provided were not valid
+          content:
+            "application/json":
+              schema:
+                $ref: "#/components/schemas/ValidationError"
 components:
   schemas:
     User:
@@ -630,3 +725,62 @@ components:
         - position
         - publication
         - content
+    Product:
+      additionalProperties: false
+      type: object
+      properties:
+        name:
+          type: string
+          example: "Monthly subscription"
+        description:
+          type: string
+          example: "Marketing blurb about the benefits of this particular package or product"
+        price:
+          $ref: "#/components/schemas/Price"
+        subscription:
+          type: boolean
+        relatesToBook:
+          type: boolean
+      required:
+        - name
+        - description
+        - price
+        - subscription
+        - relatesToBook
+    Price:
+      additionalProperties: false
+      type: object
+      properties:
+        amount:
+          type: integer
+          example: 100
+        recurring:
+          type: boolean
+        period:
+          type: string
+          example: "monthly"
+      required:
+        - amount
+        - recurring
+    Purchase:
+      additionalProperties: false
+      type: object
+      properties:
+        price:
+          $ref: "#/components/schemas/Price"
+        product:
+          $ref: "#/components/schemas/Product"
+        book:
+          $ref: "#/components/schemas/Book"
+      required:
+        - price
+        - product
+    PaymentClientToken:
+      additionalProperties: false
+      type: object
+      properties:
+        token:
+          type: string
+          description: "the JWT token to provide to the Braintree client library"
+      required:
+        - token
