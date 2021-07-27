@@ -154,6 +154,17 @@ paths:
     get:
       tags:
         - open
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 0
+        - name: per_page
+          in: query
+          schema:
+            type: integer
+            default: 25
       responses:
         "200":
           description: A list of books is successfully returned

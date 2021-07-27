@@ -25,6 +25,12 @@ export async function asyncMap<X, Y>(
   );
 }
 
+export function maybeParseInt(str : string | undefined) : number | undefined {
+  if (str === undefined) return undefined;
+  const int = parseInt(str, 10);
+  return Number.isNaN(int) ? undefined : int;
+}
+
 export interface ResourcefulRequest<A> extends Request {
   resource? : A
 }
