@@ -9,7 +9,7 @@ import openPolicy from "../../policies/open";
 
 const router = Router();
 
-const bookFinder = (params : ParamsDictionary) => (
+const bookFinder = ({ params } : { params : ParamsDictionary }) => (
   BookRepository.findByPublicationURL(params.publicationURL)
 );
 

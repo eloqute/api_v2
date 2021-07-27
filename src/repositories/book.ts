@@ -6,14 +6,16 @@ import GlossaryItem from "../models/glossaryItem";
 import Author from "../models/author";
 
 export default {
-  findAll: () => (
+  findAll: (page = 0, perPage = 25) => (
     Book.findAll({
       include: [{
         model: BookAuthor,
         include: [{
           model: Author
         }]
-      }]
+      }],
+      limit: perPage,
+      offset: page * perPage
     })
   ),
 

@@ -13,7 +13,7 @@ import ContentStructure from "../../models/contentStructure";
 
 const router = Router();
 
-const bookAndStructureFinder = async (params : ParamsDictionary) => {
+const bookAndStructureFinder = async ({ params } : { params : ParamsDictionary}) => {
   const book = await BookRepository.findByPublicationURL(params.publicationURL);
   const contentStructure = await ContentStructureRepository.findContentStructure(
     params.sectionPosition,

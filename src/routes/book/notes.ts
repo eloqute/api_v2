@@ -13,7 +13,7 @@ import signedInPolicy from "../../policies/signedIn";
 
 const router = Router();
 
-const bookAndModuleFinder = async (params : ParamsDictionary) => {
+const bookAndModuleFinder = async ({ params } : { params : ParamsDictionary }) => {
   const book = await BookRepository.findByPublicationURL(params.publicationURL);
   const module = await ContentStructureRepository.findModuleStructure(
     params.sectionPosition, params.modulePosition

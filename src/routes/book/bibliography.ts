@@ -10,7 +10,7 @@ import signedInPolicy from "../../policies/signedIn";
 
 const router = Router();
 
-const bookFinder = (params : ParamsDictionary) => (
+const bookFinder = ({ params } : { params : ParamsDictionary }) => (
   BookRepository.findByPublicationURL(params.publicationURL)
 );
 
