@@ -6,6 +6,7 @@ import Author from "./author";
 import BookAuthor from "./bookAuthor";
 import BibliographyItem from "./bibliographyItem";
 import GlossaryItem from "./glossaryItem";
+import fullSerializer from "../serializers/bookFull";
 
 @Table({ timestamps: true })
 export default class Book extends Model {
@@ -39,15 +40,7 @@ export default class Book extends Model {
   @HasMany(() => GlossaryItem)
   glossary! : GlossaryItem[]
 
-  asResponse() {
-    return {
-      id: this.id,
-      publicationURL: this.publicationURL,
-      title: this.title,
-      ISBN: this.ISBN,
-      synopsis: this.synopsis,
-      overview: this.overview,
-      authors: this.bookAuthors.map((ba) => ba.asResponse())
-    };
+  asResponse(serializer = fullSerializer) {
+    return serializer(this);
   }
 }
