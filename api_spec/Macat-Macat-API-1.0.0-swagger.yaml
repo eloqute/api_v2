@@ -519,7 +519,7 @@ components:
         authors:
           type: array
           items:
-            $ref: "#/components/schemas/Author"
+            $ref: "#/components/schemas/AuthorOverview"
       required:
         - authors
         - id
@@ -556,6 +556,27 @@ components:
         - name
         - biography
         - isAlive
+    AuthorOverview:
+      additionalProperties: false
+      type: object
+      properties:
+        position:
+          type: integer
+          example: 0
+        isTopicAuthor:
+          type: boolean
+          example: true
+        id:
+          type: string
+          example: "1edf74e7-bb04-4ed4-b1aa-9e9dd678ed47"
+        name:
+          type: string
+          example: Judith Butler
+      required:
+        - position
+        - isTopicAuthor
+        - id
+        - name
     ContentItem:
       additionalProperties: false
       type: object

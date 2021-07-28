@@ -1,4 +1,5 @@
 import Book from "../models/book";
+import bookAuthorSummary from "./bookAuthorSummary";
 
 export default function serializer(book : Book) : object {
   return {
@@ -6,6 +7,6 @@ export default function serializer(book : Book) : object {
     publicationURL: book.publicationURL,
     title: book.title,
     ISBN: book.ISBN,
-    authors: book.bookAuthors.map((ba) => ba.asResponse())
+    authors: book.bookAuthors.map((ba) => ba.asResponse(bookAuthorSummary))
   };
 }

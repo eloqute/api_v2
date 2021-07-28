@@ -5,6 +5,8 @@ import {
 import Book from "./book";
 import BookAuthor from "./bookAuthor";
 
+import authorSerializer from "../serializers/authorFull";
+
 @Table({ timestamps: true })
 export default class Author extends Model {
   @Column({ primaryKey: true, type: DataType.UUID, defaultValue: DataType.UUIDV4 })
@@ -22,12 +24,7 @@ export default class Author extends Model {
   @Column
   isAlive! : boolean
 
-  asResponse() {
-    return {
-      id: this.id,
-      name: this.name,
-      biography: this.biography,
-      isAlive: this.isAlive
-    };
+  asResponse(serializer = authorSerializer) {
+    return serializer(this);
   }
 }

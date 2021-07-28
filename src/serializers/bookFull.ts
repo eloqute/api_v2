@@ -1,6 +1,6 @@
 import Book from "../models/book";
 
-export default function serializer(book : Book) {
+export default function serializer(book : Book) : object {
   return {
     id: book.id,
     publicationURL: book.publicationURL,

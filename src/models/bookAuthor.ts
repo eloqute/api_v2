@@ -5,6 +5,8 @@ import {
 import Book from "./book";
 import Author from "./author";
 
+import bookAuthorSerializer from "../serializers/bookAuthorFull";
+
 @Table({ timestamps: false })
 export default class BookAuthor extends Model {
   @ForeignKey(() => Book)
@@ -24,13 +26,7 @@ export default class BookAuthor extends Model {
   @Column
   isTopicAuthor! : boolean
 
-  asResponse() {
-    return {
-      ...this.author.asResponse(),
-      ...{
-        position: this.position,
-        isTopicAuthor: this.isTopicAuthor
-      }
-    };
+  asResponse(serializer = bookAuthorSerializer) {
+    return serializer(this);
   }
 }
