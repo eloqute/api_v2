@@ -15,7 +15,7 @@ describe("GET /book/{publicationURL}/overview", () => {
       const res = await request(app).get("/book/phenomenology-of-spirit-analysis/overview").send();
       expect(res.status).toEqual(200);
       expect(res).toSatisfyApiSpec();
-      expect(res.body).toSatisfySchemaInApiSpec("BookOverview");
+      expect(res.body).toSatisfySchemaInApiSpec("BookFull");
       expect(res.body.authors.length).toBeGreaterThan(0);
       res.body.authors.forEach(
         (author : object) => expect(author).toSatisfySchemaInApiSpec("Author")

@@ -40,7 +40,7 @@ export default class Book extends Model {
   @HasMany(() => GlossaryItem)
   glossary! : GlossaryItem[]
 
-  asResponse(serializer = fullSerializer) {
+  asResponse(serializer : ((book : Book) => object) = fullSerializer) {
     return serializer(this);
   }
 }

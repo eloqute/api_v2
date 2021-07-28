@@ -190,7 +190,7 @@ paths:
           content:
             "application/json":
               schema:
-                $ref: "#/components/schemas/BookOverview"
+                $ref: "#/components/schemas/BookFull"
         "404":
           description: the book does not exist
           content:
@@ -464,7 +464,7 @@ components:
         - title
         - modules
       description: The general structure of the analysis, gives order and content types
-    BookOverview:
+    BookFull:
       additionalProperties: false
       type: object
       properties:
@@ -500,6 +500,32 @@ components:
         - ISBN
         - synopsis
         - overview
+    BookOverview:
+      additionalProperties: false
+      type: object
+      properties:
+        publicationURL:
+          type: string
+          example: gender-trouble-feminism-and-the-subversion-of-identity--analysis
+        title:
+          type: string
+          example: Gender Trouble
+        ISBN:
+          type: string
+          example: "9781912127764"
+        id:
+          type: string
+          example: "c602f351-cea6-46d0-8ab6-813e77dc1728"
+        authors:
+          type: array
+          items:
+            $ref: "#/components/schemas/Author"
+      required:
+        - authors
+        - id
+        - publicationURL
+        - title
+        - ISBN
     Author:
       additionalProperties: false
       type: object
